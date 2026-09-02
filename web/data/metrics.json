@@ -1,0 +1,114 @@
+[
+ {
+  "metric": "Minimum body font size",
+  "value": "10 pt (bare minimum; often larger depending on typeface)",
+  "context": "Stonemaier Games house practice",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "metric": "Recommended 'clear print' font size",
+  "value": "12 pt minimum; 16 pt Arial+ for large-print editions",
+  "context": "General accessibility guidance",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "Dyslexia-friendly font size",
+  "value": "12-14 pt, line-height >= 1.5x",
+  "context": "Dyslexia style guidance",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "Text contrast ratio",
+  "value": "4.5:1 normal text; 3:1 large or bold text (18pt / 14pt bold)",
+  "context": "WCAG-derived",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "Colour vision deficiency prevalence",
+  "value": "~8% of men, ~0.5% of women; ~300 million people worldwide",
+  "context": "Accessibility rationale",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "Preferred rulebook trim size",
+  "value": "180 x 240 mm",
+  "context": "Stonemaier: big enough for visuals, small enough to leave on the table",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "metric": "Page count constraint",
+  "value": "Must be divisible by 4 (spreads)",
+  "context": "Print binding reality",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "metric": "Extra pages to budget when self-publishing",
+  "value": "2-4 more than you think you need",
+  "context": "Easier to fill space than to create it after layout",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "metric": "Freelance rules editor rate (2020 survey range)",
+  "value": "USD 25-50 / hour for most editors; more for the very experienced",
+  "context": "Meeple Mountain",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "metric": "Editor error-catch rate",
+  "value": "80-95% per pass — hence editor + separate proofreader",
+  "context": "The Copyeditor's Handbook, cited by Curby",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "metric": "Rewrites to expect",
+  "value": "Write it, then rewrite twice; the third draft is materially better",
+  "context": "BGG designer rule of thumb",
+  "source": "BGG: how to write rule book",
+  "url": "https://boardgamegeek.com/thread/2040012/how-to-write-rule-book"
+ },
+ {
+  "metric": "Blind playtests recommended",
+  "value": "At least 1; 2-3 for medium-to-heavy games",
+  "context": "Meeple Mountain",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "metric": "Share of blind playtesting aimed at the rulebook",
+  "value": "~25%",
+  "context": "Stonemaier",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "metric": "Rulebooks edited by a single career rules editor",
+  "value": "100+ titles (Michael Lee); ~100 rulebooks (Paul Grogan)",
+  "context": "Evidence that this is a profession",
+  "source": "Michael Lee, Editor — editing.curby.net",
+  "url": "https://editing.curby.net/"
+ },
+ {
+  "metric": "Style guide length benchmark",
+  "value": "~13,000 words (Curby's free board game editing style guide)",
+  "context": "Free, CC-licensed",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "metric": "Rules-question volume as a quality proxy",
+  "value": "1,500+ BGG rules threads for one first-printing card game",
+  "context": "Pathfinder ACG: Rise of the Runelords",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ }
+]

@@ -1,0 +1,233 @@
+[
+ {
+  "game": "Robinson Crusoe: Adventures on the Cursed Island (1st ed.)",
+  "aspect": "Errors + vagueness + layout",
+  "detail": "The most-cited bad rulebook in the hobby. Designer Ignacy Trzewiczek has acknowledged serious errors; vague descriptions leave when/how actions can be taken unclear; inconsistent graphic design compounds it. Spawned a large fan FAQ/errata ecosystem.",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "First Martians: Adventures on the Red Planet",
+  "aspect": "Repeat of the same failures",
+  "detail": "Named by professional editor Paul Grogan as a game a poor rulebook killed; its BGG rules/errata thread ran to hundreds of posts.",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Batman: Gotham City Chronicles",
+  "aspect": "Structure + errata volume",
+  "detail": "Named by Paul Grogan; seven pages of errata/FAQ on BGG, plus threads pleading with the publisher over rules and player aids.",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Mice and Mystics",
+  "aspect": "No index",
+  "detail": "Widely liked game, repeatedly cited for a rulebook with no index; players report significant time lost looking rules up.",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Space Base",
+  "aspect": "No usable index",
+  "detail": "Card-list 'index' with meaningless ship classes, not alphabetical, so every edge case becomes minutes of page-flipping or a BGG search.",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "Kemet: Blood and Sand",
+  "aspect": "Hidden rules + contradictory wording",
+  "detail": "Critical rules appear inside the components list; instructions confusing or contradictory; boxout examples make simple rules harder.",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "Coffee Traders",
+  "aspect": "Errors + inconsistent terminology",
+  "detail": "1.0 rulebook so confounding the publisher rewrote it two years after release; physical replacement cost players an extra USD 7.",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "Pathfinder Adventure Card Game: Rise of the Runelords (1st printing)",
+  "aspect": "Unclear rules + unclear card text",
+  "detail": "Over 1,500 threads in the game's BGG rules forum plus a long official FAQ/errata; game-specific terms used before being explained.",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Heroes of Normandie",
+  "aspect": "Disjointed structure + poor translation",
+  "detail": "Good game, 'rulebook will give you PTSD'; players report constant back-and-forth flipping.",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Space Hulk: Death Angel – The Card Game",
+  "aspect": "Short but incomprehensible",
+  "detail": "Only a few pages, yet players could not determine setup or what they were supposed to do — proof that brevity is not clarity.",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Mage Knight",
+  "aspect": "Rules split across three artefacts",
+  "detail": "Rules live in the rulebook, on reference cards and elsewhere, with no consistency; reference cards carry rules found nowhere else.",
+  "source": "BGG: Rules missing from Rulebook v1.0 (Triplock)",
+  "url": "https://boardgamegeek.com/thread/1803616/rules-missing-from-rulebook-v10"
+ },
+ {
+  "game": "Galaxy Trucker / CGE house style",
+  "aspect": "Humour interleaved with rules",
+  "detail": "Enjoyable to read once; painful as a reference. Also criticised for teaching via an introductory game whose parts are reused later.",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Root",
+  "aspect": "Law-style cross-references",
+  "detail": "Loved game; rules reference criticised for sending readers back to numbered paragraphs instead of restating the rule.",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "game": "Caper",
+  "aspect": "Undefined core term",
+  "detail": "The word 'set' is used for scoring throughout without ever being defined; two independent groups reached the same wrong reading and played that way for months.",
+  "source": "BGG: Clarity in the Rulebook (Caper)",
+  "url": "https://boardgamegeek.com/thread/2395671/clarity-in-the-rulebook"
+ },
+ {
+  "game": "Gloomhaven: Jaws of the Lion",
+  "aspect": "Rules only in the Learn-to-Play book",
+  "detail": "Glossary omits rules that appear in the tutorial book (e.g. the 10-Curse deck limit), undermining trust in the reference.",
+  "source": "BGG: Sometimes finding the rulebook organization annoying (Jaws of the Lion)",
+  "url": "https://boardgamegeek.com/thread/2455924/sometimes-finding-the-rulebook-organization-annoyi"
+ },
+ {
+  "game": "Imperium: Classics / Legends",
+  "aspect": "Omitted solo-bot rule",
+  "detail": "A commonly-drawn card type the bot should discard was left out entirely, silently making the solo game much harder than intended.",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Agricola (original edition)",
+  "aspect": "Poor first-edition rules",
+  "detail": "Widely reported as awful in its first edition and substantially improved in later ones — a reminder that reprints are the industry's patch mechanism.",
+  "source": "BGG: Best Written Rulebooks as of 2019",
+  "url": "https://boardgamegeek.com/thread/2323149/best-written-rulebooks-as-of-2019"
+ },
+ {
+  "game": "A Feast for Odin / 7 Wonders",
+  "aspect": "Wrong-booklet problem",
+  "detail": "Multiple booklets with no obvious rule for which one holds which answer; players report reaching for the wrong one every time.",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Ulm",
+  "aspect": "Rules split across two booklets",
+  "detail": "'Not actually badly written, but a very unfortunate decision to spread the rules over two separate booklets.'",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Vinhos Deluxe (with KS expansions)",
+  "aspect": "Edition/expansion sprawl",
+  "detail": "Editions, variants and stretch goals combined haphazardly, with some content only in loose sheets.",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Myth (2014)",
+  "aspect": "Kickstarter rulebook failure",
+  "detail": "USD 900,000+ raised; players reported spending more time deciphering the rulebook than playing. Prompted a 72-page unofficial fan rewrite.",
+  "source": "BGG blog: Every Board Game Rulebook is Awful (Dean Ray Johnson)",
+  "url": "https://boardgamegeek.com/blog/13453/every-board-game-rulebook-is-awful"
+ },
+ {
+  "game": "Perdition's Mouth: Abyssal Rift",
+  "aspect": "Merged Overview and Setup + icon/sidebar overload",
+  "detail": "Documented self-critique by its own rulebook writer; Tom Vasel: 'The rulebook itself, which I thought was very overwrought, it took me a while just to figure out how to play.'",
+  "source": "BGG blog: Every Board Game Rulebook is Awful (Dean Ray Johnson)",
+  "url": "https://boardgamegeek.com/blog/13453/every-board-game-rulebook-is-awful"
+ },
+ {
+  "game": "Mysterium",
+  "aspect": "Re-learning friction",
+  "detail": "Loved game whose rules produce a reliable 'wait, what now?' moment on every refresher read.",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Innovation (small-format rules)",
+  "aspect": "Dense keywords in a tiny book",
+  "detail": "Meld / Tuck / Splay presented so compactly the reader bounces; the game is loved once learned.",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Sword & Sorcery: Immortal Souls",
+  "aspect": "No keyword index",
+  "detail": "Subject-based TOC only; players resort to PDF text search or build their own alphabetical reference over dozens of hours.",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "game": "Raising Robots: Pets (expansion)",
+  "aspect": "Icon drift + unstated interactions",
+  "detail": "Icon in the index did not match the printed cards; rules for repeat activation and timing were never stated. Fixed in the next printing.",
+  "source": "BGG: Pets Rule Book is missing some crucial info",
+  "url": "https://boardgamegeek.com/thread/3271735/pets-rule-book-is-missing-some-crucial-info"
+ },
+ {
+  "game": "Inferno (pre-release rulebook)",
+  "aspect": "Ambiguous requirements + thematic verbs",
+  "detail": "'Bring an urchin' vs 'place an urchin'; unclear access requirements; solo setup step contradicted the standard setup. Caught in public rulebook review.",
+  "source": "BGG: Rules Missing from the Rulebook (Inferno)",
+  "url": "https://boardgamegeek.com/thread/3258804/rules-missing-from-the-rulebook"
+ },
+ {
+  "game": "Triplock",
+  "aspect": "Rules only on reference cards",
+  "detail": "Trap/countermeasure rules existed only on a reference card that some copies shipped outside the box; the publisher moved them into the book for later printings.",
+  "source": "BGG: Rules missing from Rulebook v1.0 (Triplock)",
+  "url": "https://boardgamegeek.com/thread/1803616/rules-missing-from-rulebook-v10"
+ },
+ {
+  "game": "Obsession (1st print run)",
+  "aspect": "Count errors across artefacts",
+  "detail": "Component counts wrong in the rulebook and glossary; a player aid stated 2 reputation where the board and rules said 4.",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ },
+ {
+  "game": "Race for the Galaxy",
+  "aspect": "Very small body text",
+  "detail": "Roughly 6-8pt type, legible but repeatedly raised as the reference point for 'too small'.",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "game": "Killer Bunnies",
+  "aspect": "Display typography over legibility",
+  "detail": "Thin font, small size, tight kerning, bold colour outlines — sold after a handful of plays for that reason.",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "game": "Star Fleet Battles",
+  "aspect": "Rules diluted by non-rules text",
+  "detail": "'Full of too many words that don't have anything to do with the rules... one liners, strategy ideas and stray thoughts.'",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "game": "Advanced Squad Leader",
+  "aspect": "Legalese density",
+  "detail": "Single sentences a paragraph long, attempting to cover every eventuality at once; comprehensive but not learnable.",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ }
+]

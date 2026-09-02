@@ -1,0 +1,210 @@
+[
+ {
+  "area": "Voice",
+  "rule": "Address the player directly in the active voice",
+  "do": "Pay $1 to gain 2 resources.",
+  "dont": "The player pays $1 to gain 2 resources.",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "area": "Voice",
+  "rule": "Use passive voice only for universal prohibitions",
+  "do": "Mountain tiles cannot be removed from the map.",
+  "dont": "Players may not remove mountain tiles from the map.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Person",
+  "rule": "Pick 2nd or 3rd person and stay consistent within a section",
+  "do": "Each player reveals 1 card from their hand.",
+  "dont": "Mixing 'you move 3 pieces' and 'the player may move fewer'.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Pronouns",
+  "rule": "Singular they; 'that player' when 'they' is ambiguous",
+  "do": "If a player has no Scientists, that player may not research Technologies.",
+  "dont": "he / she / (s)he / s/he / he or she / him or her",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Modals",
+  "rule": "may = optional; may not = forbidden; cannot = impossible; must = compelled",
+  "do": "If the active player cannot play a card, they must draw a card instead.",
+  "dont": "Using 'should' anywhere in rules text.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Verbs",
+  "rule": "gain (unlimited supply) vs take (limited supply or from a player) vs give",
+  "do": "At the end of each round, gain $5.",
+  "dont": "Using 'take' for something from the general supply.",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "Conditions",
+  "rule": "Trigger/condition first, effect second",
+  "do": "If you roll a 5 or higher, draw a card.",
+  "dont": "Draw a card if you roll a 5 or higher.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Sentences",
+  "rule": "One action per sentence; the one-breath test",
+  "do": "Choose one area of the Spaceship. In that area, add damage tokens equal to...",
+  "dont": "A single sentence with a parenthetical list plus a calculation.",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "area": "Time words",
+  "rule": "when (once/predictable) / whenever (repeatable) / if (may never happen) / at (point in time)",
+  "do": "Whenever a player draws a card, ...",
+  "dont": "Using 'when' for something that may never occur.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Quantifiers",
+  "rule": "each (individually) vs every / all (as a group)",
+  "do": "Each card is scored according to its Infamy stat.",
+  "dont": "'Every card scores' when each scores separately.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Comparatives",
+  "rule": "less for singular nouns, fewer for plural; greater/less than for numbers, higher/lower for dice",
+  "do": "If you roll a 4 or higher...",
+  "dont": "Mixing 'greater than' and 'higher' for the same comparison type.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Hierarchy",
+  "rule": "turn < round < act/season; phases and steps subdivide",
+  "do": "Each player's turn consists of a Draw Phase, an Auction Phase and a Building Phase.",
+  "dont": "Using 'phase' at two different levels in the same game.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Orientation",
+  "rule": "Hyphenate face-up / face-down consistently",
+  "do": "Shuffle the cards into a face-down deck.",
+  "dont": "'Flip the top card of each deck face down under it' (ambiguous).",
+  "source": "BGG blog: Writing Rules – facing up to breaking the rules (Andy Van Zandt)",
+  "url": "https://boardgamegeek.com/blog/5877/blogpost/84240/writing-rules-facing-up-to-breaking-the-rules"
+ },
+ {
+  "area": "Dice",
+  "rule": "One die type: 'a die'. Multiple sizes: 4d12 notation. Consider 'dice' for both numbers",
+  "do": "Roll 4d12 and place each die on a different runway.",
+  "dont": "Alternating die/dice unpredictably within one book.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Capitalisation",
+  "rule": "Capitalise only specific in-game components, actions and values",
+  "do": "Gain 5 Gold from the central supply.",
+  "dont": "Capitalising Every Important-Looking Noun.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Emphasis",
+  "rule": "Bold = keywords/headings. Italic = examples, captions, flavour. No underline. No long all-caps",
+  "do": "Bold the keyword where it is first defined.",
+  "dont": "Underlined rules text; ALL CAPS paragraphs.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Numbers",
+  "rule": "Digits for game quantities; spell out flavour numbers and sentence-initial numbers",
+  "do": "Two dice may be placed on each territory.",
+  "dont": "'2 dice may be placed...' at the start of a sentence.",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "Lists",
+  "rule": "Numbered = sequence. Bulleted = unordered options. Periods only on full sentences",
+  "do": "1. Shuffle the deck. 2. Deal 5 cards to each player.",
+  "dont": "Numbered labels on a diagram (readers misread them as quantities).",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Punctuation",
+  "rule": "Serial (Oxford) comma; one space after a period; double quotes",
+  "do": "Farmers, Merchants, and Tailors",
+  "dont": "Two spaces after a period.",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "Parentheses",
+  "rule": "Short clarifications only — never new rules",
+  "do": "Each player may deploy two Infantry Units (but not other types of units).",
+  "dont": "Parenthetical that introduces a rule found nowhere else.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Abbreviations",
+  "rule": "Expand acronyms on first use in the rulebook (and optionally per section)",
+  "do": "Energy Production Rate (EPR)",
+  "dont": "Multiple visually-similar acronyms: CWC vs CWL.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "References",
+  "rule": "Cite the target of any cross-reference",
+  "do": "see Connections, p. 34",
+  "dont": "'See above' / 'as previously mentioned'.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Flags",
+  "rule": "Treat 'exception', 'remember' and 'should' as design smells",
+  "do": "Remove or redesign the exception.",
+  "dont": "Shipping a rule whose only home is an exception clause.",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "Naming",
+  "rule": "A 'mat' belongs to a player; a 'board' is shared",
+  "do": "Place your workers on your player mat.",
+  "dont": "Calling the shared board a mat, or vice versa.",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "Keywords",
+  "rule": "Choose names that start with different letters, especially for sibling headings",
+  "do": "Dockyards / Assembly",
+  "dont": "Shipyards / Shipbuilding as sibling headings.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "Register",
+  "rule": "Delete filler and condescension",
+  "do": "The victory condition is to destroy all other castles.",
+  "dont": "'The victory condition is simply to destroy...'",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ }
+]

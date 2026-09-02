@@ -1,0 +1,155 @@
+[
+ {
+  "source": "Stonemaier Games (Jamey Stegmaier)",
+  "sections": [
+   "Overview & Goal",
+   "Components",
+   "Setup",
+   "Gameplay Overview",
+   "Detailed Gameplay",
+   "Other Info",
+   "End of Game",
+   "(Last page) Icon guide / game flow / index"
+  ]
+ },
+ {
+  "source": "Curby Style Guide (Michael Lee)",
+  "sections": [
+   "Thematic Introduction",
+   "Goal of the Game",
+   "Component List (illustrated)",
+   "Setup (with diagram)",
+   "Gameplay Overview",
+   "Round Structure",
+   "Turn Structure",
+   "Turn/Phase/Action Details",
+   "End-game Trigger",
+   "Scoring and Winning",
+   "Card/Action Notes & FAQ",
+   "Worldbuilding",
+   "Glossary",
+   "Credits",
+   "Index",
+   "Quick Reference (back cover)"
+  ]
+ },
+ {
+  "source": "Resonym",
+  "sections": [
+   "Story",
+   "Goal",
+   "Game End",
+   "Components",
+   "Setup",
+   "Gameplay",
+   "Ending the Game"
+  ]
+ },
+ {
+  "source": "Rules Writing 101 (Herc du Preez)",
+  "sections": [
+   "Title",
+   "Subtitle/Catchphrase",
+   "Game Information",
+   "Flavourful Overview",
+   "Table of Contents",
+   "List of Components",
+   "Victory Condition",
+   "Component Breakdown",
+   "Glossary of Terms",
+   "Setup",
+   "Game End",
+   "Turn Summary",
+   "Detailed Turn Description",
+   "Additional Rules (exceptions)",
+   "Examples of Play",
+   "Asides / flavour sidebars"
+  ]
+ },
+ {
+  "source": "Meeple Mountain (Top Six)",
+  "sections": [
+   "Thematic Intro/Background",
+   "Thematic Objective",
+   "Component List",
+   "Set-up",
+   "How to read components",
+   "First Player selection",
+   "Typical Turn",
+   "Special Actions/Turns",
+   "Examples of Gameplay",
+   "Endgame/Scoring/Win Conditions",
+   "Appendix",
+   "Glossary",
+   "FAQ",
+   "Rulebook version"
+  ]
+ },
+ {
+  "source": "Jeremy Lennert (BGG outline)",
+  "sections": [
+   "Introduction",
+   "Components",
+   "Setup",
+   "Game Concepts",
+   "Sequence of Play",
+   "Additional Rules",
+   "Common Mistakes",
+   "Hints & Tips",
+   "Glossary/Index",
+   "Summary/Player Aid"
+  ]
+ },
+ {
+  "source": "Wargame convention (marc lecours)",
+  "sections": [
+   "Intro",
+   "Components",
+   "Key concepts (stacking / ZOC / supply)",
+   "Activation",
+   "Movement",
+   "Combat (losses, retreats last)",
+   "Political rules",
+   "Special rules",
+   "Victory conditions",
+   "Optional/advanced rules"
+  ]
+ },
+ {
+  "source": "Shellhead (There Will Be Games)",
+  "sections": [
+   "Introduction (theme, players, time)",
+   "List of components",
+   "Victory condition",
+   "Set up",
+   "Phases of turn (rules grouped by phase)",
+   "Optional rules",
+   "Detailed example of play (2 turns)",
+   "Glossary",
+   "Back cover: turn summary, charts, icon key"
+  ]
+ },
+ {
+  "source": "Teaching order (comprehension thread)",
+  "sections": [
+   "1-2 sentences of theme",
+   "Win condition + end trigger",
+   "Big-picture flow",
+   "Details: phases, card anatomy, iconography, costs, combat"
+  ]
+ },
+ {
+  "source": "Boardtastic (verbal teaching frame)",
+  "sections": [
+   "Theme",
+   "Overview",
+   "Structure",
+   "Actions",
+   "Rules",
+   "Exceptions",
+   "Victory",
+   "Summary",
+   "Strategy tips"
+  ]
+ }
+]

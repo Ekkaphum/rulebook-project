@@ -1,0 +1,1272 @@
+[
+ {
+  "id": "A01",
+  "category": "Purpose & Audience",
+  "topic": "The rulebook IS the game",
+  "principle": "Without the rules, the box is only components; the rulebook is the only universal interface every board game shares.",
+  "detail": "Punchboard argues that the rulebook converts a box of tokens into the designer's actual game. Michael Heron notes there is no shared interface across board games 'except the manual' — which makes manuals a universal accessibility surface.",
+  "evidence": "\"Without the rules, all you're left with is a box full of tokens and pieces.\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "A02",
+  "category": "Purpose & Audience",
+  "topic": "Minimise cognitive load — the one-sentence rule",
+  "principle": "Every editorial decision should be judged by whether it reduces the effort required to learn and remember the game.",
+  "detail": "Curby's entire 13,000-word style guide reduces to this maxim, and explicitly says to break any other rule in the guide when breaking it serves the reader.",
+  "evidence": "\"If someone can't learn the game, they won't play the game.\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "A03",
+  "category": "Purpose & Audience",
+  "topic": "A rulebook has (at least) three audiences",
+  "principle": "First-time learner, mid-game look-up, and returning player after months away. All three must be served by the same document.",
+  "detail": "Entro Games names these three; Curby expands the list to include teachers preparing to teach, veterans checking edition changes, and readers who only want the setup diagram.",
+  "evidence": "Optimise for as many relevant use cases as possible, not just the first read.",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "id": "A04",
+  "category": "Purpose & Audience",
+  "topic": "Write to a defined audience, not to everyone",
+  "principle": "Gateway games and hobbyist games justify different jargon levels, tone and depth. Decide who you are writing for before you write.",
+  "detail": "BGG designer J C Lawrence: 'Know your audience. If your audience does not include light players learning the game, then there is no need to address or support them.' BA Games counters that you cannot be everything to everyone — follow industry norms instead.",
+  "evidence": "Tone and conventions should fit the target audience without alienating a wider audience.",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "id": "A05",
+  "category": "Purpose & Audience",
+  "topic": "Most people do not learn from the rulebook — but someone has to",
+  "principle": "In practice one person reads the rules and teaches the group. The rulebook's job is to start that chain reaction and then answer questions during play.",
+  "detail": "Repeated observation across BGG threads. This reframes the rulebook as (a) a teaching enablement tool and (b) an in-play reference, not a self-study textbook.",
+  "evidence": "\"The purpose of the rulebook is to get the chain reaction started and to answer questions that come up during play.\"",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "A06",
+  "category": "Purpose & Audience",
+  "topic": "Nobody starts a thread to say the rules were clear",
+  "principle": "Rules-forum volume is a biased sample; absence of complaints is invisible. Use it as a signal, not a verdict.",
+  "detail": "Counterpoint raised in the text-comprehension thread. Chris Wray nonetheless attempted to quantify rulebook quality by counting BGG rules questions per game.",
+  "evidence": "Repeated queries on the same rule on a game's BGG page reliably indicate that rule is unclear.",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "id": "B01",
+  "category": "Structure",
+  "topic": "General-to-specific, and follow the arc of a session",
+  "principle": "Proceed from generalities to details, tracking a game session from setup to scoring, so readers build a mental model before receiving detail.",
+  "detail": "Curby's canonical ordering; echoed by nearly every other source. This is the single most agreed-upon principle in the corpus.",
+  "evidence": "Rulebooks should build a lexicon first (theme -> goal -> components -> setup) then spend it (gameplay -> end -> reference).",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "B02",
+  "category": "Structure",
+  "topic": "State the goal / victory condition early",
+  "principle": "Readers who know the objective can attach every subsequent rule to a purpose. Burying the win condition wastes the whole first read.",
+  "detail": "Herc du Preez places Victory Condition before the detailed rules explicitly: 'Having the goal in mind gives context to all actions.' Entro says how-to-win belongs in the opening paragraph.",
+  "evidence": "\"The goal is the game.\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "B03",
+  "category": "Structure",
+  "topic": "Do not open with Setup",
+  "principle": "Setup instructions are meaningless before the reader knows the theme, the goal and the rough shape of a turn.",
+  "detail": "A veteran teacher in the comprehension thread: 'A typical rulebook begins with set-up. Please don't do that. I don't know what those pieces are... I have no context.'",
+  "evidence": "Order should follow conceptual assimilation, not necessarily temporal order of the game.",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "id": "B04",
+  "category": "Structure",
+  "topic": "Illustrated component list before anything else mechanical",
+  "principle": "A labelled picture of every component lets buyers verify the box, learn the vocabulary, and anchor later references.",
+  "detail": "The most frequently repeated concrete request in the whole corpus. Paul Grogan lists 'a detailed components list with images' as a requirement for an excellent rulebook.",
+  "evidence": "\"First page should have an inventory of all the parts, including pictures of each piece.\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "B05",
+  "category": "Structure",
+  "topic": "Setup deserves a full diagram, not just prose",
+  "principle": "A labelled photo/diagram of the initial table state lets a reader check their work visually while following the numbered steps.",
+  "detail": "Requested repeatedly; Entro suggests even a Tabletop Simulator screenshot with letters added is enough during development.",
+  "evidence": "Use non-numeric labels (A, B, C) in setup diagrams so numbers are not misread as quantities.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "B06",
+  "category": "Structure",
+  "topic": "Overview before detail (two passes over the same material)",
+  "principle": "Give a short bullet list of what a turn contains, then explain each item. Readers learn the map before the terrain.",
+  "detail": "Boardtastic guide formalises this as Theme -> Overview -> Structure -> Actions -> Rules -> Exceptions -> Victory -> Summary -> Strategy.",
+  "evidence": "Explaining the same concept twice at different resolutions is a feature, not redundancy.",
+  "source": "BGG: The Boardtastic Guide to Explaining Rules... Good",
+  "url": "https://boardgamegeek.com/thread/918830/the-boardtastic-guide-to-explaining-rules-good"
+ },
+ {
+  "id": "B07",
+  "category": "Structure",
+  "topic": "Group rules where players will look them up",
+  "principle": "Place a rule under the heading a confused player will reach for mid-game, even if that is not where it first becomes relevant.",
+  "detail": "Shellhead: break rules down so they are covered in the relevant phase, 'so if people have a rules question at any point, they at least know they can find the answer in that phase section.'",
+  "evidence": "Organisation is a retrieval problem as much as a teaching problem.",
+  "source": "Best rulebooks? – There Will Be Games forum",
+  "url": "https://therewillbe.games/forum/10-ameritrash/124383-best-rulebooks"
+ },
+ {
+  "id": "B08",
+  "category": "Structure",
+  "topic": "Short rulebooks teach in play order; long ones need alphabetical or subject grouping",
+  "principle": "Under ~4 pages, present rules in the order they arise. Over ~20 pages, group by subject and add an index — or order the reference alphabetically.",
+  "detail": "marc lecours' rule of thumb, with wargames cited as the canonical example of a conventional, predictable section order.",
+  "evidence": "Wargames are readable despite length because they always use the same conventional order.",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "B09",
+  "category": "Structure",
+  "topic": "Isolate exceptions and special cases into their own section",
+  "principle": "Core rules get cluttered and unlearnable when every edge case is inlined. Teach the common path, then handle exceptions.",
+  "detail": "Herc du Preez: 'Core rules are often unnecessarily cluttered with exceptions that should not even be mentioned at that stage.' Jamey Stegmaier treats the word 'exception' as a design smell.",
+  "evidence": "\"In 99% of cases, if I use the word 'exception' in the rulebook, it's a sign of something that should be removed from the gameplay.\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "B10",
+  "category": "Structure",
+  "topic": "Callouts: rules that live outside the linear flow",
+  "principle": "Procedures triggered at many different times deserve a titled, visually-distinct callout box, referenced by name and listed in the TOC and index.",
+  "detail": "Curby treats callouts as first-class rulebook sections — unlike examples and diagrams, callouts may introduce new rules.",
+  "evidence": "Give each callout a title, place it near first mention, and index it.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "B11",
+  "category": "Structure",
+  "topic": "Be willing to break conventional order when the game demands it",
+  "principle": "Section order serves learning and retrieval, not tradition.",
+  "detail": "Jamey Stegmaier confirms he reordered sections for Vantage and others when the flow of the game required it.",
+  "evidence": "\"My goal is always to structure each rulebook so it (a) helps players learn and (b) helps players find answers.\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "B12",
+  "category": "Structure",
+  "topic": "Avoid walls of text",
+  "principle": "Err on the side of too many paragraph breaks; combine later. Walls of text defeat both reading and skimming.",
+  "detail": "Curby; C.J.C. (a lawyer who explains complex law for a living) lists 'use lots of empty space' among eight technical-writing rules for rulebooks.",
+  "evidence": "\"Walls of text overwhelm people.\"",
+  "source": "BGG: how to write rule book",
+  "url": "https://boardgamegeek.com/thread/2040012/how-to-write-rule-book"
+ },
+ {
+  "id": "B13",
+  "category": "Structure",
+  "topic": "The chicken-and-egg problem is real and unsolvable — choose the lesser confusion",
+  "principle": "Games are loops; no rulebook can be fully linear. At some point you must reference an undefined concept.",
+  "detail": "Resonym demonstrates this with a two-paragraph game (Buffalo) and concludes there is no trick — only judgement about which ordering confuses less.",
+  "evidence": "If you must forward-reference, cite the target explicitly: '(see 10.0 Retreat)'.",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "B14",
+  "category": "Structure",
+  "topic": "One linear read should be enough",
+  "principle": "A useful quality metric: how much did the reader have to jump around, and how many undefined concepts appeared before definition?",
+  "detail": "Ryan Migalla's proposed core principle, endorsed in the Stonemaier comments thread.",
+  "evidence": "\"A rulebook should only have to be read through once, linearly, to understand the game.\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "B15",
+  "category": "Structure",
+  "topic": "Define every term at first use",
+  "principle": "Using a game-specific noun before defining it is the most commonly cited reader irritation in the corpus.",
+  "detail": "Sophie's opening post in 'What makes a good rulebook?'; echoed in the Pathfinder ACG criticism.",
+  "evidence": "\"Using game-specific terms before explaining them is always an absolutely terrible idea.\"",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "id": "C01",
+  "category": "Teach vs Reference",
+  "topic": "The central tension: one document, two incompatible jobs",
+  "principle": "A rulebook must be a linear tutorial for new players AND a random-access reference for experienced ones. These demand opposite organisations.",
+  "detail": "Named independently by Resonym ('the single biggest challenge'), Isaac on BGG, and Entro. Isaac concludes moderate-to-heavy games need two documents.",
+  "evidence": "\"Trying to make a well-written rulebook that has the dual purpose of teaching and serving as a reference is a self-defeating endeavor.\"",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "C02",
+  "category": "Teach vs Reference",
+  "topic": "The dual-document model (Learn to Play + Rules Reference)",
+  "principle": "Book 1 tells the story of playing the game in play order; Book 2 is a formal, alphabetical or subject-indexed reference for established players.",
+  "detail": "Popularised by Fantasy Flight Games (Marvel Champions, Arkham Horror LCG); praised repeatedly on BGG for letting you 'find anything you need in seconds'.",
+  "evidence": "Computer manuals have always shipped this pair: a how-to book and a lexical reference.",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "C03",
+  "category": "Teach vs Reference",
+  "topic": "Dual-document failure mode: rules that exist in only one book",
+  "principle": "If the Learn-to-Play contains rules absent from the Reference, the Reference stops being trustworthy and players lose faith in both.",
+  "detail": "Documented in detail for Gloomhaven: Jaws of the Lion — e.g. the 10-curse limit appeared only in the LTP book, not the Glossary.",
+  "evidence": "\"Every rule should be every place you would expect it to be in the Glossary — or else the Glossary stops being very useful.\"",
+  "source": "BGG: Sometimes finding the rulebook organization annoying (Jaws of the Lion)",
+  "url": "https://boardgamegeek.com/thread/2455924/sometimes-finding-the-rulebook-organization-annoyi"
+ },
+ {
+  "id": "C04",
+  "category": "Teach vs Reference",
+  "topic": "The Playbook / walkthrough model",
+  "principle": "A separate booklet walks players through a scripted opening (often with unshuffled decks) so the first game teaches itself.",
+  "detail": "GMT/COIN wargames pioneered this; Root's walkthrough book is credited with making a wargame-shaped design mainstream. Fog of Love instructs players not to shuffle on first play so the guide can predict their hands.",
+  "evidence": "\"Stop — read the playbook and play through using the physical game. Then use the rule book as reference.\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "C05",
+  "category": "Teach vs Reference",
+  "topic": "Tutorial-style rulebooks trade look-up for onboarding",
+  "principle": "Progressive-disclosure rulebooks (Jaws of the Lion, Avalon Hill 'Programmed Instruction') teach beautifully but scatter rules, making later reference painful.",
+  "detail": "Consistent complaint across the Tutorializing and JotL threads: 'You would encounter new rules in odd little places... it was difficult to look up rules.'",
+  "evidence": "If you tutorialise, you owe players a complete, separately-organised reference.",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "C06",
+  "category": "Teach vs Reference",
+  "topic": "Video tutorials complement, they do not replace",
+  "principle": "Not every buyer has internet, a tablet, or the inclination. The printed book must stand alone.",
+  "detail": "Curby is explicit. Meeple Mountain adds: do not let blind playtesters use how-to-play videos, because not all owners will have them.",
+  "evidence": "\"The rulebook included with the game should be able to stand on its own as a complete resource.\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "C07",
+  "category": "Teach vs Reference",
+  "topic": "Diátaxis: four documentation modes, cleanly separated",
+  "principle": "Tutorial / How-to / Reference / Explanation are distinct genres with distinct rules. Mixing them is why documentation feels wrong.",
+  "detail": "Recommended in the Stonemaier comments as a transferable framework: the Playbook is a Tutorial, the rulebook body is How-to, the appendix is Reference, designer notes are Explanation.",
+  "evidence": "Separating the four modes explains most rulebook structure debates.",
+  "source": "Diátaxis – a systematic framework for technical documentation",
+  "url": "https://diataxis.fr/"
+ },
+ {
+  "id": "C08",
+  "category": "Teach vs Reference",
+  "topic": "Board games cannot rely on tutorials the way video games can",
+  "principle": "Software enforces its own rules; a board game's players must enforce them, so every rule must be stated somewhere retrievable.",
+  "detail": "Repeatedly argued in the Tutorializing thread. Also: mixed-experience tables make mandatory tutorials socially unworkable.",
+  "evidence": "\"Video games enforce the rules, so you don't really need to know the rules, just how to play.\"",
+  "source": "BGG: Tutorializing",
+  "url": "https://boardgamegeek.com/thread/2581878/tutorializing"
+ },
+ {
+  "id": "D01",
+  "category": "Language",
+  "topic": "Framing: link the new concept to a familiar mental model first",
+  "principle": "Rephrase a confusing rule so it first establishes the frame, then states the change within that frame.",
+  "detail": "Curby's second key skill, with four worked before/after examples. E.g. 'Take 1 of each type of resource you roll' -> 'For each type of resource you roll, take 1 die of that type.'",
+  "evidence": "Reframing removes ambiguity without adding words.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D02",
+  "category": "Language",
+  "topic": "Conditions and triggers before effects",
+  "principle": "'If you roll a 5 or higher, draw a card' beats 'Draw a card if you roll a 5 or higher' — skimmers can skip effects whose condition is unmet.",
+  "detail": "Curby; also C.J.C.'s rule 5: 'always put the most important clause of your sentence first.' Put the failure branch in a separate sentence.",
+  "evidence": "Front-loaded conditions cause fewer misplays (applying an effect at the wrong time).",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D03",
+  "category": "Language",
+  "topic": "Short sentences, one action each",
+  "principle": "Split any sentence that describes multiple actions, or that contains parentheses plus a calculation.",
+  "detail": "Curby; Entro's 'one-breath rule': if you cannot speak the sentence in one breath, it is too long.",
+  "evidence": "\"When in doubt, make your sentence shorter. Or make a list.\"",
+  "source": "BGG: how to write rule book",
+  "url": "https://boardgamegeek.com/thread/2040012/how-to-write-rule-book"
+ },
+ {
+  "id": "D04",
+  "category": "Language",
+  "topic": "Active voice, second person, imperative",
+  "principle": "'Pay $1 to gain 2 resources' beats 'The player pays $1...'. Reserve passive voice for global prohibitions and flavour.",
+  "detail": "Stonemaier house style; Curby adds the useful exception: 'Mountain tiles cannot be removed from the map' states a universal truth that 'Players may not remove mountain tiles' does not.",
+  "evidence": "Start sentences with verbs where possible — the verb is the instruction.",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "D05",
+  "category": "Language",
+  "topic": "Modal verbs are load-bearing: may / may not / cannot / must / should",
+  "principle": "may = optional action. may not = forbidden though desirable. cannot = physically impossible. must = compelled (use sparingly). should = avoid entirely in rules.",
+  "detail": "Curby's canonical breakdown. All rules are requirements by default, so 'must' should be reserved to flag an action a player would rather avoid.",
+  "evidence": "Stonemaier: 'Remove all instances of should and highlight any instances of except and remember.'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D06",
+  "category": "Language",
+  "topic": "gain / take / give / earn are not synonyms",
+  "principle": "gain = from an unlimited supply. take = from a limited supply or from another player. give = grant to another player. earn = generic.",
+  "detail": "Curby's distinction, adopted almost verbatim in the Stonemaier style guide ('Use gain, not take, when referring to a player earning something from the general supply').",
+  "evidence": "The distinction silently communicates whether an action affects other players.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D07",
+  "category": "Language",
+  "topic": "Turn / Round / Phase / Step must be defined and never overloaded",
+  "principle": "Pick one hierarchy and never reuse a level's name for another level. Wargames traditionally invert Turn and Round relative to modern eurogames.",
+  "detail": "Extended discussion in the Rulebook Editing Style Guide thread; Curby codifies turn -> round -> (act/epoch/season), with phases and steps subdividing turns.",
+  "evidence": "\"Do not reuse 'phase' within a single game to describe multiple levels of this framework.\"",
+  "source": "BGG: Rulebook Editing Style Guide (2020)",
+  "url": "https://boardgamegeek.com/thread/2527114/rulebook-editing-style-guide"
+ },
+ {
+  "id": "D08",
+  "category": "Language",
+  "topic": "each vs every vs all",
+  "principle": "each = applies individually to distinct members. every / all = applies to the group as a whole.",
+  "detail": "Curby. Misuse here silently changes whether an effect resolves once or N times.",
+  "evidence": "'Each card is scored according to its Infamy stat' vs 'every Hero enters the dungeon'.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D09",
+  "category": "Language",
+  "topic": "when / whenever / if / at",
+  "principle": "when = once, at a predictable time. whenever = repeatable, many causes. if = might never happen. at = focuses on a point in time.",
+  "detail": "Curby. Choosing 'when' for something that may never happen implies to the reader that it will.",
+  "evidence": "\"If activated, draw two cards and discard one.\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D10",
+  "category": "Language",
+  "topic": "Singular 'they' — and when to replace it",
+  "principle": "Use they/them/their. Never he, she, (s)he, he or she. Where 'they' could bind to the wrong plural noun, replace with 'that player'.",
+  "detail": "Curby, Resonym, Stonemaier and multiple BGG editors agree. The ambiguity case was raised by Joe Farrell in the style-guide thread and folded into the guide.",
+  "evidence": "'If a player has no Scientists, that player may not research Technologies.'",
+  "source": "BGG: Rulebook Editing Style Guide (2020)",
+  "url": "https://boardgamegeek.com/thread/2527114/rulebook-editing-style-guide"
+ },
+ {
+  "id": "D11",
+  "category": "Language",
+  "topic": "Hyphenate face-up / face-down for reading flow",
+  "principle": "Grammar says hyphenate only as a pre-noun adjective, but consistent hyphenation removes a real stumbling point observed in blind tests.",
+  "detail": "Andy Van Zandt observed readers audibly stumble on 'faceup' during read-alouds; 'face down' also collides with the idiom 'to face down'.",
+  "evidence": "\"You will see this when you blind playtest rules and someone reading them aloud hits 'faceup' and stumbles.\"",
+  "source": "BGG blog: Writing Rules – facing up to breaking the rules (Andy Van Zandt)",
+  "url": "https://boardgamegeek.com/blog/5877/blogpost/84240/writing-rules-facing-up-to-breaking-the-rules"
+ },
+ {
+  "id": "D12",
+  "category": "Language",
+  "topic": "Prefer 'dice' as both singular and plural in rules",
+  "principle": "'Die' collides with the verb 'to die', which frequently appears in game contexts; consistent 'dice' reduces parse failures.",
+  "detail": "Andy Van Zandt's argument; Curby notes the regional split and simply asks for consistency.",
+  "evidence": "\"The goal is for players to have a smooth and seamless read-through.\"",
+  "source": "BGG blog: Writing Rules – facing up to breaking the rules (Andy Van Zandt)",
+  "url": "https://boardgamegeek.com/blog/5877/blogpost/84240/writing-rules-facing-up-to-breaking-the-rules"
+ },
+ {
+  "id": "D13",
+  "category": "Language",
+  "topic": "Delete 'simply'",
+  "principle": "'Simply' adds words, adds no information, and reads as condescending when the reader is in fact confused.",
+  "detail": "Michael Berg's correction inside Rules Writing 101, which the author accepted and edited into the original post.",
+  "evidence": "\"One does not simply write a rulebook.\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "D14",
+  "category": "Language",
+  "topic": "Mechanical phrasing over thematic phrasing (usually)",
+  "principle": "'Place 2 Cog Tokens on each Machine Card' is safer than 'Upgrade each Machine with 2 Cogs' — components and actions are unambiguous.",
+  "detail": "Curby, with caveats for highly thematic games; Entro agrees: pair the mechanical noun with a thematic qualifier ('Resource tiles' vs 'Scoring tiles').",
+  "evidence": "Components are the player's most direct interface; name them literally.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D15",
+  "category": "Language",
+  "topic": "Piggyback on knowledge players already have",
+  "principle": "If a well-known word already maps to a concept, use it. A 'Flying' character is learned instantly; an 'Aether Jaunt' ability is not.",
+  "detail": "Curby, citing Mark Rosewater's term. Applies to keywords, phrasing and icon choice alike.",
+  "evidence": "Do not fight what people already know — never reuse a familiar word for an unfamiliar concept.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D16",
+  "category": "Language",
+  "topic": "Avoid Latin abbreviations, contractions and ampersands",
+  "principle": "i.e., e.g., etc., cont., approx., & — each is a small comprehension tax, and heavier for non-native readers.",
+  "detail": "Curby recommends expanding them when space allows and, if used, using them correctly (i.e. = restatement, e.g. = example).",
+  "evidence": "Stonemaier's house style nonetheless permits 'e.g.,' inside parentheses — consistency matters more than the choice.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D17",
+  "category": "Language",
+  "topic": "Numbers: digits for game quantities, words for flavour",
+  "principle": "Use digits when counting components or mechanical values; spell out small thematic numbers and any number starting a sentence.",
+  "detail": "Stonemaier ('use numerals whenever possible, but not at the beginning of a sentence') and Curby, who adds the mixed-case trick: 'Place 3 two-headed dragons in the Dragons' Nest.'",
+  "evidence": "For small ranges, listing every value ('0, 1, or 2') can beat 'fewer than 3'.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D18",
+  "category": "Language",
+  "topic": "Parentheses clarify; they never introduce rules",
+  "principle": "A parenthetical must be removable without losing a rule. Never bury a rule in an aside — or in an example.",
+  "detail": "Curby; Paul Grogan lists 'rules hidden only in examples' as a red flag he actively hunts for.",
+  "evidence": "\"A lack of examples, lack of images... Rules hidden only in examples is another one.\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "E01",
+  "category": "Terminology",
+  "topic": "One concept, one word — forever",
+  "principle": "Never use gratuitous synonyms. If it is an Attack, it is never a Strike or an Assault.",
+  "detail": "The single most repeated piece of advice in the entire corpus, from Cardboard Edison to Russ on BGG to every professional style guide.",
+  "evidence": "\"Refer to the same actions, components and game sections by the same terms every time in rules, card text and reference materials.\"",
+  "source": "Cardboard Edison – Best Practices / blog",
+  "url": "https://cardboardedison.com/blog/tag/featured"
+ },
+ {
+  "id": "E02",
+  "category": "Terminology",
+  "topic": "Consistency AND deliberate inconsistency",
+  "principle": "Things should look and sound the same only if they are the same — and different only if they are different.",
+  "detail": "Curby's sharpest formulation. Deliberate difference is how players spot that two similar-looking abilities behave differently.",
+  "evidence": "\"When players can confidently identify similarities, differences are also more easily identified.\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E03",
+  "category": "Terminology",
+  "topic": "Name similar concepts so they cannot be conflated",
+  "principle": "Two commerce roles should not be 'Traders' and 'Merchants'. Prefer keywords starting with different letters, especially for headings.",
+  "detail": "Curby. If you cannot find a meaningful distinction between two names, that is evidence the two concepts should be merged.",
+  "evidence": "Avoid 'Shipyards' and 'Shipbuilding' as sibling headings.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E04",
+  "category": "Terminology",
+  "topic": "Templating: things that work the same should look the same",
+  "principle": "Develop one syntactic pattern for each family of effects (all character abilities, all card costs) and apply it everywhere.",
+  "detail": "Curby's third key skill. 'Draw a card into your hand' vs 'Take 1 card from the deck' forces players to hunt for a difference that does not exist.",
+  "evidence": "Consistent application of even a mediocre template beats a chaotic mix of good ones.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E05",
+  "category": "Terminology",
+  "topic": "Capitalise selectively — capitals are a limited budget",
+  "principle": "Capitalise only instances that refer to a specific in-game component, action or value. Over-capitalisation dilutes attention and stalls reading.",
+  "detail": "Curby's balanced method; Resonym: 'If you have too much capitalization, it all blends together and is useless.'",
+  "evidence": "'Gain 5 Gold from the central supply' vs 'each player keeps their gold on their player mat'.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E06",
+  "category": "Terminology",
+  "topic": "Fix a canonical order for repeated sets",
+  "principle": "If resources are labour/stone/wood, list them in that order in the component list, setup, every cost, and every diagram.",
+  "detail": "Curby, with a worked consistency table. Even the regions that produce those resources should be listed in the same order.",
+  "evidence": "This is invisible when done and quietly exhausting when not.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E07",
+  "category": "Terminology",
+  "topic": "Board vs mat, and other component-noun discipline",
+  "principle": "A 'mat' is unique to a player; a 'board' is shared. Small distinctions like this remove a whole class of ambiguity.",
+  "detail": "Stonemaier house style. A commenter reports this one line immediately fixed their naming confusion.",
+  "evidence": "\"A 'mat' is unique to a player. A 'board' is available to all players.\"",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "id": "E08",
+  "category": "Terminology",
+  "topic": "Keep the keyword count low",
+  "principle": "Every keyword is a word the player must learn. Dominion's power comes from having only Action, Buy, Gain, Card — used with absolute consistency.",
+  "detail": "I Slay the Dragon's analysis: because Dominion's few keywords never drift, brand-new cards are parseable at a glance.",
+  "evidence": "\"No one wants to learn a language to learn a new game.\"",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "id": "E09",
+  "category": "Terminology",
+  "topic": "Avoid hobby jargon in gateway games",
+  "principle": "'Tableau', 'rondel', 'engine' are fan service to insiders and a wall to newcomers. Use descriptive terms or define on first use.",
+  "detail": "Curby suggests 'collection' and 'action wheel' as replacements.",
+  "evidence": "Jargon can be a wink to those in the know — and a door closed on everyone else.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E10",
+  "category": "Terminology",
+  "topic": "Write a style guide before you write the rules",
+  "principle": "Even a whiteboard listing your capitalisation, terminology and formatting choices prevents most consistency defects.",
+  "detail": "Stonemaier's explicit 'core recommendation'; Entro says the same. This is cheaper than any editing pass.",
+  "evidence": "\"The core recommendation I'm trying to make today is that you have a written style guide.\"",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "id": "F01",
+  "category": "Examples",
+  "topic": "Examples earn their space by covering edge cases, not obvious cases",
+  "principle": "Do not illustrate the move everyone already understands. Illustrate the interaction that will otherwise become a forum thread.",
+  "detail": "I Slay the Dragon; Russ gives the canonical test case: if archer OR catapult gives +1, show an example with BOTH to settle whether it is +1 or +2.",
+  "evidence": "\"If you don't illustrate edge cases, you'll send players directly to the forums.\"",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "id": "F02",
+  "category": "Examples",
+  "topic": "Maximise example 'coverage'",
+  "principle": "One diagram should resolve several questions at once — scoring and non-scoring cases, diagonals, shared adjacency, depleted tiles.",
+  "detail": "Curby's worked Blacksmith/Iron Mine example enumerates five distinct questions a single richer diagram can answer.",
+  "evidence": "\"A simple diagram that only shows one Blacksmith flanked by two Mines is not very useful.\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "F03",
+  "category": "Examples",
+  "topic": "Make clear what in an example is arbitrary",
+  "principle": "Readers infer rules from examples. If your tableau always shows five cards, some readers will believe tableaus must have five cards.",
+  "detail": "Curby warns this can actively limit how players play, robbing the design of depth.",
+  "evidence": "Examples can accidentally introduce unintended rules.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "F04",
+  "category": "Examples",
+  "topic": "Long walkthroughs beat many isolated snippets",
+  "principle": "One multi-turn worked example shows the system interacting with itself; a dozen one-line examples only show parts.",
+  "detail": "Argued on BGG (t897413) and repeatedly praised in 1960: The Making of the President and Combat Commander.",
+  "evidence": "A full example of play over two consecutive turns is a widely-requested feature.",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "id": "F05",
+  "category": "Examples",
+  "topic": "Examples should show motivation, not just legality",
+  "principle": "'Alice takes Recruit Troops because Bob already took Take Stone' teaches the game's texture, not merely its syntax.",
+  "detail": "Raised on BGG as a strong plus, especially for readers deciding whether to buy.",
+  "evidence": "Beware the counter-view: J C Lawrence argues rules should never suggest evaluations or strategies.",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "F06",
+  "category": "Examples",
+  "topic": "Diagrams beat examples where space allows",
+  "principle": "Spatial, adjacency and setup rules are almost always clearer as a labelled picture than as prose.",
+  "detail": "Resonym ranks diagrams above examples; I Slay the Dragon and Meeple Mountain both call for figure numbers referenced from the text.",
+  "evidence": "Label figures (Figure 1, Figure 2) and reference them explicitly from the rules text.",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "id": "F07",
+  "category": "Examples",
+  "topic": "Include an 'anatomy' diagram for information-dense components",
+  "principle": "Label every zone of a card, tile or player mat once, then refer to those labels by name thereafter.",
+  "detail": "Resonym; Herc du Preez calls this the Component Breakdown and places it before the rules.",
+  "evidence": "Anatomy diagrams convert a component into shared vocabulary.",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "F08",
+  "category": "Examples",
+  "topic": "Set examples visually apart from rules",
+  "principle": "Italics, tint blocks or sidebars — anything that lets a re-reader skip examples and lets a learner find them.",
+  "detail": "Curby (italics for examples, bold for keywords); Meeple Mountain (italics for side notes and examples).",
+  "evidence": "Never set rules themselves in italic.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "G01",
+  "category": "Layout",
+  "topic": "Minimum body text 10pt; err larger",
+  "principle": "Jamey Stegmaier: 10pt is the bare minimum, sometimes larger depending on typeface. Accessibility guidance pushes towards 12pt.",
+  "detail": "BGG's classic complaint set includes Race for the Galaxy's ~6-8pt text. Accessibility sources put 'clear print' minimum at 12pt and large print at 16pt Arial.",
+  "evidence": "\"10pt is the bare minimum, but sometimes we go bigger based on font type.\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "G02",
+  "category": "Layout",
+  "topic": "180 x 240 mm is a sweet-spot rulebook size",
+  "principle": "Big enough for visuals and examples, small enough to leave open on the table during play.",
+  "detail": "Stonemaier's stated preference. A5 booklets fit smaller boxes; A4 allows larger setup diagrams.",
+  "evidence": "Page count must be divisible by 4 — plan spreads, not pages.",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "G03",
+  "category": "Layout",
+  "topic": "Use facing pages deliberately",
+  "principle": "If component list and setup will not fit on one page, make them facing pages so the reader never turns back mid-setup.",
+  "detail": "Resonym. Curby adds: short sections should not break across page boundaries, and 2-page sections belong on facing pages.",
+  "evidence": "Books come in spreads of 4 pages; design for the open book, not the single page.",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "G04",
+  "category": "Layout",
+  "topic": "High contrast for rules text; save low contrast for decoration",
+  "principle": "WCAG-style targets: 4.5:1 for body text, 3:1 for large or bold text. Test by converting the page to greyscale.",
+  "detail": "MINIFINITI's analysis. Never print rules on textured art or dark backgrounds — a recurring BGG complaint since 2007.",
+  "evidence": "\"Never print rules against a dark colored background or pattern.\"",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "G05",
+  "category": "Layout",
+  "topic": "Emphasis hierarchy: bold for keywords, italic for supplemental, no underline",
+  "principle": "Underlines clash with descenders and hurt legibility. All-caps is less readable than sentence case; prefer real small caps.",
+  "detail": "Curby; Stonemaier bans underlining outright. Meeple Mountain reserves ALL CAPS for the very few rules players most often miss.",
+  "evidence": "Overuse of emphasis 'leads to a cacophony of competing voices'.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "G06",
+  "category": "Layout",
+  "topic": "Sans-serif, plain background, generous white space",
+  "principle": "The most common reader-preference profile in the corpus: sans serif, simple layout, sensible order, light on jargon, concise, correct grammar.",
+  "detail": "A BGG user's six-word answer to 'what makes a good rulebook'; supported by dyslexia guidance (Arial/Verdana/Tahoma, 1.5 line height, avoid italics for long passages).",
+  "evidence": "\"Background art/texture behind text: ugh, it makes it harder to read. Blank background, please.\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "G07",
+  "category": "Layout",
+  "topic": "Marginal summaries are a proven hybrid",
+  "principle": "Alea-style rulebooks run the full explanation in the main column and a one-line summary in the margin — teaching and reference on the same page.",
+  "detail": "Praised repeatedly for Castles of Burgundy and the Alea series. Rio Grande's side-strip is an older variant of the same idea.",
+  "evidence": "\"Long form rules, and then in the margins, just the short form rule.\"",
+  "source": "BGG: Good Rulebooks (2021)",
+  "url": "https://boardgamegeek.com/thread/2644979/good-rulebooks"
+ },
+ {
+  "id": "G08",
+  "category": "Layout",
+  "topic": "Use the back cover — it is the most valuable page in the book",
+  "principle": "Turn overview, icon key, setup quantities by player count, and often the index belong on the outside back cover.",
+  "detail": "Multiple independent requests; Stonemaier reserves the last page for icon guide, game flow and/or index.",
+  "evidence": "\"Use the back cover as a player aid. So many rulebooks waste this really useful space.\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "G09",
+  "category": "Layout",
+  "topic": "Compose in a word processor, lay out in InDesign",
+  "principle": "Text first, layout second. Word/Google Docs for drafting and sharing; InDesign (or equivalent) only once content is stable.",
+  "detail": "Consensus in the rulebook-design thread. Google Docs specifically recommended for sharing drafts with test readers.",
+  "evidence": "Editing before layout lets an editor reorder whole sections without costly re-layout.",
+  "source": "Michael Lee, Editor — editing.curby.net",
+  "url": "https://editing.curby.net/"
+ },
+ {
+  "id": "G10",
+  "category": "Layout",
+  "topic": "Layout cannot rescue bad writing",
+  "principle": "Sidebars, boxes and illustrations can absorb definitions and flavour, but they do not fix unclear sentences.",
+  "detail": "Rob Harper in Rules Writing 101, and echoed by an editor: 'Flavor, humor, indexing and diagrams are all useless if the sentence structure and flow of your rules stink.'",
+  "evidence": "\"Of course, layout is no substitute for badly written rules.\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "H01",
+  "category": "Reference",
+  "topic": "Index vs table of contents are different tools",
+  "principle": "A TOC lists sections in order; an index maps keywords — including words that are not section names — to pages. Long rulebooks need both.",
+  "detail": "Debated at length on BGG. Wargamers insist on 'an exhaustive or close to exhaustive index'. A keyword index remains useful long after the TOC stops being.",
+  "evidence": "\"An alphabetical index is recommended as that's how people look things up.\"",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "id": "H02",
+  "category": "Reference",
+  "topic": "Missing index is a top-tier complaint",
+  "principle": "Mice & Mystics and Space Base are both cited primarily for lacking an index, not for being badly written.",
+  "detail": "Going Analog's 'absent index' verdict on Space Base; the Mice & Mystics complaint recurs across a decade of threads.",
+  "evidence": "\"They could have at least put an index in there, as I spend a lot of time looking up rules.\"",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "id": "H03",
+  "category": "Reference",
+  "topic": "Glossary placement: front adds friction, back adds page-flipping",
+  "principle": "Front-loaded glossaries delay the rules; back glossaries require flipping. Practical compromise: define at first use, put the glossary on the inside back cover, and index everything.",
+  "detail": "Argued out in Rules Writing 101 between Herc du Preez and ampoliros; Matthew Proper-Lee proposes inside-back-cover glossary, outside-back-cover icon key and flow.",
+  "evidence": "\"Having to page back and forth is the hallmark of a badly written boardgame rulebook.\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "H04",
+  "category": "Reference",
+  "topic": "A card/action appendix beats a scattered FAQ",
+  "principle": "Alphabetical per-card clarifications (Dominion, Ark Nova, Puerto Rico's per-building notes) resolve most questions without a separate FAQ.",
+  "detail": "Praised repeatedly; Puerto Rico is singled out for putting clarifications directly under each building description.",
+  "evidence": "\"Every building has helpful clarifications right underneath its description, eliminating the need for supplemental online FAQs.\"",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "id": "H05",
+  "category": "Reference",
+  "topic": "If a rule confuses testers, rewrite it — do not bolt on an FAQ",
+  "principle": "An FAQ entry is a patch over a defect in the rules text. Prefer to fix the rule; use FAQs for genuinely rare interactions.",
+  "detail": "Russ on BGG; Entro says the same and adds 'sometimes the best thing to do is to engineer them out'.",
+  "evidence": "\"If a rule is found to be confusing for significant numbers of readers, rewrite the rule; don't add a separate FAQ at the end.\"",
+  "source": "BGG: Good Rulebooks (2021)",
+  "url": "https://boardgamegeek.com/thread/2644979/good-rulebooks"
+ },
+ {
+  "id": "H06",
+  "category": "Reference",
+  "topic": "A graphical / iconographic index is a strong pattern",
+  "principle": "Gloomhaven's picture-led index is repeatedly named as best-in-class for mid-game look-up in a dungeon crawler.",
+  "detail": "Cited in the Sword & Sorcery glossary discussion. Wikipedia-style glossaries are noted to fail when pictures are not adjacent to their definitions.",
+  "evidence": "\"IMO the graphical index Gloomhaven uses is unsurpassed.\"",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "id": "H07",
+  "category": "Reference",
+  "topic": "An 'often forgotten' / 'oft-missed rules' section is cheap and valuable",
+  "principle": "A short end-of-book list of rules groups commonly get wrong on their first game prevents a whole class of misplays.",
+  "detail": "Attika and Brass are both praised for this. It is one of the highest value-per-word features available.",
+  "evidence": "\"A very helpful thing at the end of the rules is a list of a few things often forgotten in a first game.\"",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "id": "H08",
+  "category": "Reference",
+  "topic": "Digital and living rules are now expected",
+  "principle": "A searchable, hyperlinked PDF answers questions that no index can. Maintain a public living-rules page for errata.",
+  "detail": "Curby endorses digital rulebooks as a complement; players report using PDF text search as a substitute for a missing glossary.",
+  "evidence": "Ctrl-F is the index that every game already ships with — if you publish the PDF.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "I01",
+  "category": "Player Aids",
+  "topic": "Write player aids before you write the rulebook",
+  "principle": "During early playtesting rules are in flux; player aids capture what actually matters and become a shipped component later.",
+  "detail": "Jamey Stegmaier's stated workflow; Cole Wehrle and Sen-Foong Lim independently reported the same practice.",
+  "evidence": "\"For initial local playtesting, I create player aids instead of a rulebook.\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "I02",
+  "category": "Player Aids",
+  "topic": "Player aids should duplicate, not replace, rulebook content",
+  "principle": "If a rule exists only on a player aid, players who lose the aid lose the rule — and reviewers will notice.",
+  "detail": "Stated forcefully on BGG about Mage Knight, whose reference cards hold rules absent from the book.",
+  "evidence": "\"Reference cards should be used as a rules reference, as their name implies.\"",
+  "source": "BGG: Rules missing from Rulebook v1.0 (Triplock)",
+  "url": "https://boardgamegeek.com/thread/1803616/rules-missing-from-rulebook-v10"
+ },
+ {
+  "id": "I03",
+  "category": "Player Aids",
+  "topic": "One aid per player, always",
+  "principle": "Shared aids create queues and reading-over-shoulders; per-player aids also let players self-serve instead of interrupting the teacher.",
+  "detail": "Board Game Sanctuary's blunt version: 'NEVER cheapen out on summary action cards for EVERY PLAYER.'",
+  "evidence": "Merchants & Marauders is repeatedly cited as a game whose aid carries most of the teaching load.",
+  "source": "BGG blog: 10 Board Games Rules Mistakes I Have Made",
+  "url": "https://boardgamegeek.com/blog/6298/blogpost/133556/10-board-games-rules-mistakes-i-have-made"
+ },
+ {
+  "id": "I04",
+  "category": "Player Aids",
+  "topic": "Push rules onto the components themselves",
+  "principle": "Text on cards, icons on player mats, reminders on the board — every rule the components can carry is a rule players never look up.",
+  "detail": "Stonemaier's philosophy is text (not icon soup) on cards, self-sufficient enough that no appendix is needed.",
+  "evidence": "Move icons to high-traffic surfaces (player mats), keep card text word-only where space allows.",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "I05",
+  "category": "Player Aids",
+  "topic": "Setup information must not live only on a player aid",
+  "principle": "Setup quantities by player count are the single most re-looked-up fact in most games. Put them in the book AND on the aid.",
+  "detail": "A specific, repeated annoyance on BGG. Also: 'have key setup information — starting resources and differences based on player count — somewhere easy to find.'",
+  "evidence": "\"Setup being only on a player aid sheet tends to really annoy me.\"",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "J01",
+  "category": "Process",
+  "topic": "Write the rulebook early enough to iterate, late enough to be stable",
+  "principle": "Player aids during early testing; first real draft when approaching blind playtesting; expect at least three full rewrites.",
+  "detail": "Stonemaier's timing; Carl Nyberg's rule of thumb: 'write the whole thing, then rewrite it two times. The third iteration will be way better than the first.'",
+  "evidence": "Keep the rulebook version-synced with component versions — mismatch is a classic defect source.",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "J02",
+  "category": "Process",
+  "topic": "Blind playtesting is primarily a rulebook test",
+  "principle": "By the time you blind test, you should already believe the game is fun. What you are testing is whether the document works alone.",
+  "detail": "Hilko on BGG: 'To me, blind testing is testing the written rules.' Stonemaier assigns blind testing 25% weight for rulebook improvement specifically.",
+  "evidence": "\"The goal of a blind playtest should not be to improve game design. It's a rules test only.\"",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "id": "J03",
+  "category": "Process",
+  "topic": "Do not help blind testers",
+  "principle": "Intervening trains testers to look at you instead of the page, and destroys the data you came for.",
+  "detail": "Resonym's Tip 4, with a worked example of letting testers play an entire game wrongly rather than correcting them. Intervene only when a misreading will invalidate the rest of the test.",
+  "evidence": "\"If you swoop in to save your players from mistakes, they become reliant on you.\"",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J04",
+  "category": "Process",
+  "topic": "Warn blind testers what they are in for",
+  "principle": "Rulebook tests are not fun. Say so up front, and make clear that confusion is the document's fault, not the tester's.",
+  "detail": "Resonym: 'After the time my wife broke down in tears during a rulebook test, I always make sure playtesters know what they're getting into.'",
+  "evidence": "Set expectations: half the evening may be spent on rules, and that is the point.",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J05",
+  "category": "Process",
+  "topic": "Test with non-gamers",
+  "principle": "Experienced gamers are skilled rulebook readers and will paper over your defects with genre knowledge.",
+  "detail": "Resonym Tip 2. Brandon the Game Dev extends this to recruiting non-native English speakers and professional writers as beta readers.",
+  "evidence": "\"If your rulebook can teach your grandma how to play your game, then it can teach anyone.\"",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J06",
+  "category": "Process",
+  "topic": "Play dumb: 'What do I do now?'",
+  "principle": "Ask the tester to teach you, and stop yourself at every juncture that historically trips players up. Optionally, do it wrong on purpose and see if they catch you.",
+  "detail": "Resonym Tip 3 — the most actionable observation technique in the corpus.",
+  "evidence": "\"Another one of my favorite phrases is: How should I make that decision?\"",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J07",
+  "category": "Process",
+  "topic": "Read the rulebook backwards, section by section",
+  "principle": "Reading in reverse order prevents you from skimming ahead on autopilot and surfaces isolated defects.",
+  "detail": "Jamey Stegmaier's personal QA technique.",
+  "evidence": "\"I find it helpful to review a rulebook backwards (section by section).\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "J08",
+  "category": "Process",
+  "topic": "Time the look-up, not just the read",
+  "principle": "At pre-production copy stage, test how fast a player can find a specific answer mid-game. Slow look-up is a structural defect.",
+  "detail": "Stonemaier's explicit PPC test criterion.",
+  "evidence": "If you cannot find the answer quickly, revise the structure — not the sentence.",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "J09",
+  "category": "Process",
+  "topic": "Hire a professional editor and a separate proofreader",
+  "principle": "Editors catch 80-95% of errors on a pass; two sets of eyes at different stages is materially better than one.",
+  "detail": "Curby cites The Copyeditor's Handbook. Meeple Mountain quotes typical freelance rates of USD 25-50/hour. Obsession's designer publicly documents deciding a proofreader was unnecessary — and regretting it.",
+  "evidence": "\"I have learned a lesson that a professional proofreader is required in all future projects.\"",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ },
+ {
+  "id": "J10",
+  "category": "Process",
+  "topic": "Edit before layout, proofread after",
+  "principle": "Developmental/copyediting happens on the text so sections can be reordered freely; proofreading happens on the laid-out file to catch layout-introduced errors.",
+  "detail": "Michael Lee's stated professional workflow.",
+  "evidence": "\"This allows me to reorder and rewrite entire sections without requiring costly graphic design updates.\"",
+  "source": "Michael Lee, Editor — editing.curby.net",
+  "url": "https://editing.curby.net/"
+ },
+ {
+  "id": "J11",
+  "category": "Process",
+  "topic": "Rulebook exchanges and design communities are free QA",
+  "principle": "Designers swap rulebooks and blind tests; Discords (Break My Game, Editors' Hangout) and BGG threads provide structured critique at no cost.",
+  "detail": "Multiple BGG threads organise exactly this. Break My Game is recommended in the Stonemaier comments.",
+  "evidence": "\"A good rulebook is just as important as having good blind playtests.\"",
+  "source": "BGG: How do you go about blind playtesting?",
+  "url": "https://boardgamegeek.com/thread/989999/how-do-you-go-about-blind-playtesting"
+ },
+ {
+  "id": "J12",
+  "category": "Process",
+  "topic": "Ask the winner how they would teach the game",
+  "principle": "Post-playtest, the winner's spontaneous teach reveals the order in which the game actually makes sense to a learner.",
+  "detail": "Entro Games' technique for discovering natural structure.",
+  "evidence": "Their spin on the teach is data about your structure.",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "id": "K01",
+  "category": "Accessibility",
+  "topic": "Double-code every distinction",
+  "principle": "Never carry meaning by colour alone. Pair colour with shape, icon, texture or label.",
+  "detail": "Curby's inclusive-design section; Stonemaier lists 'dual-coded icons' and 'uniquely shaped tokens' among its accessibility metrics.",
+  "evidence": "Helps colour-vision-deficient players, and also everyone playing in dim light.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "K02",
+  "category": "Accessibility",
+  "topic": "Contrast targets: 4.5:1 body, 3:1 large text",
+  "principle": "Meet WCAG-style ratios for anything a player must read; reserve low contrast for decorative elements only.",
+  "detail": "MINIFINITI. Colour blindness affects roughly 8% of men and 0.5% of women — around 300 million people globally.",
+  "evidence": "Greyscale test: if the page is unreadable in greyscale, contrast is too low.",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "id": "K03",
+  "category": "Accessibility",
+  "topic": "Dyslexia-friendly typography",
+  "principle": "Plain evenly-spaced sans serif (Arial, Verdana, Tahoma, Century Gothic, Trebuchet), 12-14pt, line-height >= 1.5, bold not italic for emphasis, avoid block capitals.",
+  "detail": "Synthesised from dyslexia style guidance and reflected in Curby's emphasis rules (avoid underline, avoid all-caps, use bold sparingly).",
+  "evidence": "Avoid underlining and long italic passages — they make text appear to run together.",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "id": "K04",
+  "category": "Accessibility",
+  "topic": "Accessibility is a whole-product property, not a rulebook property",
+  "principle": "Stonemaier's working model spans nine categories: Learning, Retention, Time, Visuals, Presence, Language, Purchase, Scope, Inclusion.",
+  "detail": "A useful audit frame: the rulebook contributes to Learning, Retention, Visuals and Language, but the game as a whole determines accessibility.",
+  "evidence": "\"You can make a really accessible game without checking every single box.\"",
+  "source": "How Do You Measure Accessibility? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/how-do-you-measure-accessibility/"
+ },
+ {
+  "id": "K05",
+  "category": "Accessibility",
+  "topic": "Reviewers who flag bad rulebooks are doing accessibility work",
+  "principle": "For visually impaired and non-native-speaking players, a rulebook without readable layout, clear hierarchy, diagrams and an index is not merely annoying — it is unplayable.",
+  "detail": "A powerful reader response in the 1 Player Guild thread pushes back on the idea that rulebook criticism is petty.",
+  "evidence": "\"If a rulebook doesn't have a readable layout, a clear hierarchy of information, adequate diagrams and an index, then it's useless to me.\"",
+  "source": "BGG: Do you get upset when reviewers complain about rulebooks/inserts?",
+  "url": "https://boardgamegeek.com/thread/3168953/do-you-get-upset-when-reviewers-complain-about-rul"
+ },
+ {
+  "id": "L01",
+  "category": "Localization",
+  "topic": "Assume non-native readers",
+  "principle": "A large share of your audience reads your rules in a second language. Short sentences, plain vocabulary and no idiom are accessibility features.",
+  "detail": "BGG thread with non-native English speakers; Brandon the Game Dev recommends including non-native speakers among beta readers.",
+  "evidence": "\"Avoid slang, Americanisms / Britishisms, or cultural references.\"",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "id": "L02",
+  "category": "Localization",
+  "topic": "Translation is a technical-writing job, not a language job",
+  "principle": "Bad translations produce inconsistent terminology and broken rules. Use board-game-literate translators; back-translate and proofread.",
+  "detail": "The Andoria team spent over six months translating German rules to English and advise double-double-checking before handing to the graphic designer.",
+  "evidence": "\"Double double check everything before giving it to the designer for a graphic version.\"",
+  "source": "BGG: How to best do rulebook design?",
+  "url": "https://boardgamegeek.com/thread/2166294/how-to-best-do-rulebook-design"
+ },
+ {
+  "id": "L03",
+  "category": "Localization",
+  "topic": "A bad translation can sink a good game",
+  "principle": "Heroes of Normandie and multiple Kickstarter titles are cited as good games crippled by disjointed, poorly translated rules.",
+  "detail": "Recurring across worst-rulebook threads; also documented for a Spanish-to-English title rewritten by a fan over many months.",
+  "evidence": "Fan rewrites are a symptom, not a solution — they signal a publisher failure.",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "id": "L04",
+  "category": "Localization",
+  "topic": "Terminology consistency is what survives translation",
+  "principle": "Templated, consistently-worded rules translate mechanically. Synonym-rich prose multiplies translator judgement calls and errors.",
+  "detail": "Implied throughout the corpus; directly supported by Magic: The Gathering's templating discipline being cited as the model.",
+  "evidence": "MTG developed strict templating precisely because most of its rules live on components.",
+  "source": "BGG: Rulebook Editing Style Guide (2020)",
+  "url": "https://boardgamegeek.com/thread/2527114/rulebook-editing-style-guide"
+ },
+ {
+  "id": "M01",
+  "category": "Failure Modes",
+  "topic": "Missing rules — the rule simply is not there",
+  "principle": "The most damaging defect class. Players cannot distinguish 'not stated' from 'we missed it', so they house-rule or stop playing.",
+  "detail": "Documented live in threads for Inferno, Raising Robots: Pets, Triplock and Imperium: Classics (a solo-bot rule omitted entirely).",
+  "evidence": "Blind testing is the only reliable detector: 'situations occur which are not in the rulebook'.",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "M02",
+  "category": "Failure Modes",
+  "topic": "Undefined term used as if defined",
+  "principle": "Caper used the word 'set' repeatedly for scoring without ever defining it, producing years of forum argument and two-way misplay.",
+  "detail": "A near-perfect case study: two independent groups arrived at the same wrong-but-sensible reading, and the designer had to answer on BGG.",
+  "evidence": "\"Referring to 'set' a number of times without clarifying what a 'set' is has to be one of the biggest rules boners I've seen.\"",
+  "source": "BGG: Clarity in the Rulebook (Caper)",
+  "url": "https://boardgamegeek.com/thread/2395671/clarity-in-the-rulebook"
+ },
+ {
+  "id": "M03",
+  "category": "Failure Modes",
+  "topic": "Rules scattered across multiple documents",
+  "principle": "Mage Knight (rules in three places), A Feast for Odin and 7 Wonders (wrong booklet every time), Ulm (rules split over two booklets) are all cited.",
+  "detail": "The complaint is never about total length; it is about not knowing which artefact to pick up.",
+  "evidence": "\"Mage Knight is a mess, with rules in 3 different places, with no consistency.\"",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "M04",
+  "category": "Failure Modes",
+  "topic": "Humour and flavour mixed into rules text",
+  "principle": "Galaxy Trucker and Dungeon Lords are simultaneously loved and cursed: entertaining to read once, painful to reference.",
+  "detail": "The most polarised topic in the corpus. Consensus compromise: humour and flavour are fine in visually separated sidebars.",
+  "evidence": "\"Don't mix humorous statements or theme elements with the rules. Keep them separated.\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "M05",
+  "category": "Failure Modes",
+  "topic": "Icon soup without a reference page",
+  "principle": "Heavy iconography with no single icon key forces constant hunting. Icons must be double-coded and collected in one place.",
+  "detail": "Cited for a Heroes of Might & Magic adaptation: 'A lot of icons spread around, but no reference page at the end of the rules.'",
+  "evidence": "If you use icons, the icon key belongs on the back cover.",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "M06",
+  "category": "Failure Modes",
+  "topic": "Rules that exist only in an example or a caption",
+  "principle": "Paul Grogan hunts for this specifically. Readers skip examples on re-read, so a rule hidden there is effectively invisible.",
+  "detail": "Named as one of his primary red flags when receiving a draft.",
+  "evidence": "Parentheses, captions and examples clarify — they never introduce.",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "M07",
+  "category": "Failure Modes",
+  "topic": "Recursive and circular cross-references",
+  "principle": "'See section 3, which refers to section 7, which refers back to section 3.' Root is criticised for law-style back-references.",
+  "detail": "Herc du Preez calls this a personal pet peeve; a BGG user makes the same complaint about Root specifically.",
+  "evidence": "\"I don't want to read a 'law' that gives me a rule and then tells me to refer back to paragraph 2B. Just repeat the point if necessary.\"",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "M08",
+  "category": "Failure Modes",
+  "topic": "Errata churn and version drift",
+  "principle": "Publishing rulebook v1.0, then v1.5, then a designer-authored replacement ruleset destroys player trust even when the final text is good.",
+  "detail": "Coffee Traders is the flagship case: publisher rewrote the rulebook two years after release, and a physical copy cost an extra USD 7.",
+  "evidence": "Maintain a public living-rules page and a dated changelog instead of silent revisions.",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "id": "M09",
+  "category": "Failure Modes",
+  "topic": "Inconsistent counts between rulebook, components and player aids",
+  "principle": "Obsession shipped with component counts wrong in both rulebook and glossary, and a player aid stating 2 reputation where the board said 4.",
+  "detail": "A rare public, itemised errata post from a designer — an excellent QA checklist in negative form.",
+  "evidence": "Cross-reference every number in the component list against the actual print run.",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ },
+ {
+  "id": "M10",
+  "category": "Failure Modes",
+  "topic": "Rules on a 'thematic' surface that cannot be read",
+  "principle": "Rules printed on a faux treasure map, on dark art, or in a decorative display face are a recurring cause of games being shelved.",
+  "detail": "Multiple examples across worst-rulebook threads, including a game whose rules required angling the page against a light source.",
+  "evidence": "\"Legibility is more important than cutesy letters.\"",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "M11",
+  "category": "Failure Modes",
+  "topic": "Over-explanation is also a failure",
+  "principle": "24 pages for a game that needs 12 is criticised as 'book bloat'; some readers find heavy example coverage actively harder to navigate.",
+  "detail": "A genuine minority-but-real position on BGG, and a reminder that page count should track complexity.",
+  "evidence": "\"I'd rather flip through twenty pages and glance the content of each page in an instant than plough through ten pages that are walls of text.\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "M12",
+  "category": "Failure Modes",
+  "topic": "Kickstarter/expansion sprawl merged into one book",
+  "principle": "Combining editions, variants, stretch goals and expansions haphazardly into one rulebook is a named modern anti-pattern.",
+  "detail": "Vinhos Deluxe with KS expansions cited as a specific example.",
+  "evidence": "Base-game rulebooks should describe only the base game; expansions get supplements.",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "N01",
+  "category": "Impact",
+  "topic": "A bad rulebook can sink a good game",
+  "principle": "First Martians and Batman: Gotham City Chronicles are named by a professional editor as games killed commercially by their rulebooks.",
+  "detail": "Paul Grogan, interviewed by Punchboard.",
+  "evidence": "\"There are a number of examples of how a poor rulebook killed a game.\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "N02",
+  "category": "Impact",
+  "topic": "Awards juries now reject games over rulebook quality",
+  "principle": "The Spiel des Jahres jury publicly stated it had to rule out otherwise-good games because their rulebooks did not meet expected quality.",
+  "detail": "Quoted via Joshua Yearsley in the 'Every Board Game Rulebook is Awful' essay.",
+  "evidence": "\"We jury members no longer wish to see ourselves in the role of beta-testers for rulebooks.\"",
+  "source": "BGG blog: Every Board Game Rulebook is Awful (Dean Ray Johnson)",
+  "url": "https://boardgamegeek.com/blog/13453/every-board-game-rulebook-is-awful"
+ },
+ {
+  "id": "N03",
+  "category": "Impact",
+  "topic": "Rulebook quality is a purchase factor",
+  "principle": "Buyers report avoiding games whose reviews mention rulebook problems; reviewers treat it as playability, not a cosmetic concern.",
+  "detail": "Strongly argued in the 1 Player Guild thread; Chris Wray attempted to quantify quality via BGG rules-question volume.",
+  "evidence": "\"I am less likely to buy a game if reviews complain about the rulebook.\"",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "id": "N04",
+  "category": "Impact",
+  "topic": "Rulebook writing is a distinct profession",
+  "principle": "Rules editing is a specialised technical-writing discipline; designing a game and writing a game are different crafts.",
+  "detail": "Michael Lee has edited 100+ titles; Paul Grogan ~100 rulebooks including Vital Lacerda's heaviest designs.",
+  "evidence": "\"Writing instructions is not easy; that is why people make careers as technical writers.\"",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "N05",
+  "category": "Impact",
+  "topic": "Even good rulebooks generate questions — that is not proof of failure",
+  "principle": "Thousands of players will always find ambiguities a small design team missed. Distinguish genuine defects from statistical inevitability.",
+  "detail": "A balanced counterpoint in the text-comprehension thread, alongside evidence that many 'unclear rulebook' complaints are actually reading failures.",
+  "evidence": "\"Why would the small number of people who touch a game during design outperform thousands of players at finding bugs?\"",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "id": "N06",
+  "category": "Impact",
+  "topic": "Fan-made summaries are a diagnostic signal",
+  "principle": "When the community produces rules summaries, indexes and rewrites (Universal Head / Esoteric Order of Gamers, Robinson Crusoe FAQ packs), the official document has failed at reference.",
+  "detail": "Robinson Crusoe's fan FAQ and rewrite ecosystem is the canonical example.",
+  "evidence": "Check BGG's Files section for your genre's leaders — what fans build is what your book omitted.",
+  "source": "The Esoteric Order of Gamers – Robinson Crusoe rules summaries",
+  "url": "https://www.orderofgamers.com/games/robinson-crusoe/"
+ }
+]

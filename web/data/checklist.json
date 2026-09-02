@@ -1,0 +1,232 @@
+[
+ {
+  "phase": "1. Content completeness",
+  "item": "Every component in the box appears in the illustrated component list, with the correct count",
+  "why": "Count errors are the most common shipped defect (Obsession)"
+ },
+ {
+  "phase": "1. Content completeness",
+  "item": "Every rule printed on a card, board, mat or player aid also exists in the rulebook",
+  "why": "Rules that live only on a component vanish when the component does (Mage Knight, Triplock)"
+ },
+ {
+  "phase": "1. Content completeness",
+  "item": "Setup is fully specified for every supported player count",
+  "why": "Player-count deltas are the most re-looked-up fact in most games"
+ },
+ {
+  "phase": "1. Content completeness",
+  "item": "Tie-breakers exist for every 'the most / the least / first place' rule",
+  "why": "Superlatives are the classic hole-generator"
+ },
+ {
+  "phase": "1. Content completeness",
+  "item": "Solo / cooperative / variant modes have their own complete setup and end conditions",
+  "why": "Imperium shipped with a missing solo-bot rule"
+ },
+ {
+  "phase": "1. Content completeness",
+  "item": "End-game trigger AND end-of-game sequence are both stated (does the round finish?)",
+  "why": "'Finish the round' is assumed far more often than it is written"
+ },
+ {
+  "phase": "2. Structure",
+  "item": "Goal / win condition appears before the detailed rules",
+  "why": "Readers need a purpose to attach rules to"
+ },
+ {
+  "phase": "2. Structure",
+  "item": "No term is used before it is defined",
+  "why": "The single most-cited reader irritation"
+ },
+ {
+  "phase": "2. Structure",
+  "item": "Every forward reference cites its target section and page",
+  "why": "Uncited forward references force blind page-flipping"
+ },
+ {
+  "phase": "2. Structure",
+  "item": "Exceptions and edge cases sit beside their rule or in a clearly marked section, not inline in the core flow",
+  "why": "Exceptions in the main flow make the core unlearnable"
+ },
+ {
+  "phase": "2. Structure",
+  "item": "Each rule sits under the heading a confused player would actually reach for",
+  "why": "Organisation is a retrieval problem, not only a teaching one"
+ },
+ {
+  "phase": "2. Structure",
+  "item": "One linear read is sufficient to understand the game",
+  "why": "Ryan Migalla's quality metric"
+ },
+ {
+  "phase": "3. Language",
+  "item": "One concept = one term, everywhere, including cards and marketing copy",
+  "why": "Synonyms force readers to hunt for a difference that does not exist"
+ },
+ {
+  "phase": "3. Language",
+  "item": "Effects that behave identically are worded identically (templating)",
+  "why": "Consistent templating lets players learn a pattern once"
+ },
+ {
+  "phase": "3. Language",
+  "item": "Conditions precede effects in every conditional rule",
+  "why": "Reduces misplays and enables skimming"
+ },
+ {
+  "phase": "3. Language",
+  "item": "No sentence fails the one-breath test",
+  "why": "Long sentences are the main source of parse failure"
+ },
+ {
+  "phase": "3. Language",
+  "item": "'should' removed; 'exception' and 'remember' reviewed as design smells",
+  "why": "Stonemaier's editorial pass"
+ },
+ {
+  "phase": "3. Language",
+  "item": "Repeated sets always listed in the same canonical order",
+  "why": "Silent, cumulative cognitive load"
+ },
+ {
+  "phase": "4. Examples & visuals",
+  "item": "Every example covers at least one non-obvious case",
+  "why": "Obvious examples are wasted print"
+ },
+ {
+  "phase": "4. Examples & visuals",
+  "item": "No rule appears only inside an example, caption or parenthetical",
+  "why": "Paul Grogan's red flag"
+ },
+ {
+  "phase": "4. Examples & visuals",
+  "item": "Examples make clear which details are arbitrary",
+  "why": "Readers infer unintended rules from examples"
+ },
+ {
+  "phase": "4. Examples & visuals",
+  "item": "There is a labelled setup diagram of the initial table state",
+  "why": "Lets readers verify their setup visually"
+ },
+ {
+  "phase": "4. Examples & visuals",
+  "item": "Information-dense components have an anatomy diagram",
+  "why": "Converts a component into shared vocabulary"
+ },
+ {
+  "phase": "5. Reference apparatus",
+  "item": "Table of contents present (and an index if the book exceeds ~12 pages)",
+  "why": "TOC and index are different tools"
+ },
+ {
+  "phase": "5. Reference apparatus",
+  "item": "Icon key exists in exactly one place and is easy to find",
+  "why": "Icon soup without a key is a top complaint"
+ },
+ {
+  "phase": "5. Reference apparatus",
+  "item": "Back cover carries turn flow, icon key and/or setup summary",
+  "why": "The most valuable page in the book"
+ },
+ {
+  "phase": "5. Reference apparatus",
+  "item": "A short 'commonly missed rules' list exists",
+  "why": "Highest value per word available"
+ },
+ {
+  "phase": "5. Reference apparatus",
+  "item": "Rulebook carries a version number and date",
+  "why": "Enables errata and living rules"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "Body text >= 10pt (12pt preferred); test the smallest text in dim light",
+  "why": "10pt is the stated floor at Stonemaier; accessibility guidance says 12pt"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "Contrast >= 4.5:1 for body text; page still readable in greyscale",
+  "why": "WCAG-derived target"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "No rules text over art, texture or dark backgrounds",
+  "why": "Recurring cause of games being shelved"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "No colour-only coding anywhere; every distinction is double-coded",
+  "why": "8% of men have colour vision deficiency"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "No underlined rules text; all-caps limited to a handful of critical notes",
+  "why": "Legibility"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "Short sections do not break across pages; 2-page sections are on facing pages",
+  "why": "Prevents mid-rule page turns"
+ },
+ {
+  "phase": "6. Typography & print",
+  "item": "Page count divisible by 4; spreads planned deliberately",
+  "why": "Print reality"
+ },
+ {
+  "phase": "7. Testing",
+  "item": "At least one full blind playtest with people who have never seen the game",
+  "why": "The only reliable detector of missing rules"
+ },
+ {
+  "phase": "7. Testing",
+  "item": "At least one blind test with non-gamers or non-native speakers",
+  "why": "Experienced gamers paper over defects"
+ },
+ {
+  "phase": "7. Testing",
+  "item": "Testers were told not to use how-to-play videos",
+  "why": "Not every owner will have internet access"
+ },
+ {
+  "phase": "7. Testing",
+  "item": "Designer did not intervene except to protect the rest of the test",
+  "why": "Intervention destroys the data"
+ },
+ {
+  "phase": "7. Testing",
+  "item": "Timed look-up test on the pre-production copy: can a specific answer be found fast?",
+  "why": "Slow look-up is a structural defect"
+ },
+ {
+  "phase": "7. Testing",
+  "item": "Rulebook read backwards, section by section, as a final QA pass",
+  "why": "Prevents autopilot skimming"
+ },
+ {
+  "phase": "8. Handover",
+  "item": "A written style guide accompanies the text to the copyeditor and proofreader",
+  "why": "Cheapest possible consistency insurance"
+ },
+ {
+  "phase": "8. Handover",
+  "item": "Editing done before layout; proofreading done after layout",
+  "why": "Layout introduces its own errors"
+ },
+ {
+  "phase": "8. Handover",
+  "item": "Instructions to the graphic designer are unmistakably not rules text",
+  "why": "Bracketed notes have shipped as rules before"
+ },
+ {
+  "phase": "8. Handover",
+  "item": "Rulebook version matches the component version being printed",
+  "why": "Version drift is a classic defect source"
+ },
+ {
+  "phase": "8. Handover",
+  "item": "Searchable PDF and a public living-rules/errata page are planned",
+  "why": "Ctrl-F is the index every game already ships with"
+ }
+]
