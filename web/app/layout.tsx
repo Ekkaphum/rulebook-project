@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -76,8 +77,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               CC&nbsp;BY-NC-SA; material derived from it is attributed throughout. All other sources are summarised
               and attributed, not reproduced.
             </p>
+            <p style={{ margin: 0 }}>
+              This site uses privacy-friendly, cookie-free audience analytics. See our <Link href="/privacy">privacy notice</Link>.
+            </p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );

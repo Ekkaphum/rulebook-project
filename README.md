@@ -50,7 +50,18 @@ cd web
 npm run build
 ```
 
-The site is fully static — all nine routes are prerendered at build time.
+The site is fully static — all routes are prerendered at build time.
+
+### Visitor analytics
+
+The site includes Vercel Web Analytics via `@vercel/analytics`. Once the project is deployed on Vercel,
+enable **Web Analytics** in the Vercel project dashboard. The dashboard will then report page views,
+referrers, visit times, approximate geography, browsers, operating systems and devices without adding
+analytics cookies. A visitor-facing explanation is available at `/privacy`.
+
+Analytics intentionally does not fingerprint visitors or infer a person's identity. If named attribution is
+needed later, add an explicit account, feedback or mailing-list flow with appropriate consent and retention
+controls, and keep that identity data separate from anonymous audience analytics.
 
 ## Regenerating the documents
 
