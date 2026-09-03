@@ -6,7 +6,7 @@ A researched, source-linked handbook on board game rulebook design — synthesis
 sources across BoardGameGeek forums and blogs, publisher style guides, professional rules editors,
 and the accessibility literature.
 
-Live site: *(deployed on Vercel — see below)*
+Live site: **https://rulebook-project.vercel.app** · อ่านภาษาไทย: [README.th.md](README.th.md) · [เว็บฉบับภาษาไทย](https://rulebook-project.vercel.app/th)
 
 ---
 
@@ -15,9 +15,11 @@ Live site: *(deployed on Vercel — see below)*
 | Deliverable | What it is |
 | --- | --- |
 | `deliverables/How to Create a Good Rulebook.docx` | The full practitioner's handbook (~17,000 words, 7 parts) |
-| `deliverables/คู่มือเขียน Rulebook ฉบับแชร์ความรู้.docx` | Thai-language edition, written informally for designers at any level |
 | `deliverables/Rulebook_Research_Database.xlsx` | 10-sheet research database — every finding with a clickable source URL |
-| `web/` | Next.js site presenting all of the above, with search and an interactive checklist |
+| `deliverables/วิธีสร้าง Rulebook ที่ดี.docx` | The same handbook in Thai |
+| `deliverables/คู่มือเขียน Rulebook ฉบับแชร์ความรู้.docx` | Thai ebook — the same material written informally, as knowledge-sharing |
+| `deliverables/ฐานข้อมูลงานวิจัย Rulebook.xlsx` | The research database in Thai (same 10 sheets, same source URLs) |
+| `web/` | Bilingual Next.js site presenting all of the above, with search and an interactive checklist |
 
 ### The database (10 sheets)
 
@@ -50,7 +52,7 @@ cd web
 npm run build
 ```
 
-The site is fully static — all routes are prerendered at build time.
+The site is fully static — all 19 routes (9 English, 10 Thai) are prerendered at build time.
 
 ### Visitor analytics
 
@@ -70,12 +72,15 @@ The Word and Excel deliverables are generated from the Markdown and Python data 
 ```bash
 python3 -m venv .venv
 ./.venv/bin/pip install openpyxl python-docx
-./.venv/bin/python build/build_xlsx.py     # -> deliverables/Rulebook_Research_Database.xlsx
-./.venv/bin/python build/export_json.py    # -> web/data/*.json
+./.venv/bin/python build/build_xlsx.py        # -> English database
+./.venv/bin/python build/build_xlsx_th.py     # -> Thai database
+./.venv/bin/python build/export_json.py       # -> web/data/*.json
+./.venv/bin/python build/export_json_th.py    # -> web/data/th/*.json
 ```
 
-Source content lives in `build/handbook.md` (English) and `build/ebook_th.md` (Thai); the structured
-research data lives in `build/data_kb.py` and `build/data_aux.py`.
+Source content lives in `build/handbook.md` (English), `build/handbook_th.md` (Thai handbook) and
+`build/ebook_th.md` (Thai ebook); the structured research data lives in `build/data_kb.py`,
+`build/data_kb_th.py`, `build/data_aux.py` and `build/data_aux_th.py`.
 
 ---
 

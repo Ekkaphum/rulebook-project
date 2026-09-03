@@ -31,7 +31,9 @@ function Card({ e, tone }: { e: GameEntry; tone: "good" | "bad" }) {
   );
 }
 
-export default function ExamplesView({ praised, criticised }: { praised: GameEntry[]; criticised: GameEntry[] }) {
+type L = { search: string; both: string; good: string; bad: string; goodTitle: string; goodSub: string; badTitle: string; badSub: string; none: string };
+
+export default function ExamplesView({ praised, criticised, labels }: { praised: GameEntry[]; criticised: GameEntry[]; labels: L }) {
   const [q, setQ] = useState("");
   const [tab, setTab] = useState<"both" | "good" | "bad">("both");
 
@@ -50,12 +52,12 @@ export default function ExamplesView({ praised, criticised }: { praised: GameEnt
   return (
     <>
       <div style={{ display: "grid", gap: ".9rem", marginBottom: "2rem" }}>
-        <SearchBox value={q} onChange={setQ} placeholder="Search games, failure modes, sources…" />
+        <SearchBox value={q} onChange={setQ} placeholder={labels.search} />
         <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap" }}>
           {([
-            ["both", `Both (${g.length + b.length})`],
-            ["good", `Worth studying (${g.length})`],
-            ["bad", `Worth avoiding (${b.length})`],
+            ["both", `${labels.both} (${g.length + b.length})`],
+            ["good", `${labels.good} (${g.length})`],
+            ["bad", `${labels.bad} (${b.length})`],
           ] as const).map(([k, label]) => (
             <button
               key={k}
@@ -75,9 +77,9 @@ export default function ExamplesView({ praised, criticised }: { praised: GameEnt
 
       {(tab === "both" || tab === "good") && (
         <section style={{ marginBottom: "3rem" }}>
-          <h2 style={{ fontSize: "1.3rem", fontWeight: 650, margin: "0 0 .4rem", color: "var(--good)" }}>Worth studying</h2>
+          <h2 style={{ fontSize: "1.3rem", fontWeight: 650, margin: "0 0 .4rem", color: "var(--good)" }}>{labels.goodTitle}</h2>
           <p style={{ color: "var(--ink-3)", fontSize: ".86rem", margin: "0 0 1.25rem" }}>
-            Rulebooks named as exemplary, and the specific quality that earned the mention.
+            {labels.goodSub}
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1rem" }}>
             {g.map((e) => (
@@ -89,10 +91,9 @@ export default function ExamplesView({ praised, criticised }: { praised: GameEnt
 
       {(tab === "both" || tab === "bad") && (
         <section>
-          <h2 style={{ fontSize: "1.3rem", fontWeight: 650, margin: "0 0 .4rem", color: "var(--bad)" }}>Worth studying as warnings</h2>
+          <h2 style={{ fontSize: "1.3rem", fontWeight: 650, margin: "0 0 .4rem", color: "var(--bad)" }}>{labels.badTitle}</h2>
           <p style={{ color: "var(--ink-3)", fontSize: ".86rem", margin: "0 0 1.25rem" }}>
-            Almost every game here is one people like. It is in this list because of what it teaches, not because
-            anyone deserves criticism.
+            {labels.badSub}
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1rem" }}>
             {b.map((e) => (
@@ -102,7 +103,7 @@ export default function ExamplesView({ praised, criticised }: { praised: GameEnt
         </section>
       )}
 
-      {g.length + b.length === 0 && <p style={{ color: "var(--ink-3)" }}>Nothing matches that search.</p>}
+      {g.length + b.length === 0 && <p style={{ color: "var(--ink-3)" }}>{labels.none}</p>}
     </>
   );
 }

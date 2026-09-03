@@ -1,0 +1,1272 @@
+[
+ {
+  "id": "A01",
+  "category": "เป้าหมายและผู้อ่าน",
+  "topic": "rulebook คือตัวเกม ไม่ใช่เอกสารประกอบ",
+  "principle": "ถ้าไม่มีกฎ กล่องเกมก็เหลือแค่ชิ้นส่วน rulebook คือ interface เดียวที่บอร์ดเกมทุกเกมมีร่วมกัน",
+  "detail": "Punchboard ชี้ว่า rulebook คือสิ่งที่แปลงกองชิ้นส่วนให้กลายเป็นเกมที่นักออกแบบทำไว้จริงๆ ส่วน Michael Heron ตั้งข้อสังเกตว่าบอร์ดเกมไม่มี interface ร่วมกันเลย 'ยกเว้นคู่มือ' ซึ่งทำให้คู่มือเป็นจุดที่เข้าไม่ถึงร่วมกันของทั้งวงการ",
+  "evidence": "\"ถ้าไม่มีกฎ สิ่งที่คุณมีก็แค่กล่องที่เต็มไปด้วยชิ้นส่วน\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "A02",
+  "category": "เป้าหมายและผู้อ่าน",
+  "topic": "ลด cognitive load — หลักการเดียวที่สรุปทุกอย่าง",
+  "principle": "ทุกการตัดสินใจในการเขียนควรถูกตัดสินด้วยคำถามเดียว: มันลดความพยายามที่ผู้อ่านต้องใช้ในการเรียนและจำกฎหรือไม่",
+  "detail": "style guide 13,000 คำของ Curby ทั้งเล่มสรุปเหลือประโยคนี้ และเขาบอกชัดว่าให้ฝ่าฝืนกฎอื่นในคู่มือของเขาได้ทุกข้อ ถ้าการฝ่าฝืนนั้นรับใช้ผู้อ่าน",
+  "evidence": "\"ถ้าใครสักคนเรียนเกมไม่ได้ เขาก็จะไม่เล่นเกมนั้น\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "A03",
+  "category": "เป้าหมายและผู้อ่าน",
+  "topic": "rulebook มีผู้อ่านอย่างน้อยสามกลุ่ม",
+  "principle": "คนเรียนครั้งแรก, คนเปิดหากลางเกม, และคนที่กลับมาเล่นอีกหลังจากหายไปนาน ทั้งสามต้องได้รับการรับใช้จากเอกสารเล่มเดียวกัน",
+  "detail": "Entro Games ระบุสามกลุ่มนี้ ส่วน Curby ขยายรายการไปถึงคนที่กำลังจะสอนเกมให้กลุ่มตัวเอง คนที่อยากรู้ว่า edition ใหม่เปลี่ยนอะไร และคนที่แค่อยากดูภาพ setup",
+  "evidence": "ออกแบบให้รองรับหลายกรณีใช้งานที่สุดเท่าที่ทำได้ ไม่ใช่แค่การอ่านครั้งแรก",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "id": "A04",
+  "category": "เป้าหมายและผู้อ่าน",
+  "topic": "เขียนให้ผู้อ่านที่นิยามไว้ ไม่ใช่ให้ทุกคน",
+  "principle": "เกม gateway กับเกมสำหรับคนเล่นจริงจังรองรับระดับศัพท์เฉพาะ โทน และความลึกที่ต่างกัน ตัดสินใจก่อนว่าเขียนให้ใคร",
+  "detail": "J C Lawrence นักออกแบบบน BGG: 'รู้จักผู้อ่านของคุณ ถ้าผู้อ่านไม่รวมคนเล่นเกมเบาที่กำลังหัด ก็ไม่จำเป็นต้องพูดกับเขา' ขณะที่ BA Games โต้ว่าคุณเป็นทุกอย่างให้ทุกคนไม่ได้ ให้พึ่งธรรมเนียมของวงการแทน",
+  "evidence": "โทนและธรรมเนียมควรตรงกับความคาดหวังของกลุ่มเป้าหมาย โดยไม่ผลักไสผู้อ่านกลุ่มกว้าง",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "id": "A05",
+  "category": "เป้าหมายและผู้อ่าน",
+  "topic": "คนส่วนใหญ่ไม่ได้เรียนจาก rulebook — แต่ต้องมีสักคนที่เรียน",
+  "principle": "ในทางปฏิบัติ มีคนหนึ่งคนอ่านกฎแล้วสอนคนที่เหลือ หน้าที่ของ rulebook คือจุดปฏิกิริยาลูกโซ่นั้นให้ติด แล้วตอบคำถามระหว่างเล่น",
+  "detail": "ข้อสังเกตที่ปรากฏซ้ำในหลายเธรด BGG มุมมองนี้เปลี่ยน rulebook จาก 'ตำราเรียนด้วยตัวเอง' เป็น (ก) เครื่องมือทำให้คนหนึ่งคนสอนเป็น และ (ข) เอกสารอ้างอิงระหว่างเล่น",
+  "evidence": "\"หน้าที่ของ rulebook คือจุดปฏิกิริยาลูกโซ่ให้ติด และตอบคำถามที่เกิดขึ้นระหว่างเล่น\"",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "A06",
+  "category": "เป้าหมายและผู้อ่าน",
+  "topic": "ไม่มีใครตั้งกระทู้ว่า 'กฎชัดดี ขอบคุณ'",
+  "principle": "จำนวนกระทู้ถามกฎเป็นตัวอย่างที่เอนเอียง การไม่มีเสียงบ่นมองไม่เห็น ใช้เป็นสัญญาณได้ แต่ไม่ใช่คำตัดสิน",
+  "detail": "ข้อโต้แย้งที่ยกขึ้นในเธรดเรื่องความเข้าใจในการอ่าน แต่ Chris Wray ก็ยังพยายามวัดคุณภาพ rulebook เชิงปริมาณด้วยการนับคำถามกฎต่อเกมบน BGG",
+  "evidence": "คำถามซ้ำๆ เรื่องกฎข้อเดียวกันบนหน้าเกม คือสัญญาณที่เชื่อถือได้ว่ากฎข้อนั้นไม่ชัด",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "id": "B01",
+  "category": "โครงสร้าง",
+  "topic": "จากภาพรวมสู่รายละเอียด และตามเส้นทางของการเล่นหนึ่งรอบ",
+  "principle": "ไล่จากเรื่องกว้างไปเรื่องละเอียด ตามลำดับของเกมหนึ่งตาตั้งแต่ตั้งเกมจนนับคะแนน เพื่อให้ผู้อ่านค่อยๆ สร้างแบบจำลองในหัว",
+  "detail": "ลำดับมาตรฐานของ Curby ซึ่งแทบทุกแหล่งอื่นเห็นตรงกัน นี่คือหลักการที่มีฉันทามติสูงที่สุดในงานวิจัยทั้งหมด",
+  "evidence": "rulebook คือการสร้างคลังคำ (ธีม → เป้าหมาย → อุปกรณ์ → setup) แล้วเอาไปใช้ (การเล่น → จบเกม → อ้างอิง)",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "B02",
+  "category": "โครงสร้าง",
+  "topic": "บอกเป้าหมาย/เงื่อนไขชนะตั้งแต่ต้น",
+  "principle": "ผู้อ่านที่รู้เป้าหมายจะผูกกฎทุกข้อเข้ากับจุดประสงค์ได้ การซ่อนเงื่อนไขชนะไว้ท้ายเล่มทำให้การอ่านรอบแรกสูญเปล่า",
+  "detail": "Herc du Preez วาง Victory Condition ไว้ก่อนกฎละเอียดอย่างตั้งใจ: 'การมีเป้าหมายในหัวให้บริบทกับทุกการกระทำ' ส่วน Entro บอกว่าวิธีชนะต้องอยู่ในย่อหน้าเปิด",
+  "evidence": "\"เป้าหมายคือตัวเกม\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "B03",
+  "category": "โครงสร้าง",
+  "topic": "อย่าเปิดด้วย Setup",
+  "principle": "คำสั่งตั้งเกมไร้ความหมายก่อนที่ผู้อ่านจะรู้ธีม เป้าหมาย และรูปร่างคร่าวๆ ของหนึ่งเทิร์น",
+  "detail": "ครูสอนเกมมากประสบการณ์ในเธรดเรื่องความเข้าใจ: 'rulebook ทั่วไปเริ่มด้วย set-up อย่าทำแบบนั้นเลย ผมไม่รู้ว่าชิ้นส่วนพวกนี้คืออะไร ผมไม่มีบริบทเลย'",
+  "evidence": "ลำดับควรตามการซึมซับความเข้าใจ ไม่จำเป็นต้องตามลำดับเวลาของเกม",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "id": "B04",
+  "category": "โครงสร้าง",
+  "topic": "รายการอุปกรณ์พร้อมภาพ มาก่อนเรื่องกลไกทุกอย่าง",
+  "principle": "ภาพที่มีป้ายกำกับของอุปกรณ์ทุกชิ้น ทำให้ผู้ซื้อตรวจของในกล่องได้ เรียนคำศัพท์ได้ และมีจุดยึดสำหรับการอ้างอิงภายหลัง",
+  "detail": "คำขอที่เป็นรูปธรรมที่ถูกพูดซ้ำมากที่สุดในงานวิจัยทั้งหมด Paul Grogan ระบุว่า 'รายการอุปกรณ์ละเอียดพร้อมภาพ' คือข้อกำหนดของ rulebook ที่ดีเยี่ยม",
+  "evidence": "\"หน้าแรกควรมีรายการชิ้นส่วนทั้งหมด พร้อมภาพของแต่ละชิ้น\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "B05",
+  "category": "โครงสร้าง",
+  "topic": "Setup ต้องมีไดอะแกรมเต็ม ไม่ใช่แค่ข้อความ",
+  "principle": "ภาพหรือไดอะแกรมที่มีป้ายกำกับของสถานะโต๊ะเริ่มต้น ทำให้ผู้อ่านตรวจงานตัวเองด้วยสายตาระหว่างทำตามขั้นตอน",
+  "detail": "ถูกร้องขอซ้ำๆ Entro Games แนะว่าระหว่างพัฒนา แค่ screenshot จาก Tabletop Simulator ที่เติมตัวอักษรกำกับก็พอแล้ว",
+  "evidence": "ใช้ป้ายที่ไม่ใช่ตัวเลข (A, B, C) ในไดอะแกรม setup เพื่อไม่ให้ตัวเลขถูกอ่านเป็นจำนวน",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "B06",
+  "category": "โครงสร้าง",
+  "topic": "ภาพรวมก่อนรายละเอียด (ผ่านเนื้อหาเดิมสองรอบ)",
+  "principle": "ให้ bullet list สั้นๆ ว่าหนึ่งเทิร์นมีอะไรบ้าง แล้วค่อยอธิบายทีละข้อ ผู้อ่านต้องเห็นแผนที่ก่อนเห็นภูมิประเทศ",
+  "detail": "Boardtastic guide จัดเป็นระบบ: ธีม → ภาพรวม → โครงสร้าง → การกระทำ → กฎ → ข้อยกเว้น → ชัยชนะ → สรุป → กลยุทธ์",
+  "evidence": "การอธิบายแนวคิดเดียวกันสองครั้งที่ความละเอียดต่างกัน คือคุณสมบัติ ไม่ใช่ความซ้ำซ้อน",
+  "source": "BGG: The Boardtastic Guide to Explaining Rules... Good",
+  "url": "https://boardgamegeek.com/thread/918830/the-boardtastic-guide-to-explaining-rules-good"
+ },
+ {
+  "id": "B07",
+  "category": "โครงสร้าง",
+  "topic": "จัดกฎไว้ตรงที่ผู้เล่นจะเปิดหา",
+  "principle": "วางกฎไว้ใต้หัวข้อที่คนงงกลางเกมจะคว้าหา แม้ตรงนั้นจะไม่ใช่จุดที่กฎเริ่มมีผลครั้งแรก",
+  "detail": "Shellhead: แบ่งกฎให้อยู่ในเฟสที่เกี่ยวข้อง 'เพื่อว่าถ้ามีคำถามตอนไหน อย่างน้อยเขารู้ว่าคำตอบอยู่ในส่วนของเฟสนั้น'",
+  "evidence": "การจัดโครงสร้างคือปัญหาการค้นหา พอๆ กับที่เป็นปัญหาการสอน",
+  "source": "Best rulebooks? – There Will Be Games forum",
+  "url": "https://therewillbe.games/forum/10-ameritrash/124383-best-rulebooks"
+ },
+ {
+  "id": "B08",
+  "category": "โครงสร้าง",
+  "topic": "เล่มสั้นสอนตามลำดับเล่น เล่มยาวต้องจัดกลุ่มหรือเรียงตัวอักษร",
+  "principle": "ต่ำกว่า ~4 หน้า เรียงตามลำดับที่กฎเกิดขึ้นจริง เกิน ~20 หน้า ให้จัดกลุ่มตามหัวข้อและใส่ index หรือเรียงเอกสารอ้างอิงตามตัวอักษร",
+  "detail": "หลักคิดของ marc lecours โดยยกเกมสงครามเป็นตัวอย่างมาตรฐานของลำดับที่คาดเดาได้ตามธรรมเนียม",
+  "evidence": "เกมสงครามอ่านรู้เรื่องทั้งที่ยาว เพราะใช้ลำดับตามธรรมเนียมเดิมเสมอ",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "B09",
+  "category": "โครงสร้าง",
+  "topic": "แยกข้อยกเว้นและเคสพิเศษออกเป็นส่วนของตัวเอง",
+  "principle": "กฎหลักจะรกและเรียนไม่ได้ ถ้าเอาทุกเคสขอบมาแทรกไว้ข้างใน สอนเส้นทางปกติก่อน แล้วค่อยจัดการข้อยกเว้น",
+  "detail": "Herc du Preez: 'กฎหลักมักถูกทำให้รกโดยไม่จำเป็นด้วยข้อยกเว้นที่ไม่ควรถูกพูดถึงในขั้นนั้น' Jamey Stegmaier ถือว่าคำว่า 'ข้อยกเว้น' คือสัญญาณของปัญหาดีไซน์",
+  "evidence": "\"99% ของกรณี ถ้าผมใช้คำว่า 'ข้อยกเว้น' ใน rulebook นั่นคือสัญญาณว่ามันควรถูกตัดออกจากเกม\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "B10",
+  "category": "โครงสร้าง",
+  "topic": "Callout: กฎที่อยู่นอกกระแสหลักของเล่ม",
+  "principle": "ขั้นตอนที่ถูกกระตุ้นได้หลายจังหวะ ควรอยู่ในกล่อง callout ที่มีชื่อและแยกออกทางสายตา แล้วอ้างถึงด้วยชื่อ พร้อมใส่ในสารบัญและ index",
+  "detail": "Curby ถือว่า callout เป็นส่วนหนึ่งของ rulebook เต็มตัว — ต่างจากตัวอย่างและไดอะแกรมตรงที่ callout แนะนำกฎใหม่ได้",
+  "evidence": "ตั้งชื่อให้ callout ทุกอัน วางไว้ใกล้จุดที่ถูกพูดถึงครั้งแรก และใส่ใน index",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "B11",
+  "category": "โครงสร้าง",
+  "topic": "ยอมแหกลำดับมาตรฐานได้ ถ้าเกมเรียกร้อง",
+  "principle": "ลำดับหัวข้อรับใช้การเรียนรู้และการค้นหา ไม่ได้รับใช้ธรรมเนียม",
+  "detail": "Jamey Stegmaier ยืนยันว่าเขาสลับลำดับหัวข้อให้ Vantage และเกมอื่นเมื่อการไหลของเกมต้องการ",
+  "evidence": "\"เป้าหมายของผมคือจัดโครงสร้างให้ (ก) ช่วยผู้เล่นเรียนเกม และ (ข) ช่วยผู้เล่นหาคำตอบตอนเล่น\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "B12",
+  "category": "โครงสร้าง",
+  "topic": "เลี่ยงกำแพงตัวอักษร",
+  "principle": "เผลอย่อหน้าถี่เกินไปดีกว่าน้อยเกินไป แล้วค่อยรวมทีหลัง กำแพงตัวอักษรทำลายทั้งการอ่านและการกวาดตา",
+  "detail": "Curby และ C.J.C. (ทนายที่อธิบายกฎหมายซับซ้อนเป็นอาชีพ) ซึ่งลิสต์ 'ใช้พื้นที่ว่างเยอะๆ' ไว้ในแปดกฎการเขียนงานเทคนิคสำหรับ rulebook",
+  "evidence": "\"กำแพงตัวอักษรทำให้คนท่วมท้น\"",
+  "source": "BGG: how to write rule book",
+  "url": "https://boardgamegeek.com/thread/2040012/how-to-write-rule-book"
+ },
+ {
+  "id": "B13",
+  "category": "โครงสร้าง",
+  "topic": "ปัญหาไก่กับไข่มีจริงและแก้ไม่ได้ — เลือกทางที่งงน้อยกว่า",
+  "principle": "เกมคือระบบวงจร ไม่มี rulebook ไหนเรียงเป็นเส้นตรงได้สมบูรณ์ ถึงจุดหนึ่งคุณต้องอ้างถึงแนวคิดที่ยังไม่ได้นิยาม",
+  "detail": "Resonym สาธิตด้วยเกมที่อธิบายได้ในสองย่อหน้า (Buffalo) แล้วสรุปว่าไม่มีเคล็ดลับ มีแต่การใช้วิจารณญาณว่าลำดับไหนงงน้อยกว่า",
+  "evidence": "ถ้าต้องอ้างไปข้างหน้า ให้ระบุเป้าหมายให้ชัด: '(ดู 10.0 การถอย)'",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "B14",
+  "category": "โครงสร้าง",
+  "topic": "อ่านรวดเดียวตามลำดับควรจะพอ",
+  "principle": "ตัวชี้วัดคุณภาพที่ใช้ได้จริง: ผู้อ่านต้องกระโดดไปมากี่ครั้ง และเจอแนวคิดที่ยังไม่นิยามกี่คำ",
+  "detail": "หลักการที่ Ryan Migalla เสนอ และได้รับการรับรองในเธรดคอมเมนต์ของ Stonemaier",
+  "evidence": "\"rulebook ควรต้องอ่านรวดเดียวตามลำดับแค่ครั้งเดียวก็เข้าใจเกมได้\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "B15",
+  "category": "โครงสร้าง",
+  "topic": "นิยามทุกคำตั้งแต่ครั้งแรกที่ใช้",
+  "principle": "การใช้คำนามเฉพาะของเกมก่อนนิยาม คือสิ่งที่ผู้อ่านบ่นบ่อยที่สุดในงานวิจัยทั้งหมด",
+  "detail": "โพสต์เปิดของ Sophie ในเธรด 'อะไรทำให้ rulebook ดี' และสะท้อนซ้ำในคำวิจารณ์ Pathfinder ACG",
+  "evidence": "\"การใช้ศัพท์เฉพาะของเกมก่อนอธิบายมัน คือไอเดียที่แย่มากเสมอ\"",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "id": "C01",
+  "category": "สอน vs อ้างอิง",
+  "topic": "ความตึงเครียดหลัก: เอกสารเดียว สองงานที่เข้ากันไม่ได้",
+  "principle": "rulebook ต้องเป็นทั้งบทเรียนแบบเส้นตรงสำหรับคนใหม่ และเอกสารเข้าถึงแบบสุ่มสำหรับคนเก่า ซึ่งต้องการการจัดเรียงตรงข้ามกัน",
+  "detail": "ถูกระบุโดยอิสระจาก Resonym ('ความท้าทายที่ใหญ่ที่สุด'), Isaac บน BGG และ Entro โดย Isaac สรุปว่าเกมกลาง-หนักต้องมีสองเล่ม",
+  "evidence": "\"การพยายามทำ rulebook เล่มเดียวให้ทั้งสอนและเป็น reference คือความพยายามที่ทำลายตัวเอง\"",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "C02",
+  "category": "สอน vs อ้างอิง",
+  "topic": "โมเดลสองเล่ม (Learn to Play + Rules Reference)",
+  "principle": "เล่ม 1 เล่าเรื่องการเล่นเกมตามลำดับเล่น เล่ม 2 เป็นเอกสารทางการเรียงตามตัวอักษรหรือหัวข้อ พร้อม index สำหรับผู้เล่นที่เล่นเป็นแล้ว",
+  "detail": "Fantasy Flight ทำจนเป็นมาตรฐาน (Marvel Champions, Arkham Horror LCG) และได้คำชมซ้ำๆ ว่า 'หาสิ่งที่ต้องการได้ในไม่กี่วินาที'",
+  "evidence": "คู่มือคอมพิวเตอร์ส่งคู่นี้มาตลอด: เล่มสอนใช้งาน กับเล่มอ้างอิงเรียงตามคำ",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "C03",
+  "category": "สอน vs อ้างอิง",
+  "topic": "จุดพังของโมเดลสองเล่ม: กฎที่มีอยู่ในเล่มเดียว",
+  "principle": "ถ้าเล่ม Learn to Play มีกฎที่หายไปจาก Reference คน จะเลิกเชื่อ Reference และเลิกใช้ทั้งสองเล่ม",
+  "detail": "ถูกบันทึกละเอียดกับ Gloomhaven: Jaws of the Lion เช่นกฎจำกัดการ์ดคำสาป 10 ใบ ซึ่งปรากฏเฉพาะในเล่มสอน",
+  "evidence": "\"กฎทุกข้อควรอยู่ในทุกที่ที่คุณคาดว่าจะเจอมันใน Glossary ไม่งั้น Glossary จะไม่มีประโยชน์อีกต่อไป\"",
+  "source": "BGG: Sometimes finding the rulebook organization annoying (Jaws of the Lion)",
+  "url": "https://boardgamegeek.com/thread/2455924/sometimes-finding-the-rulebook-organization-annoyi"
+ },
+ {
+  "id": "C04",
+  "category": "สอน vs อ้างอิง",
+  "topic": "โมเดล Playbook / เล่มพาเล่น",
+  "principle": "เล่มแยกที่พาผู้เล่นเดินผ่านเกมเปิดแบบสคริปต์ (บ่อยครั้งด้วยการไม่สับสำรับ) เพื่อให้เกมแรกสอนตัวเอง",
+  "detail": "GMT ซีรีส์ COIN บุกเบิก ส่วนเล่มพาเล่นของ Root ถูกยกเครดิตว่าทำให้เกมทรงเกมสงครามกลายเป็นกระแสหลัก และ Fog of Love สั่งไม่ให้สับสำรับในเกมแรก เพื่อให้คู่มือรู้ว่าใครถือการ์ดอะไร",
+  "evidence": "\"หยุด — อ่าน playbook แล้วเล่นตามด้วยของจริง จากนั้นค่อยใช้ rulebook เป็นเอกสารอ้างอิง\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "C05",
+  "category": "สอน vs อ้างอิง",
+  "topic": "rulebook แบบ tutorial แลกความสะดวกในการค้นหากับการเริ่มต้นที่นุ่มนวล",
+  "principle": "rulebook ที่ค่อยๆ เปิดเผยกฎ (Jaws of the Lion, Programmed Instruction ของ Avalon Hill) สอนได้ดีมาก แต่กระจายกฎจนค้นหาภายหลังยากมาก",
+  "detail": "เสียงบ่นที่สม่ำเสมอในเธรด Tutorializing และ JotL: 'คุณจะเจอกฎใหม่ในที่แปลกๆ แต่มันหากฎยากมาก'",
+  "evidence": "ถ้าทำ tutorial คุณติดหนี้ผู้เล่นหนึ่งอย่าง — เอกสารอ้างอิงแยกที่จัดเรียงครบถ้วน",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "C06",
+  "category": "สอน vs อ้างอิง",
+  "topic": "วิดีโอสอนเป็นส่วนเสริม ไม่ใช่สิ่งทดแทน",
+  "principle": "ไม่ใช่ทุกคนที่ซื้อเกมจะมีอินเทอร์เน็ต แท็บเล็ต หรือความอยากดู เล่มกระดาษต้องยืนได้ด้วยตัวเอง",
+  "detail": "Curby ระบุชัด ส่วน Meeple Mountain เสริมว่าอย่าให้ blind playtester ดูวิดีโอ how-to-play เพราะไม่ใช่ทุกเจ้าของเกมจะเข้าถึงเน็ตได้ทันที",
+  "evidence": "\"rulebook ที่มากับเกมต้องยืนได้ด้วยตัวเองในฐานะแหล่งเรียนรู้ที่ครบถ้วน\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "C07",
+  "category": "สอน vs อ้างอิง",
+  "topic": "Diátaxis: เอกสาร 4 ประเภทที่ต้องแยกให้ขาด",
+  "principle": "Tutorial / How-to / Reference / Explanation คือสี่ประเภทที่มีกฎต่างกัน การผสมกันคือเหตุผลที่เอกสารรู้สึกผิดที่ผิดทาง",
+  "detail": "ถูกแนะนำในคอมเมนต์ของ Stonemaier ว่าเป็นกรอบที่ย้ายมาใช้กับ rulebook ได้: Playbook = Tutorial, เนื้อ rulebook = How-to, ภาคผนวก = Reference, designer notes = Explanation",
+  "evidence": "การแยกสี่ประเภทนี้อธิบายข้อถกเถียงเรื่องโครงสร้าง rulebook ได้เกือบทั้งหมด",
+  "source": "Diátaxis – a systematic framework for technical documentation",
+  "url": "https://diataxis.fr/"
+ },
+ {
+  "id": "C08",
+  "category": "สอน vs อ้างอิง",
+  "topic": "บอร์ดเกมพึ่ง tutorial แบบวิดีโอเกมไม่ได้",
+  "principle": "ซอฟต์แวร์บังคับใช้กฎเอง แต่ผู้เล่นบอร์ดเกมต้องบังคับกันเอง ทุกกฎจึงต้องถูกเขียนไว้ที่ไหนสักแห่งที่ค้นเจอ",
+  "detail": "ถูกโต้แย้งซ้ำในเธรด Tutorializing และ: โต๊ะที่มีคนเก่งปนคนใหม่ทำให้ tutorial บังคับเป็นไปไม่ได้ในเชิงสังคม",
+  "evidence": "\"วิดีโอเกมบังคับใช้กฎเอง คุณจึงไม่จำเป็นต้องรู้กฎ แค่รู้วิธีเล่น\"",
+  "source": "BGG: Tutorializing",
+  "url": "https://boardgamegeek.com/thread/2581878/tutorializing"
+ },
+ {
+  "id": "D01",
+  "category": "ภาษา",
+  "topic": "Framing: เชื่อมแนวคิดใหม่เข้ากับกรอบที่คุ้นเคยก่อน",
+  "principle": "เขียนกฎที่งงใหม่ ให้มันตั้งกรอบความคิดก่อน แล้วค่อยระบุการเปลี่ยนแปลงภายในกรอบนั้น",
+  "detail": "ทักษะสำคัญอันดับสองของ Curby พร้อมตัวอย่างก่อน-หลังสี่ชุด เช่น 'หยิบทรัพยากร 1 ชิ้นของแต่ละชนิดที่คุณทอยได้' → 'สำหรับทรัพยากรแต่ละชนิดที่คุณทอยได้ ให้หยิบลูกเต๋าของชนิดนั้น 1 ลูก'",
+  "evidence": "การเปลี่ยนกรอบขจัดความกำกวมได้โดยไม่ต้องเพิ่มคำ",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D02",
+  "category": "ภาษา",
+  "topic": "เงื่อนไขและตัวกระตุ้นมาก่อนผลลัพธ์",
+  "principle": "'ถ้าคุณทอยได้ 5 ขึ้นไป จั่วการ์ด' ดีกว่า 'จั่วการ์ดถ้าคุณทอยได้ 5 ขึ้นไป' เพราะคนอ่านผ่านๆ ข้ามผลลัพธ์ที่เงื่อนไขไม่เข้าได้",
+  "detail": "Curby และกฎข้อ 5 ของ C.J.C.: 'เอาใจความสำคัญที่สุดไว้ข้างหน้าเสมอ' โดยให้เอาสาขาที่ล้มเหลวแยกเป็นอีกประโยค",
+  "evidence": "เงื่อนไขที่มาก่อนทำให้ทำผิดจังหวะน้อยลง",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D03",
+  "category": "ภาษา",
+  "topic": "ประโยคสั้น หนึ่งประโยคหนึ่งการกระทำ",
+  "principle": "แยกประโยคที่อธิบายหลายการกระทำ หรือที่มีวงเล็บบวกกับการคำนวณ",
+  "detail": "Curby และกฎลมหายใจเดียวของ Entro: ถ้าพูดประโยคนั้นจบในลมหายใจเดียวไม่ได้ แปลว่ายาวเกินไป",
+  "evidence": "\"ถ้าลังเล ให้ประโยคสั้นลง หรือทำเป็นรายการ\"",
+  "source": "BGG: how to write rule book",
+  "url": "https://boardgamegeek.com/thread/2040012/how-to-write-rule-book"
+ },
+ {
+  "id": "D04",
+  "category": "ภาษา",
+  "topic": "Active voice บุรุษที่สอง และรูปคำสั่ง",
+  "principle": "'จ่าย $1 เพื่อรับทรัพยากร 2 ชิ้น' ดีกว่า 'ผู้เล่นจ่าย $1...' เก็บ passive voice ไว้สำหรับข้อห้ามระดับสากลและข้อความบรรยากาศ",
+  "detail": "สไตล์ประจำบ้านของ Stonemaier ส่วน Curby เสริมข้อยกเว้นที่มีประโยชน์: 'ไทล์ภูเขาไม่สามารถถูกนำออกจากแผนที่ได้' ระบุความจริงสากลที่ 'ผู้เล่นห้ามนำไทล์ภูเขาออก' ไม่ได้ระบุ",
+  "evidence": "เริ่มประโยคด้วยคำกริยาถ้าทำได้ เพราะคำกริยาคือคำสั่ง",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "D05",
+  "category": "ภาษา",
+  "topic": "คำกริยาช่วยคือของหนัก: may / may not / cannot / must / should",
+  "principle": "may = ทางเลือก, may not = ห้ามแม้อยากทำ, cannot = ทำไม่ได้ทางกายภาพ, must = ถูกบังคับ (ใช้ให้น้อย), should = เลี่ยงในกฎโดยสิ้นเชิง",
+  "detail": "การแยกแยะมาตรฐานของ Curby กฎทุกข้อคือข้อบังคับโดยปริยายอยู่แล้ว 'ต้อง' จึงควรเก็บไว้ใช้กับสิ่งที่ผู้เล่นอยากเลี่ยง",
+  "evidence": "Stonemaier: \"ลบ 'should' ทุกที่ และไฮไลต์ทุกครั้งที่เจอ 'except' กับ 'remember'\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D06",
+  "category": "ภาษา",
+  "topic": "gain / take / give / earn ไม่ใช่คำพ้อง",
+  "principle": "gain = จากกองกลางที่ไม่จำกัด, take = จากกองที่จำกัดหรือจากผู้เล่นอื่น, give = ให้ผู้เล่นอื่น, earn = ความหมายกว้าง",
+  "detail": "การแยกแยะของ Curby ซึ่งถูกรับไปใช้แทบตรงตัวใน Stonemaier style guide ('ใช้ gain ไม่ใช่ take เมื่อผู้เล่นได้ของจากกองกลาง')",
+  "evidence": "การเลือกคำสื่อเงียบๆ ว่าการกระทำนี้กระทบผู้เล่นอื่นหรือไม่",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D07",
+  "category": "ภาษา",
+  "topic": "Turn / Round / Phase / Step ต้องนิยามและห้ามใช้ซ้ำระดับ",
+  "principle": "เลือกลำดับชั้นหนึ่งแบบแล้วห้ามใช้ชื่อระดับหนึ่งไปเรียกอีกระดับ เกมสงครามใช้ Turn กับ Round สลับกับยูโรเกมสมัยใหม่",
+  "detail": "ถูกถกยาวในเธรด Rulebook Editing Style Guide ส่วน Curby จัดเป็น turn → round → (act/epoch/season) โดยมี phase และ step แบ่งย่อยเทิร์น",
+  "evidence": "\"ห้ามใช้คำว่า phase ในเกมเดียวกันเพื่ออธิบายหลายระดับของลำดับชั้นนี้\"",
+  "source": "BGG: Rulebook Editing Style Guide (2020)",
+  "url": "https://boardgamegeek.com/thread/2527114/rulebook-editing-style-guide"
+ },
+ {
+  "id": "D08",
+  "category": "ภาษา",
+  "topic": "each vs every vs all",
+  "principle": "each = ใช้กับสมาชิกทีละคนของกลุ่ม, every / all = ใช้กับกลุ่มทั้งก้อน",
+  "detail": "Curby การใช้ผิดตรงนี้เปลี่ยนความหมายเงียบๆ ว่าผลจะเกิดครั้งเดียวหรือ N ครั้ง",
+  "evidence": "'การ์ดแต่ละใบถูกนับคะแนนตามค่า Infamy ของมัน' vs 'ฮีโร่ทุกคนเข้าสู่ดันเจี้ยน'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D09",
+  "category": "ภาษา",
+  "topic": "when / whenever / if / at",
+  "principle": "when = ครั้งเดียว เวลาคาดเดาได้, whenever = เกิดซ้ำได้จากหลายสาเหตุ, if = อาจไม่เกิดเลย, at = เน้นจุดเวลา",
+  "detail": "Curby การเลือก 'when' กับสิ่งที่อาจไม่เกิด สื่อกับผู้อ่านว่ามันจะเกิดแน่",
+  "evidence": "\"ถ้าถูกเปิดใช้ ให้จั่วสองใบแล้วทิ้งหนึ่งใบ\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D10",
+  "category": "ภาษา",
+  "topic": "สรรพนามเอกพจน์ที่เป็นกลางทางเพศ — และเมื่อไหร่ควรเปลี่ยน",
+  "principle": "ในภาษาอังกฤษใช้ they/them/their ห้ามใช้ he, she, (s)he, he or she เมื่อ 'they' อาจผูกกับคำนามพหูพจน์ผิดตัว ให้เปลี่ยนเป็น 'ผู้เล่นคนนั้น'",
+  "detail": "Curby, Resonym, Stonemaier และบรรณาธิการ BGG หลายคนเห็นตรงกัน กรณีความกำกวมถูกยกโดย Joe Farrell ในเธรด style guide แล้วถูกรับเข้าไปในคู่มือ",
+  "evidence": "'ถ้าผู้เล่นไม่มี Scientist ผู้เล่นคนนั้นจะวิจัย Technology ไม่ได้'",
+  "source": "BGG: Rulebook Editing Style Guide (2020)",
+  "url": "https://boardgamegeek.com/thread/2527114/rulebook-editing-style-guide"
+ },
+ {
+  "id": "D11",
+  "category": "ภาษา",
+  "topic": "เขียนคำว่าหงาย/คว่ำให้เหมือนกันทุกครั้ง",
+  "principle": "ในภาษาอังกฤษ ไวยากรณ์บอกให้ใส่ยัติภังค์เฉพาะเมื่อขยายคำนามข้างหน้า แต่การใส่สม่ำเสมอขจัดจุดสะดุดจริงที่พบใน blind test",
+  "detail": "Andy Van Zandt สังเกตว่าคนอ่านสะดุดตอนออกเสียง 'faceup' ในการอ่านออกเสียง และ 'face down' ยังชนกับสำนวนที่แปลว่า 'ทนรับ'",
+  "evidence": "\"คุณจะเห็นเรื่องนี้ตอน blind playtest ตอนที่คนอ่านออกเสียงแล้วสะดุดตรงคำนี้\"",
+  "source": "BGG blog: Writing Rules – facing up to breaking the rules (Andy Van Zandt)",
+  "url": "https://boardgamegeek.com/blog/5877/blogpost/84240/writing-rules-facing-up-to-breaking-the-rules"
+ },
+ {
+  "id": "D12",
+  "category": "ภาษา",
+  "topic": "ใช้ 'dice' เป็นทั้งเอกพจน์และพหูพจน์ในกฎ",
+  "principle": "'die' ชนกับคำกริยาที่แปลว่าตาย ซึ่งโผล่บ่อยมากในบริบทเกม การใช้ 'dice' สม่ำเสมอลดความผิดพลาดในการอ่าน",
+  "detail": "ข้อโต้แย้งของ Andy Van Zandt ส่วน Curby ระบุความต่างตามภูมิภาคแล้วขอแค่ความสม่ำเสมอ",
+  "evidence": "\"เป้าหมายคือให้ผู้เล่นอ่าน rulebook ได้ลื่นไหลไร้รอยต่อ\"",
+  "source": "BGG blog: Writing Rules – facing up to breaking the rules (Andy Van Zandt)",
+  "url": "https://boardgamegeek.com/blog/5877/blogpost/84240/writing-rules-facing-up-to-breaking-the-rules"
+ },
+ {
+  "id": "D13",
+  "category": "ภาษา",
+  "topic": "ลบคำว่า 'แค่' / 'เพียงแค่' ทิ้ง",
+  "principle": "มันเพิ่มคำ ไม่เพิ่มข้อมูล และอ่านเหมือนดูถูกในตอนที่ผู้อ่านกำลังงงอยู่จริงๆ",
+  "detail": "การแก้ของ Michael Berg ในเธรด Rules Writing 101 ซึ่งผู้เขียนยอมรับและแก้โพสต์ต้นฉบับทันที",
+  "evidence": "\"One does not simply write a rulebook\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "D14",
+  "category": "ภาษา",
+  "topic": "ใช้คำเชิงกลไกมากกว่าคำเชิงธีม (โดยทั่วไป)",
+  "principle": "'วาง Cog Token 2 อันบน Machine Card แต่ละใบ' ปลอดภัยกว่า 'อัปเกรดเครื่องจักรแต่ละเครื่องด้วยเฟือง 2 อัน' เพราะอุปกรณ์และการกระทำไม่กำกวม",
+  "detail": "Curby พร้อมข้อยกเว้นสำหรับเกมที่ธีมจัดมาก ส่วน Entro เห็นด้วย: จับคู่คำนามเชิงกลไกกับคำขยายเชิงธีม ('ไทล์ทรัพยากร' vs 'ไทล์คะแนน')",
+  "evidence": "อุปกรณ์คือ interface ที่ตรงที่สุดของผู้เล่น เรียกมันตามตัวอักษร",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D15",
+  "category": "ภาษา",
+  "topic": "เกาะความรู้เดิมที่ผู้เล่นมีอยู่แล้ว",
+  "principle": "ถ้ามีคำที่คนรู้จักอยู่แล้วสำหรับแนวคิดนั้น ให้ใช้คำนั้น ตัวละคร 'บินได้' เข้าใจทันที ส่วน 'ทะยานอีเธอร์' ไม่เข้าใจ",
+  "detail": "Curby อ้างคำของ Mark Rosewater ใช้ได้กับทั้งคำเฉพาะ การเลือกใช้ถ้อยคำ และการเลือกไอคอน",
+  "evidence": "อย่าสู้กับสิ่งที่คนรู้อยู่แล้ว — ห้ามเอาคำที่คุ้นเคยไปใช้กับแนวคิดใหม่",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D16",
+  "category": "ภาษา",
+  "topic": "เลี่ยงตัวย่อภาษาละติน คำย่อ และเครื่องหมาย &",
+  "principle": "i.e., e.g., etc., cont., approx., & แต่ละอันคือภาษีความเข้าใจเล็กๆ และหนักกว่ามากสำหรับผู้อ่านที่ไม่ใช่เจ้าของภาษา",
+  "detail": "Curby แนะให้ขยายเป็นคำเต็มเมื่อมีที่ว่าง และถ้าใช้ ต้องใช้ให้ถูก (i.e. = กล่าวใหม่, e.g. = ยกตัวอย่าง)",
+  "evidence": "Stonemaier ยังอนุญาต 'e.g.,' ในวงเล็บ — ความสม่ำเสมอสำคัญกว่าตัวเลือก",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D17",
+  "category": "ภาษา",
+  "topic": "ตัวเลข: ใช้เลขอารบิกสำหรับจำนวนในเกม ใช้คำสำหรับบรรยากาศ",
+  "principle": "ใช้ตัวเลขเมื่อบอกจำนวนอุปกรณ์หรือค่าเชิงกลไก สะกดเป็นคำสำหรับตัวเลขเชิงธีมเล็กๆ และตัวเลขที่ขึ้นต้นประโยค",
+  "detail": "Stonemaier ('ใช้ตัวเลขทุกครั้งที่ทำได้ แต่ไม่ใช่ที่ต้นประโยค') และ Curby ที่เสริมทริกผสม: 'วางมังกรสองหัว 3 ตัวในรัง'",
+  "evidence": "สำหรับช่วงเลขแคบๆ การลิสต์ทุกค่า ('0, 1 หรือ 2') อาจดีกว่า 'น้อยกว่า 3'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "D18",
+  "category": "ภาษา",
+  "topic": "วงเล็บใช้ขยายความ ไม่เคยใช้แนะนำกฎใหม่",
+  "principle": "ข้อความในวงเล็บต้องลบออกได้โดยไม่เสียกฎ ห้ามฝังกฎไว้ในหมายเหตุ — หรือในตัวอย่าง",
+  "detail": "Curby ส่วน Paul Grogan ระบุว่า 'กฎที่ซ่อนอยู่แต่ในตัวอย่าง' คือธงแดงที่เขาไล่ล่าเป็นพิเศษ",
+  "evidence": "\"การขาดตัวอย่าง การขาดภาพ... กฎที่ซ่อนอยู่แต่ในตัวอย่างก็เป็นอีกอย่างหนึ่ง\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "E01",
+  "category": "คำศัพท์",
+  "topic": "หนึ่งแนวคิด หนึ่งคำ ตลอดไป",
+  "principle": "ห้ามใช้คำพ้องโดยไม่จำเป็น ถ้ามันคือ Attack มันจะไม่ใช่ Strike หรือ Assault",
+  "detail": "คำแนะนำที่ถูกพูดซ้ำมากที่สุดในงานวิจัยทั้งหมด ตั้งแต่ Cardboard Edison ถึง Russ บน BGG จนถึง style guide อาชีพทุกเล่ม",
+  "evidence": "\"เรียกการกระทำ อุปกรณ์ และส่วนต่างๆ ของเกมด้วยคำเดิมทุกครั้ง ทั้งในกฎ บนการ์ด และในเอกสารอ้างอิง\"",
+  "source": "Cardboard Edison – Best Practices / blog",
+  "url": "https://cardboardedison.com/blog/tag/featured"
+ },
+ {
+  "id": "E02",
+  "category": "คำศัพท์",
+  "topic": "ความสม่ำเสมอ และความไม่สม่ำเสมอโดยตั้งใจ",
+  "principle": "สิ่งที่ดูและฟังเหมือนกัน ควรเป็นเช่นนั้นก็ต่อเมื่อมันเหมือนกันจริง และควรต่างกันก็ต่อเมื่อมันต่างกันจริง",
+  "detail": "สูตรที่คมที่สุดของ Curby ความต่างโดยตั้งใจคือวิธีที่ทำให้ผู้เล่นจับได้ทันทีว่าสองความสามารถที่ดูคล้ายกันทำงานต่างกัน",
+  "evidence": "\"เมื่อผู้เล่นระบุความเหมือนได้อย่างมั่นใจ ความต่างก็จะถูกระบุได้ง่ายขึ้นด้วย\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E03",
+  "category": "คำศัพท์",
+  "topic": "ตั้งชื่อแนวคิดที่คล้ายกันไม่ให้สับสน",
+  "principle": "สองบทบาทการค้าไม่ควรชื่อ 'Traders' กับ 'Merchants' และควรเลือกคำเฉพาะที่ขึ้นต้นด้วยตัวอักษรต่างกัน โดยเฉพาะหัวข้อ",
+  "detail": "Curby ถ้าหาความต่างที่มีความหมายระหว่างสองชื่อไม่เจอ นั่นคือหลักฐานว่าสองแนวคิดนั้นควรถูกรวมเป็นหนึ่ง",
+  "evidence": "เลี่ยง 'Shipyards' กับ 'Shipbuilding' เป็นหัวข้อระดับเดียวกัน",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E04",
+  "category": "คำศัพท์",
+  "topic": "Templating: สิ่งที่ทำงานเหมือนกันควรดูเหมือนกัน",
+  "principle": "สร้างรูปแบบไวยากรณ์หนึ่งแบบต่อผลหนึ่งตระกูล (ความสามารถตัวละครทั้งหมด ราคาการ์ดทั้งหมด) แล้วใช้ให้เหมือนกันหมด",
+  "detail": "ทักษะสำคัญข้อสามของ Curby 'จั่วการ์ด 1 ใบเข้ามือ' vs 'หยิบการ์ด 1 ใบจากสำรับ' บังคับให้ผู้เล่นค้นหาความต่างที่ไม่มีอยู่จริง",
+  "evidence": "การใช้รูปแบบที่แย่ที่สุดอย่างสม่ำเสมอ ยังดีกว่าใช้รูปแบบดีๆ ปนกันมั่ว",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E05",
+  "category": "คำศัพท์",
+  "topic": "ใช้ตัวพิมพ์ใหญ่แบบเลือกสรร — มันคืองบประมาณจำกัด",
+  "principle": "พิมพ์ใหญ่เฉพาะคำที่หมายถึงอุปกรณ์ การกระทำ หรือค่าจริงในเกม การพิมพ์ใหญ่เกินไปเจือจางความสนใจและทำให้อ่านสะดุด",
+  "detail": "วิธีที่สมดุลของ Curby ส่วน Resonym: 'ถ้าพิมพ์ใหญ่มากไป มันจะกลืนกันหมดและไร้ประโยชน์'",
+  "evidence": "'รับ 5 Gold จากกองกลาง' vs 'ผู้เล่นแต่ละคนเก็บ gold ไว้บนแผ่นผู้เล่น'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E06",
+  "category": "คำศัพท์",
+  "topic": "ล็อกลำดับมาตรฐานของชุดที่ปรากฏซ้ำ",
+  "principle": "ถ้าทรัพยากรคือแรงงาน/หิน/ไม้ ให้เรียงลำดับนั้นในรายการอุปกรณ์ ใน setup ในทุกราคา และในทุกไดอะแกรม",
+  "detail": "Curby พร้อมตารางเปรียบเทียบ แม้แต่พื้นที่ที่ผลิตทรัพยากรพวกนั้นก็ควรเรียงตามลำดับเดียวกัน",
+  "evidence": "เรื่องนี้มองไม่เห็นตอนทำถูก และเหนื่อยเงียบๆ ตอนทำผิด",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E07",
+  "category": "คำศัพท์",
+  "topic": "board กับ mat และวินัยในการเรียกชื่ออุปกรณ์",
+  "principle": "'mat' เป็นของผู้เล่นคนเดียว 'board' ใช้ร่วมกัน ความต่างเล็กๆ แบบนี้ขจัดความกำกวมได้ทั้งชุด",
+  "detail": "สไตล์ประจำบ้านของ Stonemaier มีผู้อ่านรายงานว่าประโยคเดียวนี้แก้ปัญหาการตั้งชื่อของเขาได้ทันที",
+  "evidence": "\"'mat' เป็นของผู้เล่นคนเดียว 'board' ใช้ร่วมกันทุกคน\"",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "id": "E08",
+  "category": "คำศัพท์",
+  "topic": "ให้มีคำเฉพาะน้อยที่สุด",
+  "principle": "ทุกคำเฉพาะคือคำที่ผู้เล่นต้องเรียน พลังของ Dominion มาจากการมีแค่ Action, Buy, Gain, Card ใช้อย่างสม่ำเสมอสุดขีด",
+  "detail": "การวิเคราะห์ของ I Slay the Dragon: เพราะคำเฉพาะไม่กี่คำของ Dominion ไม่เคยเลื่อนไหล การ์ดใหม่เอี่ยมจึงอ่านเข้าใจได้ทันที",
+  "evidence": "\"ไม่มีใครอยากเรียนภาษาใหม่เพื่อเรียนเกมใหม่\"",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "id": "E09",
+  "category": "คำศัพท์",
+  "topic": "เลี่ยงศัพท์เฉพาะวงการในเกม gateway",
+  "principle": "'tableau', 'rondel', 'engine' คือการเอาใจคนใน และเป็นกำแพงสำหรับคนใหม่ ใช้คำบรรยายหรือนิยามตั้งแต่ครั้งแรกที่ใช้",
+  "detail": "Curby เสนอ 'collection' และ 'action wheel' เป็นคำแทน",
+  "evidence": "ศัพท์เฉพาะเป็นได้ทั้งการขยิบตาให้คนวงใน และประตูที่ปิดใส่คนอื่นทั้งหมด",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "E10",
+  "category": "คำศัพท์",
+  "topic": "เขียน style guide ก่อนเขียนกฎ",
+  "principle": "แค่ไวท์บอร์ดที่ลิสต์การใช้ตัวพิมพ์ใหญ่ คำศัพท์ และการจัดรูปแบบของคุณ ก็ป้องกันข้อบกพร่องด้านความสม่ำเสมอได้เกือบหมด",
+  "detail": "คำแนะนำหลักที่ Stonemaier ระบุชัด และ Entro พูดตรงกัน นี่ถูกกว่าการจ้างบรรณาธิการรอบใดๆ",
+  "evidence": "\"คำแนะนำหลักที่ผมพยายามจะบอกวันนี้คือ ให้คุณมี style guide ที่เขียนไว้\"",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "id": "F01",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "ตัวอย่างมีค่าเมื่อครอบคลุมเคสขอบ ไม่ใช่เคสที่ชัดอยู่แล้ว",
+  "principle": "อย่าแสดงการเล่นที่ทุกคนเข้าใจอยู่แล้ว ให้แสดงปฏิสัมพันธ์ที่ไม่งั้นจะกลายเป็นกระทู้ในฟอรั่ม",
+  "detail": "I Slay the Dragon และ Russ ยกเคสทดสอบมาตรฐาน: ถ้านักธนู 'หรือ' เครื่องยิงหินให้ +1 ก็ต้องมีตัวอย่างของหน่วยที่มีทั้งสองอย่าง เพื่อชี้ขาดว่า +1 หรือ +2",
+  "evidence": "\"ถ้าคุณไม่แสดงเคสขอบ คุณกำลังส่งผู้เล่นไปฟอรั่มโดยตรง\"",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "id": "F02",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "ทำให้ภาพหนึ่งภาพครอบคลุมหลายคำถาม",
+  "principle": "ไดอะแกรมหนึ่งอันควรตอบหลายสถานการณ์พร้อมกัน — ทั้งกรณีที่ได้แต้มและไม่ได้ ทั้งทแยงมุม การใช้ร่วมกัน และไทล์ที่พลิกแล้ว",
+  "detail": "ตัวอย่างช่างตีเหล็ก/เหมืองเหล็กของ Curby ระบุห้าคำถามที่ภาพเดียวที่ออกแบบดีสามารถตอบได้",
+  "evidence": "\"ไดอะแกรมที่โชว์ช่างตีเหล็กคนเดียวขนาบด้วยเหมืองสองแห่ง แทบไร้ประโยชน์\"",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "F03",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "บอกให้ชัดว่าอะไรในตัวอย่างเป็นแค่สมมติ",
+  "principle": "ผู้อ่านอนุมานกฎจากตัวอย่าง ถ้าทุกภาพโชว์การ์ดห้าใบเหมือนกันตลอด จะมีคนสรุปว่ามันต้องเป็นแบบนั้น",
+  "detail": "Curby เตือนว่าเรื่องนี้ทำให้ผู้เล่นเล่นแบบจำกัดตัวเอง และตัดความลึกของดีไซน์ทิ้งไปโดยไม่รู้ตัว",
+  "evidence": "ตัวอย่างสามารถใส่กฎที่ไม่ได้ตั้งใจเข้าไปได้",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "F04",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "ตัวอย่างเดินยาวๆ ดีกว่าตัวอย่างแยกส่วนเยอะๆ",
+  "principle": "ตัวอย่างหลายเทิร์นหนึ่งอันแสดงระบบทำงานร่วมกัน ส่วนตัวอย่างบรรทัดเดียวสิบอันแสดงได้แค่ชิ้นส่วน",
+  "detail": "ถูกโต้แย้งบน BGG (t897413) และได้คำชมซ้ำๆ ใน 1960: The Making of the President และ Combat Commander",
+  "evidence": "ตัวอย่างการเล่นเต็มรูปแบบสองเทิร์นติดกัน คือฟีเจอร์ที่ถูกร้องขอกว้างขวาง",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "id": "F05",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "ตัวอย่างควรแสดงแรงจูงใจ ไม่ใช่แค่ความถูกกฎ",
+  "principle": "'อลิซเลือกเกณฑ์ทหารเพราะบ็อบเอาหินไปแล้ว' สอนเนื้อสัมผัสของเกม ไม่ใช่แค่ไวยากรณ์ของมัน",
+  "detail": "ถูกยกบน BGG ว่าเป็นข้อดีชัดเจน โดยเฉพาะกับคนที่กำลังตัดสินใจซื้อ",
+  "evidence": "มีมุมตรงข้าม: J C Lawrence โต้ว่ากฎไม่ควรแนะกลยุทธ์หรือประเมินค่าใดๆ ทั้งสิ้น",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "F06",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "ไดอะแกรมดีกว่าตัวอย่างเมื่อมีที่ว่าง",
+  "principle": "กฎเรื่องพื้นที่ การอยู่ติดกัน และการตั้งเกม แทบจะชัดกว่าเสมอเมื่อเป็นภาพที่มีป้ายกำกับ",
+  "detail": "Resonym จัดไดอะแกรมเหนือกว่าตัวอย่าง ส่วน I Slay the Dragon และ Meeple Mountain ขอให้ใส่หมายเลขรูปและอ้างถึงจากข้อความ",
+  "evidence": "ติดป้ายรูป (รูปที่ 1, รูปที่ 2) แล้วอ้างถึงจากข้อความกฎอย่างชัดเจน",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "id": "F07",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "ใส่ไดอะแกรมกายวิภาคให้อุปกรณ์ที่มีข้อมูลแน่น",
+  "principle": "ติดป้ายทุกโซนของการ์ด ไทล์ หรือแผ่นผู้เล่นครั้งเดียว แล้วอ้างถึงป้ายพวกนั้นด้วยชื่อตลอดเล่ม",
+  "detail": "Resonym ส่วน Herc du Preez เรียกว่า Component Breakdown และวางไว้ก่อนกฎ",
+  "evidence": "ไดอะแกรมกายวิภาคแปลงชิ้นส่วนให้กลายเป็นคำศัพท์ที่ใช้ร่วมกัน",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "F08",
+  "category": "ตัวอย่างและภาพ",
+  "topic": "แยกตัวอย่างออกจากกฎทางสายตา",
+  "principle": "ตัวเอียง กล่องสีอ่อน หรือ sidebar — อะไรก็ได้ที่ทำให้คนอ่านซ้ำข้ามได้ และคนเรียนใหม่หาเจอ",
+  "detail": "Curby (ตัวเอียงสำหรับตัวอย่าง ตัวหนาสำหรับคำเฉพาะ) และ Meeple Mountain (ตัวเอียงสำหรับหมายเหตุและตัวอย่าง)",
+  "evidence": "ห้ามใช้ตัวเอียงกับตัวข้อความกฎเอง",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "G01",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "ตัวอักษรเนื้อหาขั้นต่ำ 10pt เผื่อใหญ่ไว้ก่อน",
+  "principle": "Jamey Stegmaier: 10pt คือขั้นต่ำสุด บางครั้งใหญ่กว่านั้นขึ้นกับฟอนต์ ส่วนแนวทางด้านการเข้าถึงผลักไปที่ 12pt",
+  "detail": "เสียงบ่นคลาสสิกบน BGG รวมข้อความประมาณ 6-8pt ของ Race for the Galaxy แหล่งด้านการเข้าถึงระบุ 'clear print' ขั้นต่ำ 12pt และฉบับตัวใหญ่ 16pt Arial",
+  "evidence": "\"10pt คือขั้นต่ำสุด แต่บางครั้งเราใช้ใหญ่กว่านั้นขึ้นกับชนิดฟอนต์\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "G02",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "180 x 240 มม. คือขนาดเล่มที่ลงตัว",
+  "principle": "ใหญ่พอสำหรับภาพและตัวอย่าง เล็กพอที่จะวางเปิดไว้บนโต๊ะระหว่างเล่น",
+  "detail": "ความชอบที่ Stonemaier ระบุ เล่ม A5 ใส่กล่องเล็กได้ ส่วน A4 ให้ไดอะแกรม setup ใหญ่กว่า",
+  "evidence": "จำนวนหน้าต้องหารด้วย 4 ลงตัว — วางแผนเป็นหน้าคู่ ไม่ใช่หน้าเดี่ยว",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "G03",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "ใช้หน้าคู่อย่างตั้งใจ",
+  "principle": "ถ้ารายการอุปกรณ์กับ setup ใส่หน้าเดียวไม่พอ ให้ทำเป็นหน้าคู่ ผู้อ่านจะได้ไม่ต้องพลิกกลับกลางการตั้งเกม",
+  "detail": "Resonym ส่วน Curby เสริมว่าหัวข้อสั้นไม่ควรขาดข้ามหน้า และหัวข้อ 2 หน้าควรอยู่บนหน้าคู่",
+  "evidence": "หนังสือเข้าเล่มเป็นชุด 4 หน้า ออกแบบเพื่อหนังสือที่เปิดอยู่ ไม่ใช่หน้าเดี่ยว",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "G04",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "ความต่างสีสูงสำหรับข้อความกฎ เก็บสีอ่อนไว้ตกแต่ง",
+  "principle": "เป้าหมายแบบ WCAG: 4.5:1 สำหรับเนื้อหา 3:1 สำหรับตัวใหญ่หรือตัวหนา ทดสอบด้วยการแปลงหน้าเป็นขาวดำ",
+  "detail": "การวิเคราะห์ของ MINIFINITI ห้ามพิมพ์กฎบนภาพหรือพื้นเข้ม — เสียงบ่นที่ปรากฏซ้ำบน BGG ตั้งแต่ปี 2007",
+  "evidence": "\"ห้ามพิมพ์กฎบนพื้นหลังสีเข้มหรือลวดลายเด็ดขาด\"",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "G05",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "ลำดับการเน้น: ตัวหนาสำหรับคำเฉพาะ ตัวเอียงสำหรับส่วนเสริม ห้ามขีดเส้นใต้",
+  "principle": "เส้นใต้ชนกับหางตัวอักษรและลดความอ่านง่าย ตัวพิมพ์ใหญ่ทั้งหมดอ่านยากกว่าตัวปกติ ถ้าฟอนต์รองรับให้ใช้ small caps จริง",
+  "detail": "Curby ส่วน Stonemaier ห้ามขีดเส้นใต้โดยสิ้นเชิง และ Meeple Mountain เก็บ ALL CAPS ไว้ให้กฎไม่กี่ข้อที่คนพลาดบ่อยที่สุด",
+  "evidence": "การใช้การเน้นมากเกินไป 'สร้างเสียงแข่งกันจนหูอื้อ'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "G06",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "Sans-serif พื้นเรียบ พื้นที่ว่างเยอะ",
+  "principle": "โปรไฟล์ที่ผู้อ่านขอบ่อยที่สุด: sans serif, layout เรียบ, ลำดับสมเหตุสมผล, ศัพท์เฉพาะน้อย, กระชับ, ไวยากรณ์ถูก",
+  "detail": "คำตอบหกบรรทัดของผู้ใช้ BGG ต่อคำถาม 'อะไรทำให้ rulebook ดี' สอดคล้องกับแนวทางสำหรับผู้อ่านที่มีภาวะ dyslexia",
+  "evidence": "\"ภาพหรือพื้นผิวหลังข้อความ: เฮ้อ มันทำให้อ่านยากขึ้น ขอพื้นเปล่าเถอะ\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "G07",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "สรุปข้างขอบคือทางออกลูกผสมที่พิสูจน์แล้ว",
+  "principle": "rulebook สไตล์ Alea ใส่คำอธิบายเต็มในคอลัมน์หลัก และสรุปหนึ่งบรรทัดที่ขอบหน้า — สอนและอ้างอิงบนหน้าเดียวกัน",
+  "detail": "ได้คำชมซ้ำๆ กับ Castles of Burgundy และซีรีส์ Alea ส่วน side-strip ของ Rio Grande คือรุ่นเก่ากว่าของไอเดียเดียวกัน",
+  "evidence": "\"กฎแบบยาว แล้วที่ขอบหน้ามีกฎแบบสั้น\"",
+  "source": "BGG: Good Rulebooks (2021)",
+  "url": "https://boardgamegeek.com/thread/2644979/good-rulebooks"
+ },
+ {
+  "id": "G08",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "ใช้หลังปก — หน้าที่มีค่าที่สุดในเล่ม",
+  "principle": "ลำดับเทิร์น คีย์ไอคอน จำนวน setup ตามจำนวนผู้เล่น และบ่อยครั้งรวมถึง index ควรอยู่บนปกหลังด้านนอก",
+  "detail": "ถูกร้องขอจากหลายแหล่งโดยอิสระ Stonemaier สงวนหน้าสุดท้ายไว้ให้คีย์ไอคอน ลำดับเกม และ/หรือ index",
+  "evidence": "\"ใช้หลังปกเป็น player aid สิ rulebook จำนวนมากทิ้งพื้นที่มีค่านี้ไปเฉยๆ\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "G09",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "ร่างใน word processor จัดหน้าใน InDesign",
+  "principle": "ข้อความก่อน เลย์เอาต์ทีหลัง ใช้ Word/Google Docs สำหรับร่างและแชร์ ใช้ InDesign เมื่อเนื้อหานิ่งแล้วเท่านั้น",
+  "detail": "ฉันทามติในเธรดเรื่องการออกแบบ rulebook โดยแนะ Google Docs เป็นพิเศษเพราะแชร์ให้คนอ่านทดสอบง่าย",
+  "evidence": "การแก้ข้อความก่อนจัดหน้า ทำให้บรรณาธิการสลับหัวข้อทั้งหัวข้อได้โดยไม่ต้องเสียค่าจัดหน้าใหม่",
+  "source": "Michael Lee, Editor — editing.curby.net",
+  "url": "https://editing.curby.net/"
+ },
+ {
+  "id": "G10",
+  "category": "เลย์เอาต์และตัวอักษร",
+  "topic": "เลย์เอาต์กู้งานเขียนที่แย่ไม่ได้",
+  "principle": "sidebar กล่อง และภาพประกอบ ดูดซับคำนิยามและบรรยากาศได้ แต่แก้ประโยคที่ไม่ชัดไม่ได้",
+  "detail": "Rob Harper ในเธรด Rules Writing 101 และบรรณาธิการอีกคน: 'บรรยากาศ อารมณ์ขัน index และไดอะแกรม ไร้ประโยชน์หมด ถ้าโครงสร้างประโยคและการไหลของกฎห่วย'",
+  "evidence": "\"แน่นอนว่า layout ไม่สามารถทดแทนกฎที่เขียนไม่ดีได้\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "H01",
+  "category": "ระบบอ้างอิง",
+  "topic": "index กับสารบัญเป็นคนละเครื่องมือ",
+  "principle": "สารบัญลิสต์หัวข้อตามลำดับ ส่วน index จับคู่คำสำคัญ — รวมคำที่ไม่ใช่ชื่อหัวข้อ — เข้ากับหน้า เล่มยาวต้องมีทั้งคู่",
+  "detail": "ถูกถกยาวบน BGG นักเล่นเกมสงครามยืนยันว่าต้องมี 'index ที่ครบหรือเกือบครบ' ส่วน index แบบคำสำคัญยังมีประโยชน์นานหลังจากสารบัญหมดประโยชน์แล้ว",
+  "evidence": "\"index เรียงตัวอักษรคือสิ่งที่ควรมี เพราะนั่นคือวิธีที่คนเปิดหาของ\"",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "id": "H02",
+  "category": "ระบบอ้างอิง",
+  "topic": "การไม่มี index คือเสียงบ่นระดับต้นๆ",
+  "principle": "Mice & Mystics และ Space Base ถูกยกขึ้นมาเพราะไม่มี index เป็นหลัก ไม่ใช่เพราะเขียนแย่",
+  "detail": "คำตัดสิน 'ไม่มี index' ของ Going Analog ต่อ Space Base ส่วนเสียงบ่นเรื่อง Mice & Mystics ปรากฏซ้ำตลอดสิบกว่าปี",
+  "evidence": "\"อย่างน้อยเขาน่าจะใส่ index มาให้หน่อย เพราะผมเสียเวลาเปิดหากฎเยอะมาก\"",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "id": "H03",
+  "category": "ระบบอ้างอิง",
+  "topic": "ตำแหน่งอภิธานศัพท์: ไว้หน้าเพิ่มอุปสรรค ไว้หลังต้องพลิกไปมา",
+  "principle": "อภิธานศัพท์หน้าเล่มหน่วงการเข้าถึงกฎ ส่วนไว้ท้ายเล่มต้องพลิก ทางออกจริง: นิยามตั้งแต่ใช้ครั้งแรก วางอภิธานศัพท์ที่ปกหลังด้านใน และทำ index ให้ครบ",
+  "detail": "ถูกถกโดย Herc du Preez กับ ampoliros ส่วน Matthew Proper-Lee เสนอ: อภิธานศัพท์ปกหลังด้านใน คีย์ไอคอนและลำดับเกมที่ปกหลังด้านนอก",
+  "evidence": "\"การต้องพลิกหน้าไปมา สำหรับผมคือเครื่องหมายของ rulebook ที่เขียนไม่ดี\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "H04",
+  "category": "ระบบอ้างอิง",
+  "topic": "ภาคผนวกอธิบายการ์ด ดีกว่า FAQ ที่กระจัดกระจาย",
+  "principle": "คำอธิบายต่อการ์ดเรียงตามตัวอักษร (Dominion, Ark Nova, ตัวอย่างที่ดีที่สุดคือ Puerto Rico) แก้คำถามส่วนใหญ่ได้โดยไม่ต้องมี FAQ แยก",
+  "detail": "ได้คำชมซ้ำๆ Puerto Rico ถูกยกเป็นพิเศษเพราะวางคำอธิบายไว้ใต้คำบรรยายของอาคารแต่ละหลังโดยตรง",
+  "evidence": "\"อาคารทุกหลังมีคำอธิบายที่เป็นประโยชน์อยู่ใต้คำบรรยายของมัน จนแทบไม่ต้องมี FAQ ออนไลน์\"",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "id": "H05",
+  "category": "ระบบอ้างอิง",
+  "topic": "ถ้ากฎทำให้ผู้ทดสอบงง ให้เขียนใหม่ อย่าแปะ FAQ",
+  "principle": "รายการ FAQ คือแผ่นปะทับข้อบกพร่องในตัวข้อความกฎ แก้ที่กฎดีกว่า เก็บ FAQ ไว้ให้ปฏิสัมพันธ์ที่หายากจริงๆ",
+  "detail": "Russ บน BGG ส่วน Entro พูดตรงกันและเสริมว่า 'บางครั้งสิ่งที่ดีที่สุดคือออกแบบให้มันหายไปเลย'",
+  "evidence": "\"ถ้ากฎข้อหนึ่งทำให้ผู้อ่านจำนวนมากงง ให้เขียนกฎใหม่ อย่าเติม FAQ ท้ายเล่ม\"",
+  "source": "BGG: Good Rulebooks (2021)",
+  "url": "https://boardgamegeek.com/thread/2644979/good-rulebooks"
+ },
+ {
+  "id": "H06",
+  "category": "ระบบอ้างอิง",
+  "topic": "index แบบภาพคือรูปแบบที่ทรงพลัง",
+  "principle": "index นำด้วยภาพของ Gloomhaven ถูกยกเป็นที่หนึ่งซ้ำๆ สำหรับการเปิดหากลางเกมในเกมดันเจี้ยนคลอว์เลอร์",
+  "detail": "ถูกอ้างในเธรดเรื่องอภิธานศัพท์ของ Sword & Sorcery พร้อมข้อสังเกตว่าอภิธานศัพท์แบบวิกิพีเดียล้มเหลวเมื่อภาพไม่อยู่ติดกับคำนิยาม",
+  "evidence": "\"ในความเห็นผม index แบบกราฟิกที่ Gloomhaven ใช้ ไม่มีใครเทียบได้\"",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "id": "H07",
+  "category": "ระบบอ้างอิง",
+  "topic": "ส่วน 'กฎที่คนมักลืม' ราคาถูกและมีค่ามาก",
+  "principle": "รายการสั้นๆ ท้ายเล่มของกฎที่กลุ่มผู้เล่นมักทำผิดในเกมแรก ป้องกันความผิดพลาดได้ทั้งกลุ่ม",
+  "detail": "Attika และ Brass ได้คำชมทั้งคู่เรื่องนี้ เป็นฟีเจอร์ที่ให้ค่าต่อคำสูงที่สุดที่มี",
+  "evidence": "\"สิ่งที่มีประโยชน์มากท้ายกฎคือรายการสิ่งที่คนมักลืมในเกมแรก\"",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "id": "H08",
+  "category": "ระบบอ้างอิง",
+  "topic": "กฎแบบดิจิทัลและ living rules เป็นสิ่งที่คนคาดหวังแล้ว",
+  "principle": "PDF ที่ค้นหาได้และมี hyperlink ตอบคำถามที่ index ไหนก็ตอบไม่ได้ ทำหน้า living rules สาธารณะสำหรับ errata",
+  "detail": "Curby สนับสนุน rulebook ดิจิทัลในฐานะส่วนเสริม ผู้เล่นรายงานว่าใช้การค้นหาข้อความใน PDF แทนอภิธานศัพท์ที่ขาดหายไป",
+  "evidence": "Ctrl-F คือ index ที่ทุกเกมมีมาให้อยู่แล้ว — ถ้าคุณปล่อย PDF ออกมา",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "I01",
+  "category": "Player Aid และอุปกรณ์",
+  "topic": "เขียน player aid ก่อนเขียน rulebook",
+  "principle": "ช่วงทดสอบแรกกฎยังไม่นิ่ง player aid จับเฉพาะสิ่งที่สำคัญจริงและกลายเป็นอุปกรณ์ที่ส่งขายจริงในภายหลัง",
+  "detail": "ขั้นตอนที่ Jamey Stegmaier ระบุ ส่วน Cole Wehrle และ Sen-Foong Lim รายงานวิธีเดียวกันโดยอิสระ",
+  "evidence": "\"ช่วงทดสอบแรกในกลุ่มตัวเอง ผมทำ player aid แทน rulebook\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "I02",
+  "category": "Player Aid และอุปกรณ์",
+  "topic": "player aid ทำซ้ำข้อมูล ไม่ใช่แทนที่",
+  "principle": "ถ้ากฎข้อหนึ่งอยู่บน player aid อย่างเดียว ผู้เล่นที่ทำ aid หายก็จะเสียกฎข้อนั้นไป และนักรีวิวจะสังเกตเห็น",
+  "detail": "ถูกพูดแรงบน BGG เรื่อง Mage Knight ซึ่งการ์ดอ้างอิงถือกฎที่ไม่มีในหนังสือ",
+  "evidence": "\"การ์ดอ้างอิงควรถูกใช้เป็นเอกสารอ้างอิง ตามชื่อของมัน\"",
+  "source": "BGG: Rules missing from Rulebook v1.0 (Triplock)",
+  "url": "https://boardgamegeek.com/thread/1803616/rules-missing-from-rulebook-v10"
+ },
+ {
+  "id": "I03",
+  "category": "Player Aid และอุปกรณ์",
+  "topic": "หนึ่งใบต่อหนึ่งผู้เล่นเสมอ",
+  "principle": "aid ที่ใช้ร่วมกันสร้างคิวและการชะโงกดู aid ต่อคนทำให้ผู้เล่นตอบคำถามตัวเองได้แทนที่จะขัดจังหวะคนสอน",
+  "detail": "Board Game Sanctuary พูดตรงๆ: 'ห้ามงกการ์ดสรุปแอ็กชันสำหรับผู้เล่นทุกคนเด็ดขาด'",
+  "evidence": "Merchants & Marauders ถูกยกซ้ำๆ ว่าเป็นเกมที่ player aid แบกภาระการสอนไว้เกือบทั้งหมด",
+  "source": "BGG blog: 10 Board Games Rules Mistakes I Have Made",
+  "url": "https://boardgamegeek.com/blog/6298/blogpost/133556/10-board-games-rules-mistakes-i-have-made"
+ },
+ {
+  "id": "I04",
+  "category": "Player Aid และอุปกรณ์",
+  "topic": "ผลักกฎไปไว้บนตัวอุปกรณ์เอง",
+  "principle": "ข้อความบนการ์ด ไอคอนบนแผ่นผู้เล่น คำเตือนบนกระดาน — ทุกกฎที่อุปกรณ์แบกได้ คือกฎที่ผู้เล่นไม่ต้องเปิดหา",
+  "detail": "ปรัชญาของ Stonemaier คือใส่ข้อความบนการ์ด (ไม่ใช่ไอคอนให้ถอดรหัส) และให้ข้อความพอเพียงจนไม่ต้องมีภาคผนวก",
+  "evidence": "ย้ายไอคอนไปไว้บนพื้นผิวที่คนมองบ่อย (แผ่นผู้เล่น) และเก็บข้อความบนการ์ดให้เป็นคำล้วนถ้ามีที่พอ",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "I05",
+  "category": "Player Aid และอุปกรณ์",
+  "topic": "ข้อมูล setup ห้ามอยู่แค่บน player aid",
+  "principle": "จำนวน setup ตามจำนวนผู้เล่น คือข้อมูลที่ถูกเปิดหาซ้ำมากที่สุดในเกมส่วนใหญ่ ต้องมีทั้งในเล่มและบน aid",
+  "detail": "ความรำคาญที่ถูกระบุซ้ำบน BGG และ: 'ควรมีข้อมูล setup สำคัญ — ทรัพยากรเริ่มต้นและความต่างตามจำนวนผู้เล่น — ในที่ที่หาง่าย'",
+  "evidence": "\"การที่ setup อยู่แค่บนแผ่น player aid ทำให้ผมรำคาญมาก\"",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "J01",
+  "category": "กระบวนการทำงาน",
+  "topic": "เขียน rulebook ให้เร็วพอจะแก้ทัน แต่ช้าพอที่กฎจะนิ่ง",
+  "principle": "ช่วงทดสอบแรกทำ player aid ร่างจริงเมื่อใกล้ blind test แล้วคาดว่าจะต้องเขียนใหม่อย่างน้อยสามรอบ",
+  "detail": "จังหวะของ Stonemaier ส่วน Carl Nyberg ให้หลักคิด: 'เขียนทั้งเล่ม แล้วเขียนใหม่อีกสองรอบ รอบที่สามจะดีกว่ารอบแรกมาก'",
+  "evidence": "รักษาเวอร์ชัน rulebook ให้ตรงกับเวอร์ชันอุปกรณ์ — ความไม่ตรงกันคือแหล่งข้อบกพร่องคลาสสิก",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "J02",
+  "category": "กระบวนการทำงาน",
+  "topic": "blind playtest คือการทดสอบ rulebook เป็นหลัก",
+  "principle": "ถึงตอนที่คุณ blind test คุณควรเชื่อแล้วว่าเกมสนุก สิ่งที่กำลังทดสอบคือเอกสารทำงานได้ด้วยตัวเองหรือไม่",
+  "detail": "Hilko บน BGG: 'สำหรับผม blind test คือการทดสอบกฎที่เขียนไว้' ส่วน Stonemaier ให้น้ำหนัก 25% กับการปรับปรุง rulebook โดยเฉพาะ",
+  "evidence": "\"เป้าหมายของ blind playtest ไม่ควรเป็นการปรับปรุงดีไซน์เกม มันคือการทดสอบกฎเท่านั้น\"",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "id": "J03",
+  "category": "กระบวนการทำงาน",
+  "topic": "ห้ามช่วยผู้ทดสอบ",
+  "principle": "การเข้าไปแทรกฝึกให้ผู้ทดสอบมองหน้าคุณแทนที่จะมองหน้ากระดาษ และทำลายข้อมูลที่คุณมาเก็บ",
+  "detail": "Tip 4 ของ Resonym พร้อมตัวอย่างจริงที่เขาปล่อยให้ผู้เล่นเล่นผิดทั้งเกม เข้าแทรกเฉพาะเมื่อการอ่านผิดจะทำให้การทดสอบที่เหลือใช้ไม่ได้",
+  "evidence": "\"ถ้าคุณโผล่ไปช่วยผู้เล่นจากความผิดพลาด เขาจะเริ่มพึ่งคุณ\"",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J04",
+  "category": "กระบวนการทำงาน",
+  "topic": "เตือนผู้ทดสอบก่อนว่าจะเจออะไร",
+  "principle": "การทดสอบ rulebook ไม่สนุก บอกตรงๆ ไปเลย และทำให้ชัดว่าความงงเป็นความผิดของเอกสาร ไม่ใช่ของเขา",
+  "detail": "Resonym: 'หลังจากครั้งที่ภรรยาผมร้องไห้ระหว่างทดสอบ rulebook ผมจะบอก playtester ทุกครั้งว่ากำลังจะเจอกับอะไร'",
+  "evidence": "ตั้งความคาดหวัง: ครึ่งค่ำคืนอาจหมดไปกับกฎ และนั่นแหละคือประเด็น",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J05",
+  "category": "กระบวนการทำงาน",
+  "topic": "ทดสอบกับคนที่ไม่เล่นบอร์ดเกม",
+  "principle": "คนเล่นเกมจริงจังคืออ่าน rulebook เก่ง เขาจะกลบข้อบกพร่องของคุณด้วยความรู้เรื่องแนวเกม",
+  "detail": "Tip 2 ของ Resonym ส่วน Brandon the Game Dev ขยายไปถึงการชวนคนที่ไม่ใช่เจ้าของภาษาและนักเขียนอาชีพมาเป็น beta reader",
+  "evidence": "\"ถ้า rulebook คุณสอนคุณยายให้เล่นเกมได้ มันสอนใครก็ได้\"",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J06",
+  "category": "กระบวนการทำงาน",
+  "topic": "แกล้งโง่: 'แล้วตอนนี้ผมทำอะไร?'",
+  "principle": "ให้ผู้ทดสอบสอนคุณ แล้วขัดจังหวะตัวเองทุกจุดที่เคยทำให้คนสะดุด หรือทำผิดโดยตั้งใจแล้วดูว่าเขาจับได้ไหม",
+  "detail": "Tip 3 ของ Resonym — เทคนิคการสังเกตที่นำไปใช้ได้ทันทีที่สุดในงานวิจัยทั้งหมด",
+  "evidence": "\"อีกประโยคโปรดของผมคือ: ผมควรตัดสินใจยังไงดี?\"",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "id": "J07",
+  "category": "กระบวนการทำงาน",
+  "topic": "อ่าน rulebook ย้อนหลังทีละหัวข้อ",
+  "principle": "การอ่านย้อนลำดับป้องกันไม่ให้คุณกวาดตาข้ามด้วยระบบอัตโนมัติ และทำให้ข้อบกพร่องเดี่ยวๆ โผล่ขึ้นมา",
+  "detail": "เทคนิค QA ส่วนตัวของ Jamey Stegmaier",
+  "evidence": "\"ผมพบว่าการตรวจ rulebook ย้อนหลังทีละหัวข้อมีประโยชน์มาก\"",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "J08",
+  "category": "กระบวนการทำงาน",
+  "topic": "จับเวลาการเปิดหา ไม่ใช่แค่การอ่าน",
+  "principle": "ตอนได้เล่มตัวอย่างก่อนผลิต ให้ทดสอบว่าผู้เล่นหาคำตอบเฉพาะกลางเกมได้เร็วแค่ไหน การหาช้าคือข้อบกพร่องเชิงโครงสร้าง",
+  "detail": "เกณฑ์ทดสอบ pre-production copy ที่ Stonemaier ระบุชัด",
+  "evidence": "ถ้าหาคำตอบไม่เจอเร็ว ให้แก้โครงสร้าง ไม่ใช่แก้ประโยค",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "id": "J09",
+  "category": "กระบวนการทำงาน",
+  "topic": "จ้างบรรณาธิการ และจ้างคนพิสูจน์อักษรอีกคน",
+  "principle": "บรรณาธิการจับข้อผิดพลาดได้ 80-95% ต่อรอบ การมีสองสายตาในสองขั้นตอนดีกว่าหนึ่งอย่างมีนัยสำคัญ",
+  "detail": "Curby อ้าง The Copyeditor's Handbook ส่วน Meeple Mountain ให้ค่าจ้างฟรีแลนซ์ราว 25-50 ดอลลาร์ต่อชั่วโมง และนักออกแบบ Obsession บันทึกไว้สาธารณะว่าตัดสินใจไม่จ้างคนพิสูจน์อักษร แล้วเสียใจ",
+  "evidence": "\"ผมได้เรียนรู้แล้วว่าโปรเจกต์ต่อไปต้องมีคนพิสูจน์อักษรมืออาชีพ\"",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ },
+ {
+  "id": "J10",
+  "category": "กระบวนการทำงาน",
+  "topic": "แก้ข้อความก่อนจัดหน้า พิสูจน์อักษรหลังจัดหน้า",
+  "principle": "การแก้เชิงพัฒนา/copyedit ทำบนข้อความเพื่อให้สลับหัวข้อได้อิสระ ส่วนการพิสูจน์อักษรทำบนไฟล์ที่จัดหน้าแล้วเพื่อจับข้อผิดพลาดที่เกิดจากการจัดหน้า",
+  "detail": "ขั้นตอนการทำงานอาชีพที่ Michael Lee ระบุ",
+  "evidence": "\"วิธีนี้ทำให้ผมสลับและเขียนหัวข้อทั้งหัวข้อใหม่ได้ โดยไม่ต้องแก้งานกราฟิกที่แพง\"",
+  "source": "Michael Lee, Editor — editing.curby.net",
+  "url": "https://editing.curby.net/"
+ },
+ {
+  "id": "J11",
+  "category": "กระบวนการทำงาน",
+  "topic": "การแลกเปลี่ยน rulebook และชุมชนนักออกแบบคือ QA ฟรี",
+  "principle": "นักออกแบบแลก rulebook และ blind test กัน ส่วน Discord (Break My Game, Editors' Hangout) และเธรด BGG ให้คำวิจารณ์อย่างเป็นระบบโดยไม่มีค่าใช้จ่าย",
+  "detail": "มีหลายเธรดบน BGG ที่จัดการเรื่องนี้โดยตรง ส่วน Break My Game ถูกแนะนำในคอมเมนต์ของ Stonemaier",
+  "evidence": "\"rulebook ที่ดีสำคัญพอๆ กับการมี blind playtest ที่ดี\"",
+  "source": "BGG: How do you go about blind playtesting?",
+  "url": "https://boardgamegeek.com/thread/989999/how-do-you-go-about-blind-playtesting"
+ },
+ {
+  "id": "J12",
+  "category": "กระบวนการทำงาน",
+  "topic": "ถามคนชนะว่าเขาจะสอนเกมนี้ยังไง",
+  "principle": "หลัง playtest การสอนแบบด้นสดของคนชนะเผยลำดับที่เกมเข้าใจง่ายที่สุดสำหรับคนเรียน",
+  "detail": "เทคนิคของ Entro Games สำหรับค้นหาโครงสร้างที่เป็นธรรมชาติ",
+  "evidence": "การใส่ลูกเล่นของเขาในการสอน คือข้อมูลเกี่ยวกับโครงสร้างของคุณ",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "id": "K01",
+  "category": "การเข้าถึง",
+  "topic": "เข้ารหัสซ้อนทุกความแตกต่าง",
+  "principle": "ห้ามสื่อความหมายด้วยสีอย่างเดียว จับคู่สีกับรูปทรง ไอคอน พื้นผิว หรือป้ายกำกับเสมอ",
+  "detail": "หัวข้อ inclusive design ของ Curby ส่วน Stonemaier ลิสต์ 'ไอคอนเข้ารหัสซ้อน' และ 'โทเคนรูปทรงไม่ซ้ำ' ไว้ในเกณฑ์การเข้าถึง",
+  "evidence": "ช่วยผู้เล่นที่ตาบอดสี และช่วยทุกคนที่เล่นในห้องแสงน้อยด้วย",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "K02",
+  "category": "การเข้าถึง",
+  "topic": "เป้าหมายความต่างสี: 4.5:1 เนื้อหา 3:1 ตัวใหญ่",
+  "principle": "ทำตามอัตราส่วนแบบ WCAG สำหรับทุกอย่างที่ผู้เล่นต้องอ่าน เก็บสีอ่อนไว้ให้องค์ประกอบตกแต่งเท่านั้น",
+  "detail": "MINIFINITI ระบุว่าตาบอดสีเกิดกับผู้ชายราว 8% และผู้หญิงราว 0.5% หรือประมาณ 300 ล้านคนทั่วโลก",
+  "evidence": "ทดสอบง่ายๆ: แปลงหน้าเป็นขาวดำ ถ้าอ่านยาก แปลว่าความต่างสีต่ำเกินไป",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "id": "K03",
+  "category": "การเข้าถึง",
+  "topic": "ตัวอักษรสำหรับผู้อ่านที่มีภาวะ dyslexia",
+  "principle": "ฟอนต์ sans serif เรียบๆ ระยะห่างสม่ำเสมอ (Arial, Verdana, Tahoma, Century Gothic, Trebuchet) ขนาด 12-14pt ระยะบรรทัด ≥1.5 ใช้ตัวหนาไม่ใช่ตัวเอียง เลี่ยงตัวพิมพ์ใหญ่ทั้งหมด",
+  "detail": "สังเคราะห์จากแนวทาง dyslexia และสะท้อนในกฎการเน้นของ Curby (เลี่ยงเส้นใต้ เลี่ยง all-caps ใช้ตัวหนาอย่างประหยัด)",
+  "evidence": "เลี่ยงการขีดเส้นใต้และตัวเอียงยาวๆ เพราะทำให้ตัวอักษรดูติดกัน",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "id": "K04",
+  "category": "การเข้าถึง",
+  "topic": "การเข้าถึงเป็นคุณสมบัติของผลิตภัณฑ์ทั้งชิ้น ไม่ใช่ของ rulebook อย่างเดียว",
+  "principle": "โมเดลของ Stonemaier ครอบคลุมเก้าหมวด: การเรียนรู้ การจดจำ เวลา ภาพ พื้นที่ ภาษา การซื้อ ขอบเขต และการมีส่วนร่วม",
+  "detail": "เป็นกรอบตรวจสอบที่มีประโยชน์: rulebook รับผิดชอบการเรียนรู้ การจดจำ ภาพ และภาษา แต่ตัวเกมทั้งชิ้นเป็นตัวกำหนดการเข้าถึงจริง",
+  "evidence": "\"คุณทำเกมที่เข้าถึงได้ดีมากโดยไม่ต้องติ๊กครบทุกช่องก็ได้\"",
+  "source": "How Do You Measure Accessibility? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/how-do-you-measure-accessibility/"
+ },
+ {
+  "id": "K05",
+  "category": "การเข้าถึง",
+  "topic": "นักรีวิวที่ชี้ว่า rulebook แย่ กำลังทำงานด้านการเข้าถึง",
+  "principle": "สำหรับผู้เล่นที่มีปัญหาสายตาและผู้อ่านที่ไม่ใช่เจ้าของภาษา rulebook ที่ไม่มี layout ที่อ่านได้ ลำดับข้อมูลที่ชัด ไดอะแกรม และ index ไม่ใช่แค่น่ารำคาญ แต่คือเล่นไม่ได้",
+  "detail": "คำตอบที่ทรงพลังในเธรดของกลุ่ม solo โต้แนวคิดที่ว่าการวิจารณ์ rulebook เป็นเรื่องจุกจิก",
+  "evidence": "\"ถ้า rulebook ไม่มี layout ที่อ่านได้ ไม่มีลำดับข้อมูลที่ชัด ไม่มีไดอะแกรมพอ ไม่มี index มันก็ไร้ประโยชน์สำหรับผม\"",
+  "source": "BGG: Do you get upset when reviewers complain about rulebooks/inserts?",
+  "url": "https://boardgamegeek.com/thread/3168953/do-you-get-upset-when-reviewers-complain-about-rul"
+ },
+ {
+  "id": "L01",
+  "category": "การแปลและภาษาที่สอง",
+  "topic": "สมมติว่าผู้อ่านไม่ใช่เจ้าของภาษา",
+  "principle": "ผู้อ่านส่วนใหญ่จะอ่านกฎของคุณในภาษาที่สอง ประโยคสั้น คำศัพท์ธรรมดา และการไม่ใช้สำนวน คือคุณสมบัติด้านการเข้าถึง",
+  "detail": "เธรด BGG ที่ผู้ไม่ใช่เจ้าของภาษาอังกฤษเข้ามาแลกเปลี่ยน ส่วน Brandon the Game Dev แนะให้รวมคนที่ไม่ใช่เจ้าของภาษาไว้ใน beta reader",
+  "evidence": "\"เลี่ยงคำสแลง สำนวนอเมริกัน/อังกฤษ และการอ้างอิงทางวัฒนธรรม\"",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "id": "L02",
+  "category": "การแปลและภาษาที่สอง",
+  "topic": "การแปลคืองานเขียนเชิงเทคนิค ไม่ใช่แค่งานภาษา",
+  "principle": "การแปลที่แย่ทำให้คำศัพท์ไม่สม่ำเสมอและกฎพัง ใช้นักแปลที่เข้าใจบอร์ดเกม แปลกลับตรวจ และพิสูจน์อักษร",
+  "detail": "ทีม Andoria ใช้เวลากว่าหกเดือนแปลกฎจากเยอรมันเป็นอังกฤษ และแนะให้ตรวจซ้ำสองรอบก่อนส่งให้นักออกแบบกราฟิก",
+  "evidence": "\"ตรวจซ้ำสองรอบก่อนส่งให้นักออกแบบทำเวอร์ชันกราฟิก ประหยัดเวลาไปเยอะ\"",
+  "source": "BGG: How to best do rulebook design?",
+  "url": "https://boardgamegeek.com/thread/2166294/how-to-best-do-rulebook-design"
+ },
+ {
+  "id": "L03",
+  "category": "การแปลและภาษาที่สอง",
+  "topic": "การแปลที่แย่ทำให้เกมดีจมได้",
+  "principle": "Heroes of Normandie และเกม Kickstarter อีกหลายตัวถูกยกเป็นตัวอย่างของเกมดีที่พิการเพราะกฎแปลแล้วขาดเป็นท่อน",
+  "detail": "ปรากฏซ้ำในเธรด rulebook แย่ที่สุด รวมถึงเกมสเปนที่แฟนใช้เวลาหลายเดือนเขียนใหม่",
+  "evidence": "การที่แฟนต้องเขียนใหม่คืออาการ ไม่ใช่ทางแก้ — มันคือสัญญาณว่าสำนักพิมพ์ล้มเหลว",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "id": "L04",
+  "category": "การแปลและภาษาที่สอง",
+  "topic": "ความสม่ำเสมอของคำศัพท์คือสิ่งที่รอดจากการแปล",
+  "principle": "กฎที่เขียนตามรูปแบบเดียวกันแปลได้เกือบเป็นกลไก ส่วนภาษาที่เต็มไปด้วยคำพ้องทวีจำนวนการตัดสินใจของนักแปล และทุกครั้งคือโอกาสเกิดข้อผิดพลาด",
+  "detail": "แฝงอยู่ตลอดงานวิจัย และได้รับการสนับสนุนโดยตรงจากการที่วินัย templating ของ Magic: The Gathering ถูกยกเป็นแบบอย่าง",
+  "evidence": "MTG พัฒนา templating เข้มงวดเพราะกฎส่วนใหญ่ของมันอยู่บนตัวอุปกรณ์",
+  "source": "BGG: Rulebook Editing Style Guide (2020)",
+  "url": "https://boardgamegeek.com/thread/2527114/rulebook-editing-style-guide"
+ },
+ {
+  "id": "M01",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "กฎหายไปเฉยๆ",
+  "principle": "ประเภทที่เสียหายที่สุด เพราะผู้เล่นแยกไม่ออกระหว่าง 'ไม่ได้เขียน' กับ 'เราอ่านข้าม' เขาจึง house-rule หรือเลิกเล่น",
+  "detail": "ถูกบันทึกสดในเธรดของ Inferno, Raising Robots: Pets, Triplock และ Imperium: Classics (กฎบอทโหมด solo ถูกลืมทั้งข้อ)",
+  "evidence": "blind test คือเครื่องมือตรวจจับที่เชื่อถือได้อย่างเดียว: 'เกิดสถานการณ์ที่ไม่มีอยู่ใน rulebook'",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "M02",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "ใช้คำที่ไม่เคยนิยาม เหมือนกับว่านิยามแล้ว",
+  "principle": "Caper ใช้คำว่า 'set' ซ้ำๆ ในกฎการนับคะแนนโดยไม่เคยนิยาม ทำให้เกิดข้อถกเถียงในฟอรั่มหลายปีและการเล่นผิดสองแบบ",
+  "detail": "กรณีศึกษาที่เกือบสมบูรณ์แบบ: สองกลุ่มที่ไม่รู้จักกันตีความเหมือนกัน — ผิดแต่สมเหตุสมผล — จนนักออกแบบต้องมาตอบบน BGG",
+  "evidence": "\"การอ้างถึง 'set' หลายครั้งโดยไม่เคยบอกว่า 'set' คืออะไร ต้องเป็นความพลาดด้านกฎที่ใหญ่ที่สุดที่ผมเจอมาสักพัก\"",
+  "source": "BGG: Clarity in the Rulebook (Caper)",
+  "url": "https://boardgamegeek.com/thread/2395671/clarity-in-the-rulebook"
+ },
+ {
+  "id": "M03",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "กฎกระจายอยู่หลายเอกสาร",
+  "principle": "Mage Knight (กฎอยู่สามที่), A Feast for Odin และ 7 Wonders (หยิบเล่มผิดทุกครั้ง), Ulm (กฎแยกสองเล่ม) ถูกยกขึ้นมาทั้งหมด",
+  "detail": "เสียงบ่นไม่เคยเกี่ยวกับความยาวรวม แต่คือการไม่รู้ว่าจะหยิบเอกสารไหน",
+  "evidence": "\"Mage Knight เละเทะ มีกฎอยู่ 3 ที่ ไม่มีความสม่ำเสมอ แย่มาก\"",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "M04",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "เอาอารมณ์ขันและบรรยากาศปนกับข้อความกฎ",
+  "principle": "Galaxy Trucker และ Dungeon Lords ถูกทั้งรักและสาปแช่ง — อ่านสนุกครั้งเดียว แต่ทรมานตอนใช้อ้างอิง",
+  "detail": "หัวข้อที่แตกแยกที่สุดในงานวิจัย ทางออกที่ทั้งสองฝ่ายรับได้: อารมณ์ขันและบรรยากาศอยู่ใน sidebar ที่แยกออกทางสายตา",
+  "evidence": "\"อย่าเอาข้อความตลกหรือองค์ประกอบธีมปนกับกฎ ให้กฎเป็นกฎอย่างเดียว\"",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ },
+ {
+  "id": "M05",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "ไอคอนเยอะแต่ไม่มีหน้าอ้างอิง",
+  "principle": "ไอคอนหนักโดยไม่มีคีย์รวมบังคับให้ผู้เล่นตามหาตลอด ไอคอนต้องเข้ารหัสซ้อนและถูกรวบรวมไว้ที่เดียว",
+  "detail": "ถูกยกกับเกมดัดแปลงจาก Heroes of Might & Magic: 'ไอคอนกระจายเต็มไปหมด แต่ไม่มีหน้าอ้างอิงท้ายเล่ม'",
+  "evidence": "ถ้าใช้ไอคอน คีย์ไอคอนต้องอยู่บนหลังปก",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "id": "M06",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "กฎที่มีอยู่แค่ในตัวอย่างหรือคำบรรยายภาพ",
+  "principle": "Paul Grogan ไล่ล่าเรื่องนี้เป็นพิเศษ เพราะคนอ่านซ้ำข้ามตัวอย่างโดยธรรมชาติ กฎที่วางไว้ตรงนั้นจึงล่องหนทุกรอบหลังรอบแรก",
+  "detail": "ถูกระบุเป็นหนึ่งในธงแดงหลักตอนเขาได้รับต้นฉบับ",
+  "evidence": "วงเล็บ คำบรรยาย และตัวอย่าง มีไว้ขยายความ ไม่เคยมีไว้แนะนำกฎ",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "M07",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "การอ้างอิงข้ามที่วนเป็นวงกลม",
+  "principle": "'ดูหัวข้อ 3 ซึ่งอ้างถึงหัวข้อ 7 ซึ่งอ้างกลับมาหัวข้อ 3' Root ถูกวิจารณ์เรื่องการอ้างอิงย้อนกลับสไตล์ข้อกฎหมาย",
+  "detail": "Herc du Preez เรียกว่าเป็นความรำคาญส่วนตัวของเขา และผู้ใช้ BGG อีกคนบ่นเรื่องเดียวกันกับ Root โดยตรง",
+  "evidence": "\"ผมไม่อยากอ่าน 'ข้อกฎหมาย' ที่ให้กฎแล้วบอกให้ย้อนไปดูวรรค 2B ถ้าจำเป็นก็พูดซ้ำเลยสิ\"",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "M08",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "errata ไม่จบสิ้นและเวอร์ชันหลุด",
+  "principle": "การปล่อย rulebook v1.0 แล้ว v1.5 แล้วชุดกฎใหม่ที่นักออกแบบเขียนเอง ทำลายความเชื่อมั่นแม้ข้อความสุดท้ายจะดี",
+  "detail": "Coffee Traders คือกรณีหลัก: สำนักพิมพ์เขียน rulebook ใหม่สองปีหลังวางขาย และเล่มจริงต้องจ่ายเพิ่ม 7 ดอลลาร์",
+  "evidence": "ทำหน้า living rules สาธารณะพร้อม changelog ที่มีวันที่ แทนการแก้เงียบๆ",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "id": "M09",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "ตัวเลขไม่ตรงกันระหว่าง rulebook อุปกรณ์ และ player aid",
+  "principle": "Obsession ส่งของโดยจำนวนอุปกรณ์ผิดทั้งใน rulebook และอภิธานศัพท์ และ player aid ระบุชื่อเสียง 2 ขณะที่กระดานบอก 4",
+  "detail": "โพสต์ errata สาธารณะที่ละเอียดจากนักออกแบบ ซึ่งเป็นเช็กลิสต์ QA ชั้นดีในรูปแบบกลับด้าน",
+  "evidence": "ตรวจทุกตัวเลขในรายการอุปกรณ์เทียบกับของที่จะพิมพ์จริง",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ },
+ {
+  "id": "M10",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "กฎที่อยู่บนพื้นผิว 'เชิงธีม' จนอ่านไม่ออก",
+  "principle": "กฎพิมพ์บนแผนที่สมบัติปลอม บนภาพเข้ม หรือด้วยฟอนต์ประดับ คือสาเหตุที่ปรากฏซ้ำของการที่เกมถูกเก็บขึ้นชั้น",
+  "detail": "มีตัวอย่างหลายรายการในเธรด rulebook แย่ที่สุด รวมถึงเกมที่ต้องเอียงหน้ากระดาษรับแสงจึงจะอ่านได้",
+  "evidence": "\"ความอ่านง่ายสำคัญกว่าตัวอักษรน่ารัก\"",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "id": "M11",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "การอธิบายมากเกินไปก็คือความล้มเหลว",
+  "principle": "24 หน้าสำหรับเกมที่ต้องการ 12 หน้าถูกวิจารณ์ว่า 'หนังสือบวม' ผู้อ่านบางคนพบว่าตัวอย่างหนาแน่นทำให้นำทางยากขึ้นจริง",
+  "detail": "จุดยืนส่วนน้อยแต่มีจริงบน BGG และเป็นเครื่องเตือนว่าจำนวนหน้าควรสะท้อนความซับซ้อน",
+  "evidence": "\"ผมยอมพลิก 20 หน้าแล้วกวาดตาเห็นเนื้อหาในพริบตา ดีกว่าลุยผ่าน 10 หน้าที่เป็นกำแพงตัวอักษร\"",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "id": "M12",
+  "category": "รูปแบบความล้มเหลว",
+  "topic": "เวอร์ชันและภาคเสริมปนกันมั่วในเล่มเดียว",
+  "principle": "การรวม edition, variant, stretch goal และภาคเสริมเข้าด้วยกันแบบไม่มีระบบ คือ anti-pattern ยุคใหม่ที่ถูกระบุชื่อ",
+  "detail": "Vinhos Deluxe พร้อมภาคเสริม Kickstarter ถูกยกเป็นตัวอย่างเฉพาะ",
+  "evidence": "rulebook ของเกมหลักควรอธิบายแค่เกมหลัก ภาคเสริมมีเอกสารของตัวเอง",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "id": "N01",
+  "category": "ผลกระทบและการตอบรับ",
+  "topic": "rulebook ที่แย่ทำให้เกมดีจมได้",
+  "principle": "First Martians และ Batman: Gotham City Chronicles ถูกบรรณาธิการอาชีพระบุชื่อว่าเป็นเกมที่ตายเชิงพาณิชย์เพราะ rulebook",
+  "detail": "Paul Grogan ให้สัมภาษณ์กับ Punchboard",
+  "evidence": "\"มีหลายตัวอย่างเลยที่ rulebook ห่วยฆ่าเกมทิ้ง\"",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "id": "N02",
+  "category": "ผลกระทบและการตอบรับ",
+  "topic": "คณะกรรมการรางวัลปัดเกมตกเพราะคุณภาพ rulebook แล้ว",
+  "principle": "คณะกรรมการ Spiel des Jahres ออกแถลงการณ์ว่าต้องตัดเกมที่ดีมากออกไป เพียงเพราะคู่มือไม่ถึงมาตรฐานที่คาดหวัง",
+  "detail": "อ้างผ่าน Joshua Yearsley ในบทความ 'Every Board Game Rulebook is Awful'",
+  "evidence": "\"พวกเราไม่อยากเป็น beta-tester ให้คู่มือที่จะดีขึ้นตอนพิมพ์ครั้งที่สองอีกแล้ว\"",
+  "source": "BGG blog: Every Board Game Rulebook is Awful (Dean Ray Johnson)",
+  "url": "https://boardgamegeek.com/blog/13453/every-board-game-rulebook-is-awful"
+ },
+ {
+  "id": "N03",
+  "category": "ผลกระทบและการตอบรับ",
+  "topic": "คุณภาพ rulebook เป็นปัจจัยการซื้อ",
+  "principle": "ผู้ซื้อรายงานว่าเลี่ยงเกมที่รีวิวบ่นเรื่อง rulebook ส่วนนักรีวิวถือว่านี่คือเรื่องความเล่นได้ ไม่ใช่เรื่องความสวยงาม",
+  "detail": "ถูกโต้แย้งอย่างแข็งขันในเธรดของกลุ่ม solo ส่วน Chris Wray พยายามวัดคุณภาพเชิงปริมาณผ่านจำนวนคำถามกฎบน BGG",
+  "evidence": "\"ผมมีแนวโน้มจะไม่ซื้อเกม ถ้ารีวิวบ่นเรื่อง rulebook\"",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "id": "N04",
+  "category": "ผลกระทบและการตอบรับ",
+  "topic": "การเขียน rulebook เป็นวิชาชีพเฉพาะ",
+  "principle": "การแก้ rulebook คือสาขาหนึ่งของงานเขียนเชิงเทคนิค การออกแบบเกมกับการเขียนเกมเป็นคนละทักษะ",
+  "detail": "Michael Lee แก้มาแล้ว 100+ เกม ส่วน Paul Grogan ราว 100 เล่ม รวมถึงงานหนักที่สุดของ Vital Lacerda",
+  "evidence": "\"การเขียนคำสั่งไม่ง่าย นั่นคือเหตุผลที่คนทำอาชีพนักเขียนเชิงเทคนิค\"",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "id": "N05",
+  "category": "ผลกระทบและการตอบรับ",
+  "topic": "แม้ rulebook ที่ดีก็ยังเกิดคำถาม — นั่นไม่ใช่หลักฐานความล้มเหลว",
+  "principle": "ผู้เล่นหลายพันคนจะเจอความกำกวมที่ทีมเล็กๆ มองข้ามเสมอ ต้องแยกข้อบกพร่องจริงออกจากความหลีกเลี่ยงไม่ได้เชิงสถิติ",
+  "detail": "มุมโต้แย้งที่สมดุลในเธรดเรื่องความเข้าใจ ควบคู่กับหลักฐานว่าคำบ่นเรื่อง 'rulebook ไม่ชัด' จำนวนมากคือความล้มเหลวในการอ่าน",
+  "evidence": "\"ทำไมคนไม่กี่คนที่แตะเกมช่วงออกแบบ ถึงจะหาบั๊กเก่งกว่าผู้เล่นหลายพันคน?\"",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "id": "N06",
+  "category": "ผลกระทบและการตอบรับ",
+  "topic": "สรุปกฎที่แฟนทำเองคือสัญญาณวินิจฉัย",
+  "principle": "เมื่อชุมชนผลิตสรุปกฎ index และฉบับเขียนใหม่ (Universal Head / Esoteric Order of Gamers, ชุด FAQ ของ Robinson Crusoe) แปลว่าเอกสารทางการล้มเหลวในหน้าที่อ้างอิง",
+  "detail": "ระบบนิเวศ FAQ และฉบับเขียนใหม่ของ Robinson Crusoe คือตัวอย่างมาตรฐาน",
+  "evidence": "ลองดูส่วน Files ของเกมชั้นนำในแนวของคุณ — สิ่งที่แฟนสร้าง คือสิ่งที่หนังสือคุณขาด",
+  "source": "The Esoteric Order of Gamers – Robinson Crusoe rules summaries",
+  "url": "https://www.orderofgamers.com/games/robinson-crusoe/"
+ }
+]

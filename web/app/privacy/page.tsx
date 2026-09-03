@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <article style={{ maxWidth: "48rem" }}>
+    <article className="prose" style={{ maxWidth: "48rem" }}>
       <p className="eyebrow">Privacy</p>
       <h1>Visitor analytics</h1>
 

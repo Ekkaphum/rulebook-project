@@ -1,0 +1,114 @@
+[
+ {
+  "metric": "ขนาดตัวอักษรเนื้อหาขั้นต่ำ",
+  "value": "10 pt (ขั้นต่ำสุด มักใหญ่กว่านั้นขึ้นกับฟอนต์)",
+  "context": "แนวปฏิบัติของ Stonemaier Games",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "metric": "ขนาดตัวอักษรแบบ 'clear print'",
+  "value": "ขั้นต่ำ 12 pt และ 16 pt Arial ขึ้นไปสำหรับฉบับตัวใหญ่",
+  "context": "แนวทางด้านการเข้าถึงทั่วไป",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "ขนาดตัวอักษรสำหรับผู้อ่าน dyslexia",
+  "value": "12-14 pt ระยะบรรทัด ≥ 1.5 เท่า",
+  "context": "แนวทางด้าน dyslexia",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "อัตราส่วนความต่างสีของข้อความ",
+  "value": "4.5:1 สำหรับข้อความปกติ, 3:1 สำหรับตัวใหญ่หรือตัวหนา (18pt / 14pt bold)",
+  "context": "มาจาก WCAG",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "ความชุกของภาวะตาบอดสี",
+  "value": "ผู้ชายราว 8%, ผู้หญิงราว 0.5% หรือราว 300 ล้านคนทั่วโลก",
+  "context": "เหตุผลด้านการเข้าถึง",
+  "source": "Rulebook Design: Contrast and Readability – MINIFINITI",
+  "url": "https://minifiniti.com/blogs/game-talk/rulebook-design-contrast-and-readability"
+ },
+ {
+  "metric": "ขนาดเล่มที่แนะนำ",
+  "value": "180 x 240 มม.",
+  "context": "Stonemaier: ใหญ่พอใส่ภาพ เล็กพอวางบนโต๊ะ",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "metric": "ข้อจำกัดจำนวนหน้า",
+  "value": "ต้องหารด้วย 4 ลงตัว (เข้าเล่มเป็นชุด)",
+  "context": "ความจริงของงานเข้าเล่ม",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "metric": "หน้าที่ควรเผื่อตอน self-publish",
+  "value": "เผื่ออีก 2-4 หน้าจากที่คิดว่าพอ",
+  "context": "เติมพื้นที่ง่ายกว่าสร้างพื้นที่หลังจัดหน้าเสร็จ",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "metric": "ค่าจ้างบรรณาธิการฟรีแลนซ์ (ช่วงที่สำรวจปี 2020)",
+  "value": "25-50 ดอลลาร์สหรัฐ/ชั่วโมงสำหรับส่วนใหญ่ มากกว่านั้นสำหรับคนที่มีประสบการณ์สูง",
+  "context": "Meeple Mountain",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "metric": "อัตราการจับข้อผิดพลาดของบรรณาธิการ",
+  "value": "80-95% ต่อรอบ จึงควรมีทั้งบรรณาธิการและคนพิสูจน์อักษรแยกกัน",
+  "context": "The Copyeditor's Handbook อ้างโดย Curby",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "metric": "จำนวนรอบที่ควรคาดว่าจะเขียนใหม่",
+  "value": "เขียนแล้วเขียนใหม่อีกสองรอบ ร่างที่สามจะดีขึ้นอย่างมีนัยสำคัญ",
+  "context": "หลักคิดของนักออกแบบบน BGG",
+  "source": "BGG: how to write rule book",
+  "url": "https://boardgamegeek.com/thread/2040012/how-to-write-rule-book"
+ },
+ {
+  "metric": "จำนวน blind playtest ที่แนะนำ",
+  "value": "อย่างน้อย 1 ครั้ง และ 2-3 ครั้งสำหรับเกมกลางถึงหนัก",
+  "context": "Meeple Mountain",
+  "source": "Top Six Rules for Rulebook Writing – Meeple Mountain",
+  "url": "https://www.meeplemountain.com/top-six/top-six-rules-for-writing-rulebooks/"
+ },
+ {
+  "metric": "สัดส่วนของ blind playtest ที่มุ่งไปที่ rulebook",
+  "value": "ราว 25%",
+  "context": "Stonemaier",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "metric": "จำนวน rulebook ที่บรรณาธิการอาชีพหนึ่งคนแก้",
+  "value": "100+ เกม (Michael Lee), ราว 100 เล่ม (Paul Grogan)",
+  "context": "หลักฐานว่านี่คือวิชาชีพ",
+  "source": "Michael Lee, Editor — editing.curby.net",
+  "url": "https://editing.curby.net/"
+ },
+ {
+  "metric": "ความยาวมาตรฐานของ style guide",
+  "value": "ราว 13,000 คำ (style guide ฟรีของ Curby)",
+  "context": "ฟรี ใช้สัญญาอนุญาต Creative Commons",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "metric": "จำนวนกระทู้ถามกฎในฐานะตัวชี้วัดคุณภาพ",
+  "value": "กว่า 1,500 เธรดบน BGG สำหรับเกมการ์ดพิมพ์ครั้งแรกเกมเดียว",
+  "context": "Pathfinder ACG: Rise of the Runelords",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ }
+]

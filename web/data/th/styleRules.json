@@ -1,0 +1,210 @@
+[
+ {
+  "area": "น้ำเสียง",
+  "rule": "พูดกับผู้เล่นตรงๆ ด้วย active voice",
+  "do": "จ่าย $1 เพื่อรับทรัพยากร 2 ชิ้น",
+  "dont": "ผู้เล่นจ่าย $1 เพื่อรับทรัพยากร 2 ชิ้น",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "area": "น้ำเสียง",
+  "rule": "ใช้ passive voice เฉพาะข้อห้ามระดับสากล",
+  "do": "ไทล์ภูเขาไม่สามารถถูกนำออกจากแผนที่ได้",
+  "dont": "ผู้เล่นห้ามนำไทล์ภูเขาออกจากแผนที่",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "บุรุษ",
+  "rule": "เลือกบุรุษที่ 2 หรือที่ 3 แล้วสม่ำเสมอในหัวข้อเดียวกัน",
+  "do": "ผู้เล่นแต่ละคนเปิดการ์ด 1 ใบจากมือของตน",
+  "dont": "สลับ 'คุณเคลื่อน 3 ชิ้น' กับ 'ผู้เล่นอาจเคลื่อนน้อยกว่า 3'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "สรรพนาม",
+  "rule": "ใช้สรรพนามเป็นกลางทางเพศ ถ้ากำกวมให้ระบุ 'ผู้เล่นคนนั้น'",
+  "do": "ถ้าผู้เล่นไม่มี Scientist ผู้เล่นคนนั้นจะวิจัย Technology ไม่ได้",
+  "dont": "he / she / (s)he / he or she / him or her",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "คำกริยาช่วย",
+  "rule": "may = ทางเลือก, may not = ห้าม, cannot = ทำไม่ได้, must = ถูกบังคับ",
+  "do": "ถ้าผู้เล่นที่กำลังเล่นเล่นการ์ดไม่ได้ เขาต้องจั่วการ์ดแทน",
+  "dont": "ใช้คำว่า 'ควร' ที่ไหนก็ตามในข้อความกฎ",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "คำกริยา",
+  "rule": "gain (กองไม่จำกัด) vs take (กองจำกัดหรือจากผู้เล่น) vs give",
+  "do": "ตอนจบแต่ละรอบ รับ $5",
+  "dont": "ใช้ 'หยิบ' กับของจากกองกลางที่ไม่จำกัด",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "เงื่อนไข",
+  "rule": "ตัวกระตุ้น/เงื่อนไขมาก่อน ผลลัพธ์มาทีหลัง",
+  "do": "ถ้าคุณทอยได้ 5 ขึ้นไป จั่วการ์ด 1 ใบ",
+  "dont": "จั่วการ์ด 1 ใบถ้าคุณทอยได้ 5 ขึ้นไป",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ประโยค",
+  "rule": "หนึ่งประโยคหนึ่งการกระทำ ทดสอบด้วยลมหายใจเดียว",
+  "do": "เลือกส่วนหนึ่งของยาน จากนั้นในส่วนนั้น ให้วางโทเคนความเสียหายเท่ากับ...",
+  "dont": "ประโยคเดียวที่มีทั้งวงเล็บ รายการ และการคำนวณ",
+  "source": "How to Write a Rulebook for Your Board Game – Entro Games",
+  "url": "https://entrogames.substack.com/p/how-to-write-a-rulebook-for-your-board-game"
+ },
+ {
+  "area": "คำบอกเวลา",
+  "rule": "when (ครั้งเดียว) / whenever (ซ้ำได้) / if (อาจไม่เกิด) / at (จุดเวลา)",
+  "do": "ทุกครั้งที่ผู้เล่นจั่วการ์ด ...",
+  "dont": "ใช้ 'เมื่อ' กับสิ่งที่อาจไม่เกิดขึ้นเลย",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "คำบอกปริมาณ",
+  "rule": "each (ทีละคน) vs every / all (ทั้งกลุ่ม)",
+  "do": "การ์ดแต่ละใบถูกนับคะแนนตามค่า Infamy ของมัน",
+  "dont": "ใช้ 'ทุกใบได้คะแนน' ทั้งที่แต่ละใบได้คะแนนแยกกัน",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "การเปรียบเทียบ",
+  "rule": "greater/less than สำหรับตัวเลข, higher/lower สำหรับผลลูกเต๋า",
+  "do": "ถ้าคุณทอยได้ 4 ขึ้นไป...",
+  "dont": "สลับ 'มากกว่า' กับ 'สูงกว่า' สำหรับการเปรียบเทียบประเภทเดียวกัน",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ลำดับชั้นเวลา",
+  "rule": "เทิร์น < รอบ < ยุค/ฤดู โดยเฟสและ step แบ่งย่อย",
+  "do": "เทิร์นของผู้เล่นแต่ละคนประกอบด้วยเฟสจั่ว เฟสประมูล และเฟสก่อสร้าง",
+  "dont": "ใช้คำว่า 'เฟส' กับสองระดับที่ต่างกันในเกมเดียว",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ทิศทางชิ้นส่วน",
+  "rule": "เขียนคำว่าหงาย/คว่ำให้เหมือนกันทุกครั้ง",
+  "do": "สับการ์ดแล้ววางเป็นกองคว่ำหน้า",
+  "dont": "'พลิกการ์ดบนสุดของแต่ละสำรับคว่ำลงใต้มัน' (กำกวม)",
+  "source": "BGG blog: Writing Rules – facing up to breaking the rules (Andy Van Zandt)",
+  "url": "https://boardgamegeek.com/blog/5877/blogpost/84240/writing-rules-facing-up-to-breaking-the-rules"
+ },
+ {
+  "area": "ลูกเต๋า",
+  "rule": "ถ้ามีลูกเต๋าชนิดเดียวเรียกรวมๆ ได้ ถ้าหลายชนิดให้ใช้สัญกรณ์ 4d12",
+  "do": "ทอย 4d12 แล้ววางแต่ละลูกบนรันเวย์คนละอัน",
+  "dont": "สลับใช้เอกพจน์/พหูพจน์แบบคาดเดาไม่ได้ในเล่มเดียว",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ตัวพิมพ์ใหญ่",
+  "rule": "พิมพ์ใหญ่เฉพาะอุปกรณ์ การกระทำ และค่าจริงในเกม",
+  "do": "รับ 5 Gold จากกองกลาง",
+  "dont": "พิมพ์ใหญ่ทุกคำนามที่ดูสำคัญ",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "การเน้น",
+  "rule": "ตัวหนา = คำเฉพาะ/หัวข้อ, ตัวเอียง = ตัวอย่าง/บรรยากาศ, ห้ามขีดเส้นใต้",
+  "do": "ทำตัวหนาที่คำเฉพาะตรงจุดที่นิยามครั้งแรก",
+  "dont": "ขีดเส้นใต้ข้อความกฎ หรือใช้ตัวพิมพ์ใหญ่ทั้งย่อหน้า",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ตัวเลข",
+  "rule": "ใช้ตัวเลขสำหรับจำนวนในเกม สะกดเป็นคำสำหรับบรรยากาศและต้นประโยค",
+  "do": "สองลูกเต๋าสามารถวางบนแต่ละดินแดนได้",
+  "dont": "'2 ลูกเต๋าสามารถวาง...' ที่ต้นประโยค",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "รายการ",
+  "rule": "เลข = ลำดับขั้นตอน, bullet = ตัวเลือกที่ไม่เรียงลำดับ",
+  "do": "1. สับสำรับ 2. แจกการ์ด 5 ใบให้ผู้เล่นแต่ละคน",
+  "dont": "ใช้ตัวเลขเป็นป้ายในไดอะแกรม (คนอ่านเข้าใจผิดว่าเป็นจำนวน)",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "เครื่องหมายวรรคตอน",
+  "rule": "ใช้รูปแบบเดียวกันทั้งเล่ม เว้นวรรคหลังจุดหนึ่งครั้ง",
+  "do": "ชาวนา พ่อค้า และช่างตัดเสื้อ",
+  "dont": "เว้นวรรคสองครั้งหลังจุด",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "วงเล็บ",
+  "rule": "ใช้ขยายความสั้นๆ เท่านั้น ไม่เคยใช้แนะนำกฎใหม่",
+  "do": "ผู้เล่นแต่ละคนอาจวางหน่วยราบ 2 หน่วย (แต่ไม่ใช่หน่วยประเภทอื่น)",
+  "dont": "วงเล็บที่แนะนำกฎซึ่งไม่มีที่อื่นในเล่ม",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ตัวย่อ",
+  "rule": "ขยายตัวย่อเต็มในครั้งแรกที่ใช้",
+  "do": "Energy Production Rate (EPR)",
+  "dont": "ใช้ตัวย่อหลายตัวที่หน้าตาคล้ายกัน เช่น CWC กับ CWL",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "การอ้างอิง",
+  "rule": "ระบุเป้าหมายของการอ้างอิงข้ามทุกครั้ง",
+  "do": "ดู หัวข้อการเชื่อมต่อ หน้า 34",
+  "dont": "'ดูข้างบน' / 'ตามที่กล่าวไปแล้ว'",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "คำเตือน",
+  "rule": "ถือว่า 'ข้อยกเว้น', 'จำไว้ว่า' และ 'ควร' คือสัญญาณของปัญหาดีไซน์",
+  "do": "ลบข้อยกเว้นออก หรือออกแบบใหม่",
+  "dont": "ส่งเกมที่มีกฎซึ่งบ้านเดียวของมันคือประโยคข้อยกเว้น",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "การตั้งชื่อ",
+  "rule": "'mat' เป็นของผู้เล่นคนเดียว 'board' ใช้ร่วมกัน",
+  "do": "วางคนงานของคุณบนแผ่นผู้เล่นของคุณ",
+  "dont": "เรียกกระดานกลางว่าแผ่นผู้เล่น หรือสลับกัน",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "area": "คำเฉพาะ",
+  "rule": "เลือกชื่อที่ขึ้นต้นด้วยตัวอักษรต่างกัน โดยเฉพาะหัวข้อระดับเดียวกัน",
+  "do": "อู่เรือ / การประกอบ",
+  "dont": "'อู่ต่อเรือ' กับ 'การต่อเรือ' เป็นหัวข้อระดับเดียวกัน",
+  "source": "Board Game Editing Style Guide (Michael \"Curby\" Lee)",
+  "url": "https://cur.by/styleguide"
+ },
+ {
+  "area": "ระดับภาษา",
+  "rule": "ลบคำฟุ่มเฟือยและน้ำเสียงดูถูก",
+  "do": "เงื่อนไขชนะคือทำลายปราสาทของผู้เล่นคนอื่นทั้งหมด",
+  "dont": "'เงื่อนไขชนะก็แค่ทำลายปราสาท...'",
+  "source": "BGG: Rules Writing 101 (with an example)",
+  "url": "https://boardgamegeek.com/thread/1552162/rules-writing-101-example"
+ }
+]

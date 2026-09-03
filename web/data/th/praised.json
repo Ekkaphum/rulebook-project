@@ -1,0 +1,247 @@
+[
+ {
+  "game": "Fantasy Flight Games (Marvel Champions, Arkham Horror LCG)",
+  "aspect": "โมเดลสองเล่ม",
+  "detail": "เล่ม 'Learn to Play' แบบย่อให้เริ่มเล่นได้เร็ว + 'Rules Reference' เรียงตัวอักษรพร้อม index ละเอียด ผู้ใช้รายงานว่าหาอะไรก็เจอ 'ในไม่กี่วินาที'",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "game": "Root (Leder Games)",
+  "aspect": "เล่มพาเล่น / Learning-to-Play",
+  "detail": "แถมเล่มพาเล่นแบบสคริปต์คู่กับเอกสารอ้างอิงทางการ และเอกสารอ้างอิงบอกตรงๆ ว่าควรอ่านเล่มไหนตามสไตล์การเรียนของคุณ",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Arcs (Leder Games)",
+  "aspect": "โทนเสียง + คำอธิบายอุปกรณ์ + ไดอะแกรมเก็บของ",
+  "detail": "น้ำเสียงอบอุ่นซื่อสัตย์แบบสบายๆ ('เกมแรกจะยาวและน่าเบื่อ') อุปกรณ์แต่ละชิ้นมีคำอธิบายบริบทสั้นๆ แม้แต่ไดอะแกรมวิธีเก็บของกลับกล่องพร้อมป้ายกำกับ",
+  "source": "The Stonemaier Games Style Guide",
+  "url": "https://stonemaiergames.com/the-stonemaier-games-style-guide/"
+ },
+ {
+  "game": "ซีรีส์ Alea (Puerto Rico, San Juan, Castles of Burgundy)",
+  "aspect": "สรุปข้างขอบ",
+  "detail": "คำอธิบายเต็มในคอลัมน์หลัก สรุปหนึ่งบรรทัดที่ขอบหน้า — สอนและอ้างอิงบนหน้าเดียวกัน 'ซีรีส์ Alea ใช้สไตล์นี้หมด ทำให้เรียนง่ายมาก'",
+  "source": "BGG: Good Rulebooks (2021)",
+  "url": "https://boardgamegeek.com/thread/2644979/good-rulebooks"
+ },
+ {
+  "game": "Puerto Rico",
+  "aspect": "การจัดการเคสขอบ",
+  "detail": "อาคารทุกหลังมีคำอธิบายอยู่ใต้คำบรรยายของมันโดยตรง จนแทบไม่ต้องมี FAQ ออนไลน์",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "game": "Dominion",
+  "aspect": "วินัยคำเฉพาะ + ภาคผนวกการ์ด",
+  "detail": "มีคำเฉพาะแค่ไม่กี่คำ (Action, Buy, Gain, Card) ใช้อย่างสม่ำเสมอสุดขีด และมีภาคผนวกต่อการ์ดที่ครอบคลุมคอมโบแปลกๆ รวมถึงข้ามภาคเสริม",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "game": "rulebook ของ Uwe Rosenberg (A Feast for Odin, Agricola ฉบับหลัง, Terra Mystica)",
+  "aspect": "ลำดับการนำเสนอ + กล่องเคล็ดลับ",
+  "detail": "รู้จังหวะที่ควรแนะนำแนวคิดแต่ละอย่าง มีตัวอย่างแนบเกือบทุกแนวคิด แบ่งเป็นก้อนที่ย่อยง่าย และโรยกล่อง 'Uwe Says' ไว้เป็นระยะ",
+  "source": "BGG: Best Written Rulebooks as of 2019",
+  "url": "https://boardgamegeek.com/thread/2323149/best-written-rulebooks-as-of-2019"
+ },
+ {
+  "game": "เกมของ Vital Lacerda (Lisboa, On Mars) — บก. Paul Grogan",
+  "aspect": "ความหนาแน่นของตัวอย่าง",
+  "detail": "ตัวอย่าง 'ช่วยให้กฎตกผลึก' ตอนเรียนหรือตอนหาคำตอบ และมีบรรณาธิการ rulebook อาชีพทำงานกับหนังสือตั้งแต่ต้น",
+  "source": "BGG: What makes a good rulebook? (2021)",
+  "url": "https://boardgamegeek.com/thread/2784900/what-makes-a-good-rulebook"
+ },
+ {
+  "game": "Gloomhaven",
+  "aspect": "index แบบภาพ",
+  "detail": "index นำด้วยภาพ ถูกยกเป็นที่หนึ่งซ้ำๆ สำหรับการเปิดหากลางเกมในเกมดันเจี้ยนคลอว์เลอร์",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "game": "Gloomhaven: Jaws of the Lion",
+  "aspect": "rulebook แบบ tutorial",
+  "detail": "สอนแบบค่อยๆ เปิดเผยกฎผ่านฉากแรกๆ ถูก Stonemaier ระบุว่าเป็น rulebook ที่ควรศึกษาเรื่อง tutorial",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "game": "Combat Commander: Europe / Fighting Formations (Chad Jensen)",
+  "aspect": "งานฝีมือเอกสารอ้างอิงเกมสงคราม",
+  "detail": "'ไม่มีน้ำ ทุกอย่างเรียงอย่างมีเหตุผล ใช้คำที่เข้าใจง่าย พร้อมตัวอย่าง' มีทั้งสารบัญ อภิธานศัพท์ และ index",
+  "source": "BGG: Good Rulebooks (2021)",
+  "url": "https://boardgamegeek.com/thread/2644979/good-rulebooks"
+ },
+ {
+  "game": "Here I Stand / GCACW (Ed Beach)",
+  "aspect": "การเขียนกฎสำหรับเกมซับซ้อน",
+  "detail": "ถูกระบุชื่อซ้ำๆ ว่าเป็นคนเขียน rulebook ที่ดีที่สุดสำหรับเกมที่ซับซ้อนจริงๆ",
+  "source": "Best rulebooks? – There Will Be Games forum",
+  "url": "https://therewillbe.games/forum/10-ameritrash/124383-best-rulebooks"
+ },
+ {
+  "game": "Twilight Struggle Deluxe",
+  "aspect": "การนำทางด้วยหมายเลขหัวข้อ",
+  "detail": "ระบบหมายเลขแบบ Avalon Hill ทำให้เปิดหาเร็ว 'ไหลลื่นมากและทำให้การหาของเป็นเรื่องง่าย'",
+  "source": "Best rulebooks? – There Will Be Games forum",
+  "url": "https://therewillbe.games/forum/10-ameritrash/124383-best-rulebooks"
+ },
+ {
+  "game": "Splendor",
+  "aspect": "ความกระชับ",
+  "detail": "rulebook สี่หน้าสำหรับเกมวางแผน พิสูจน์ว่าเบาบางก็ครบถ้วนได้",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "game": "Belfort",
+  "aspect": "อธิบายชิ้นส่วนที่เคลื่อนไหวเยอะ",
+  "detail": "'เกมดูง่ายกว่าที่มันเป็นจริง ส่วนใหญ่เพราะ rulebook ที่ยอดเยี่ยม'",
+  "source": "Laying Down the Law (a guide to rulebook writing) – I Slay the Dragon",
+  "url": "https://islaythedragon.com/featured/laying-down-the-law-a-guide-to-rulebook-writing/"
+ },
+ {
+  "game": "Roll Player",
+  "aspect": "แบ่งหัวข้อย่อยละเอียด",
+  "detail": "16 หน้า เว้นระยะสบายตา แบ่งเป็นหมวดมากขึ้น (ไม่ใช่น้อยลง) หลังปกเป็น quick reference 'คุณรู้สึกเหมือนเล่นไปหนึ่งเกมแล้วตอนอ่านจบ'",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "game": "Attika",
+  "aspect": "เลย์เอาต์ + รายการกฎที่คนลืม",
+  "detail": "หัวข้อชัด ใช้ตัวหนาอย่างมีวินัย แบ่งสองคอลัมน์เพื่อสะท้อนทางเลือกสองทาง และปิดท้ายด้วยรายการสิ่งที่คนมักลืมในเกมแรก",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "game": "Russian Railroads",
+  "aspect": "ครบทุกด้าน",
+  "detail": "'เลย์เอาต์ตรงไปตรงมามีเหตุผล ภาพและตัวอย่างชัด เขียนดี และสบายตา'",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "game": "The Gallerist",
+  "aspect": "ความชัดเจน + การจัดระเบียบ",
+  "detail": "'คำอธิบายชัดมาก จัดระเบียบดี ภาพประกอบสวย'",
+  "source": "BGG: Best Rule Book (In Your Humble Opinion)",
+  "url": "https://boardgamegeek.com/thread/1932289/best-rule-book-in-your-humble-opinion"
+ },
+ {
+  "game": "Galactic Cruise",
+  "aspect": "การจัดระเบียบ",
+  "detail": "ถูก Stonemaier ระบุว่าเป็น rulebook ที่ควรศึกษาเรื่องการจัดระเบียบ",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "game": "Dungeon Lords (CGE)",
+  "aspect": "อารมณ์ขันที่ช่วยการจดจำ",
+  "detail": "แตกแยกทางความเห็น แต่ถูก Stonemaier ระบุว่าเป็นเล่มที่ควรศึกษาเรื่องอารมณ์ขัน และผู้ใช้ BGG ระบุว่าเรื่องราวในเล่มช่วยให้กฎติดหัว",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "game": "Barcelona",
+  "aspect": "การใส่บริบททางประวัติศาสตร์",
+  "detail": "ถูก Stonemaier ระบุว่าเป็นเล่มที่ควรศึกษาเรื่องการใช้ประวัติศาสตร์และบริบท",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "game": "Origin Story",
+  "aspect": "รองรับผู้เล่นหลายแบบ",
+  "detail": "ถูก Stonemaier ระบุเรื่องการรองรับจำนวนผู้เล่นและระดับประสบการณ์ที่หลากหลายในเล่มเดียว",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "game": "Dawn of the Zeds",
+  "aspect": "สถาปัตยกรรมหลายเล่ม",
+  "detail": "ถูก Stonemaier ระบุเป็นกรณีศึกษาการแยกเนื้อหาข้ามหลายเล่ม",
+  "source": "What Makes a Great Rulebook? – Stonemaier Games",
+  "url": "https://stonemaiergames.com/what-makes-a-great-rulebook/"
+ },
+ {
+  "game": "Mechanica / Surrealist Dinner Party (Resonym)",
+  "aspect": "วิศวกรรมความสนใจ",
+  "detail": "จงใจทำข้อความจางหรือกลับหัว เพื่อกันไม่ให้ผู้เล่นใหม่อ่านส่วนขั้นสูงเร็วเกินไป Tom Vasel: 'เป็นหนึ่งใน rulebook ที่เขียนดีที่สุดที่ผมเคยเห็น'",
+  "source": "Resonym | Writing Rulebooks",
+  "url": "https://resonym.com/writing-rulebooks/"
+ },
+ {
+  "game": "Through the Ages: A New Story of Civilization",
+  "aspect": "ความชัดเจนในเกมหนัก",
+  "detail": "ถูกระบุบน BGG ว่าเป็นตัวอย่างที่ยอดเยี่ยมของ rulebook สำหรับเกมหนัก",
+  "source": "BGG: Best Written Rulebooks as of 2019",
+  "url": "https://boardgamegeek.com/thread/2323149/best-written-rulebooks-as-of-2019"
+ },
+ {
+  "game": "SpaceCorp",
+  "aspect": "เลย์เอาต์อ้างอิงสมัยใหม่",
+  "detail": "ถูกเสนอเป็นจุดตั้งต้นสำหรับนักออกแบบที่มองหาแนวปฏิบัติร่วมสมัย",
+  "source": "BGG: Best Written Rulebooks as of 2019",
+  "url": "https://boardgamegeek.com/thread/2323149/best-written-rulebooks-as-of-2019"
+ },
+ {
+  "game": "เกมของ Splotter",
+  "aspect": "ย่อยความซับซ้อน + player aid",
+  "detail": "'เกมซับซ้อนพอสมควรทั้งนั้น แต่กฎย่อยความซับซ้อนให้จัดการได้' และ player aid ดีจนแทบไม่ต้องเปิดหนังสือ",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Raptor",
+  "aspect": "คาดการณ์คำถามล่วงหน้า",
+  "detail": "'ตั้งใจตอบทุกคำถามที่คุณอาจมีเกี่ยวกับเกม ในแบบที่จัดระเบียบได้อย่างน่าทึ่ง'",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Merchants & Marauders",
+  "aspect": "rulebook ทำงานคู่กับ player aid",
+  "detail": "ข้อมูลหนักถูกดูดซับตั้งแต่อ่านรอบแรก ส่วน player aid แบกข้อยกเว้นที่มักทำให้ผู้เล่นสะดุด",
+  "source": "Best rulebooks? – There Will Be Games forum",
+  "url": "https://therewillbe.games/forum/10-ameritrash/124383-best-rulebooks"
+ },
+ {
+  "game": "BattleLore / รูปแบบของ Days of Wonder",
+  "aspect": "ฉากที่ยากขึ้นตามลำดับ",
+  "detail": "แต่ละฉากเริ่มต้นแนะนำแนวคิดใหม่ ทำให้ความลึกมาถึงทีละน้อยโดยไม่ทำให้ผู้อ่านรู้สึกถูกดูถูก",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "game": "Ark Nova",
+  "aspect": "ภาคผนวกเฉพาะการ์ด",
+  "detail": "ภาคผนวกอธิบายการ์ดเรียงตามตัวอักษร ถูกยกเป็นรูปแบบที่ดีสำหรับแก้เคสขอบ",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "game": "Brass: Birmingham",
+  "aspect": "ส่วน 'กฎที่คนมักลืม'",
+  "detail": "หัวข้อสั้นๆ ท้ายเล่มที่ลิสต์กฎที่คนมักเข้าใจผิด",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "game": "Dune: Imperium",
+  "aspect": "หน้าสัญลักษณ์หน้าเดียว",
+  "detail": "หนึ่งหน้าที่รวมทุกสัญลักษณ์ที่ใช้ในเกม",
+  "source": "BGG: Rulebooks and text comprehension. A history of misunderstandings.",
+  "url": "https://boardgamegeek.com/thread/3538423/rulebooks-and-text-comprehension-a-history-of-misu"
+ },
+ {
+  "game": "Obsession (Kayenta Games)",
+  "aspect": "rulebook + อภิธานศัพท์แยกเล่ม",
+  "detail": "เอกสารอ้างอิงกว่า 25,000 คำ แยกเป็น rulebook กับอภิธานศัพท์ และนักออกแบบดูแลเธรด errata แบบละเอียดต่อสาธารณะ",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ }
+]

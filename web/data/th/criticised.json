@@ -1,0 +1,233 @@
+[
+ {
+  "game": "Robinson Crusoe: Adventures on the Cursed Island (ฉบับแรก)",
+  "aspect": "ข้อผิดพลาด + ความคลุมเครือ + เลย์เอาต์",
+  "detail": "rulebook ที่ถูกยกเป็นตัวอย่างแย่มากที่สุดในวงการ นักออกแบบ Ignacy Trzewiczek ยอมรับเองว่ามีข้อผิดพลาดร้ายแรง คำอธิบายคลุมเครือจนไม่รู้ว่าทำแอ็กชันได้เมื่อไหร่และยังไง งานกราฟิกที่ไม่สม่ำเสมอยิ่งซ้ำเติม จนเกิดระบบนิเวศ FAQ และฉบับเขียนใหม่โดยแฟน",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "First Martians: Adventures on the Red Planet",
+  "aspect": "ทำผิดซ้ำแบบเดิม",
+  "detail": "ถูกบรรณาธิการอาชีพ Paul Grogan ระบุชื่อว่าเป็นเกมที่ rulebook ฆ่าทิ้ง เธรดคำถามกฎและ errata บน BGG ยาวเป็นร้อยโพสต์",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Batman: Gotham City Chronicles",
+  "aspect": "โครงสร้าง + ปริมาณ errata",
+  "detail": "ถูก Paul Grogan ระบุชื่อ มี errata/FAQ บน BGG เจ็ดหน้า พร้อมเธรดที่ผู้เล่นวิงวอนสำนักพิมพ์เรื่องกฎและ player aid",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Mice and Mystics",
+  "aspect": "ไม่มี index",
+  "detail": "เกมที่คนชอบกันมาก แต่ถูกยกซ้ำๆ ว่า rulebook ไม่มี index ผู้เล่นรายงานว่าเสียเวลาเปิดหากฎมาก",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Space Base",
+  "aspect": "index ที่ใช้งานไม่ได้",
+  "detail": "'index' ที่เป็นแค่รายชื่อการ์ดพร้อมคลาสยานที่ไม่มีความหมาย ไม่เรียงตามตัวอักษร ทุกคำถามจึงกลายเป็นการพลิกหน้าหลายนาทีหรือไปค้น BGG",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "Kemet: Blood and Sand",
+  "aspect": "ซ่อนกฎ + ถ้อยคำขัดแย้งกัน",
+  "detail": "กฎสำคัญโผล่อยู่ในรายการอุปกรณ์ คำสั่งบางส่วนสับสนหรือขัดแย้งกันเอง กล่องตัวอย่างทำให้กฎง่ายๆ ยากขึ้น",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "Coffee Traders",
+  "aspect": "ข้อผิดพลาด + คำศัพท์ไม่สม่ำเสมอ",
+  "detail": "rulebook 1.0 งงจนสำนักพิมพ์เขียนใหม่ทั้งเล่มสองปีหลังวางขาย ผู้เล่นที่อยากได้เล่มจริงต้องจ่ายเพิ่ม 7 ดอลลาร์",
+  "source": "4 terrible board game rulebooks that really don’t rule – Going Analog",
+  "url": "https://www.goinganalogshow.com/article/230/worst-board-game-rulebooks-manuals"
+ },
+ {
+  "game": "Pathfinder Adventure Card Game: Rise of the Runelords (พิมพ์ครั้งแรก)",
+  "aspect": "กฎไม่ชัด + ข้อความบนการ์ดไม่ชัด",
+  "detail": "กระทู้ในฟอรั่มกฎของเกมบน BGG กว่า 1,500 เธรด บวก FAQ/errata ทางการที่ยาว และมีการใช้ศัพท์เฉพาะก่อนอธิบาย",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Heroes of Normandie",
+  "aspect": "โครงสร้างขาดเป็นท่อน + แปลไม่ดี",
+  "detail": "เกมดี แต่ 'rulebook จะทำให้คุณเป็น PTSD' ผู้เล่นรายงานว่าต้องพลิกไปมาตลอดเวลา",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Space Hulk: Death Angel – The Card Game",
+  "aspect": "สั้นแต่เข้าใจไม่ได้",
+  "detail": "แค่ไม่กี่หน้า แต่ผู้เล่นหาไม่เจอว่าต้องตั้งเกมยังไงหรือต้องทำอะไร พิสูจน์ว่าความสั้นไม่ใช่ความชัดเจน",
+  "source": "BGG: Worst rulebook ever!",
+  "url": "https://boardgamegeek.com/thread/1554960/worst-rulebook-ever"
+ },
+ {
+  "game": "Mage Knight",
+  "aspect": "กฎแยกอยู่สามที่",
+  "detail": "กฎอยู่ทั้งใน rulebook บนการ์ดอ้างอิง และที่อื่น โดยไม่มีความสม่ำเสมอ แถมการ์ดอ้างอิงยังถือกฎที่ไม่มีที่อื่น",
+  "source": "BGG: Rules missing from Rulebook v1.0 (Triplock)",
+  "url": "https://boardgamegeek.com/thread/1803616/rules-missing-from-rulebook-v10"
+ },
+ {
+  "game": "Galaxy Trucker / สไตล์ประจำบ้าน CGE",
+  "aspect": "อารมณ์ขันปนกับกฎ",
+  "detail": "อ่านสนุกครั้งเดียว แต่ทรมานตอนใช้อ้างอิง ยังถูกวิจารณ์เรื่องสอนผ่านเกมเริ่มต้นที่เอาชิ้นส่วนไปใช้ต่อในเกมเต็ม",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Root",
+  "aspect": "อ้างอิงข้ามสไตล์ข้อกฎหมาย",
+  "detail": "เกมที่คนรัก แต่เอกสารอ้างอิงถูกวิจารณ์ว่าส่งผู้อ่านกลับไปหาวรรคที่มีหมายเลข แทนที่จะพูดกฎซ้ำ",
+  "source": "BGG: Tutorial differences between videogames and board games",
+  "url": "https://boardgamegeek.com/thread/2681026/tutorial-differences-between-videogames-and-board"
+ },
+ {
+  "game": "Caper",
+  "aspect": "คำหลักที่ไม่เคยนิยาม",
+  "detail": "ใช้คำว่า 'set' ในกฎการนับคะแนนตลอดโดยไม่เคยนิยาม สองกลุ่มที่ไม่รู้จักกันตีความเหมือนกันแบบผิดๆ แล้วเล่นแบบนั้นหลายเดือน",
+  "source": "BGG: Clarity in the Rulebook (Caper)",
+  "url": "https://boardgamegeek.com/thread/2395671/clarity-in-the-rulebook"
+ },
+ {
+  "game": "Gloomhaven: Jaws of the Lion",
+  "aspect": "กฎอยู่แค่ในเล่ม Learn to Play",
+  "detail": "อภิธานศัพท์ตกกฎที่ปรากฏในเล่มสอน (เช่นกฎจำกัดคำสาป 10 ใบ) ทำลายความเชื่อมั่นในเอกสารอ้างอิง",
+  "source": "BGG: Sometimes finding the rulebook organization annoying (Jaws of the Lion)",
+  "url": "https://boardgamegeek.com/thread/2455924/sometimes-finding-the-rulebook-organization-annoyi"
+ },
+ {
+  "game": "Imperium: Classics / Legends",
+  "aspect": "กฎบอทโหมด solo หายไป",
+  "detail": "การ์ดประเภทที่จั่วบ่อยซึ่งบอทควรทิ้งถูกลืมทั้งข้อ ทำให้เกม solo ยากกว่าที่ออกแบบไว้มากโดยไม่มีใครรู้",
+  "source": "Playing By The Rules (incl. Paul Grogan interview) – Punchboard",
+  "url": "https://www.punchboard.co.uk/playing-by-the-rules/"
+ },
+ {
+  "game": "Agricola (ฉบับแรก)",
+  "aspect": "กฎฉบับพิมพ์แรกแย่",
+  "detail": "ถูกรายงานกว้างขวางว่าแย่มากในฉบับแรก และดีขึ้นอย่างมากในฉบับหลัง เตือนว่าการพิมพ์ซ้ำคือกลไกแพตช์ของวงการ",
+  "source": "BGG: Best Written Rulebooks as of 2019",
+  "url": "https://boardgamegeek.com/thread/2323149/best-written-rulebooks-as-of-2019"
+ },
+ {
+  "game": "A Feast for Odin / 7 Wonders",
+  "aspect": "ปัญหาหยิบเล่มผิด",
+  "detail": "มีหลายเล่มโดยไม่มีกฎชัดว่าเล่มไหนถือคำตอบอะไร ผู้เล่นรายงานว่าหยิบผิดทุกครั้ง",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Ulm",
+  "aspect": "กฎแยกสองเล่ม",
+  "detail": "'เขียนไม่ได้แย่นะ แต่การตัดสินใจแยกกฎเป็นสองเล่มมันน่าเสียดายมาก'",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Vinhos Deluxe (พร้อมภาคเสริม KS)",
+  "aspect": "เวอร์ชันและภาคเสริมปนกันมั่ว",
+  "detail": "edition, variant และ stretch goal รวมกันแบบไม่มีระบบ โดยบางเนื้อหาอยู่แค่บนกระดาษแผ่นหลวม",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Myth (2014)",
+  "aspect": "ความล้มเหลวของ rulebook บน Kickstarter",
+  "detail": "ระดมทุนได้กว่า 900,000 ดอลลาร์ ผู้เล่นรายงานว่าใช้เวลาถอดรหัส rulebook มากกว่าเล่มเกม จนเกิดฉบับเขียนใหม่โดยแฟน 72 หน้า",
+  "source": "BGG blog: Every Board Game Rulebook is Awful (Dean Ray Johnson)",
+  "url": "https://boardgamegeek.com/blog/13453/every-board-game-rulebook-is-awful"
+ },
+ {
+  "game": "Perdition's Mouth: Abyssal Rift",
+  "aspect": "รวม Overview กับ Setup + ไอคอนและ sidebar ล้น",
+  "detail": "ถูกวิจารณ์โดยคนเขียน rulebook ของมันเอง Tom Vasel: 'rulebook ซับซ้อนเกินจำเป็นมาก กว่าจะเข้าใจว่าเล่นยังไงก็ใช้เวลาพอสมควร'",
+  "source": "BGG blog: Every Board Game Rulebook is Awful (Dean Ray Johnson)",
+  "url": "https://boardgamegeek.com/blog/13453/every-board-game-rulebook-is-awful"
+ },
+ {
+  "game": "Mysterium",
+  "aspect": "แรงเสียดทานตอนกลับมาเล่นใหม่",
+  "detail": "เกมที่คนรัก แต่กฎทำให้เกิดช่วง 'เดี๋ยว อะไรนะ' ทุกครั้งที่กลับมาทบทวน",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Innovation (rulebook ขนาดเล็ก)",
+  "aspect": "คำเฉพาะหนาแน่นในเล่มจิ๋ว",
+  "detail": "Meld / Tuck / Splay ถูกนำเสนอกระชับจนผู้อ่านเด้งออก ทั้งที่พอเรียนได้แล้วคนรักเกมนี้มาก",
+  "source": "BGG: Worst/Best written rules",
+  "url": "https://boardgamegeek.com/thread/1949478/worstbest-written-rules"
+ },
+ {
+  "game": "Sword & Sorcery: Immortal Souls",
+  "aspect": "ไม่มี index แบบคำสำคัญ",
+  "detail": "มีแค่สารบัญตามหัวข้อ ผู้เล่นต้องใช้การค้นข้อความใน PDF หรือสร้างเอกสารอ้างอิงเรียงตัวอักษรเองเป็นสิบๆ ชั่วโมง",
+  "source": "BGG: Glossary or alphabetical TOC/Index really needed?",
+  "url": "https://boardgamegeek.com/thread/2641261/glossary-or-alphabetical-tocindex-really-needed"
+ },
+ {
+  "game": "Raising Robots: Pets (ภาคเสริม)",
+  "aspect": "ไอคอนไม่ตรง + ปฏิสัมพันธ์ที่ไม่ได้ระบุ",
+  "detail": "ไอคอนใน index ไม่ตรงกับที่พิมพ์บนการ์ด และไม่เคยระบุกฎเรื่องการ activate ซ้ำหรือจังหวะเวลา แก้ในการพิมพ์ครั้งต่อไป",
+  "source": "BGG: Pets Rule Book is missing some crucial info",
+  "url": "https://boardgamegeek.com/thread/3271735/pets-rule-book-is-missing-some-crucial-info"
+ },
+ {
+  "game": "Inferno (rulebook ก่อนวางขาย)",
+  "aspect": "ข้อกำหนดกำกวม + คำกริยาเชิงธีม",
+  "detail": "'นำ urchin มา' vs 'วาง urchin' ข้อกำหนดการเข้าถึงไม่ชัด และ setup โหมด solo ขัดแย้งกับ setup ปกติ ถูกจับได้ในการรีวิว rulebook สาธารณะ",
+  "source": "BGG: Rules Missing from the Rulebook (Inferno)",
+  "url": "https://boardgamegeek.com/thread/3258804/rules-missing-from-the-rulebook"
+ },
+ {
+  "game": "Triplock",
+  "aspect": "กฎอยู่แค่บนการ์ดอ้างอิง",
+  "detail": "กฎกับดักและมาตรการตอบโต้อยู่แค่บนการ์ดอ้างอิง ซึ่งบางกล่องส่งมาโดยการ์ดนั้นอยู่นอกกล่อง สำนักพิมพ์ย้ายเข้าหนังสือในการพิมพ์ครั้งหลัง",
+  "source": "BGG: Rules missing from Rulebook v1.0 (Triplock)",
+  "url": "https://boardgamegeek.com/thread/1803616/rules-missing-from-rulebook-v10"
+ },
+ {
+  "game": "Obsession (พิมพ์ครั้งแรก)",
+  "aspect": "ตัวเลขไม่ตรงกันข้ามเอกสาร",
+  "detail": "จำนวนอุปกรณ์ผิดทั้งใน rulebook และอภิธานศัพท์ player aid ระบุชื่อเสียง 2 ขณะที่กระดานและกฎบอก 4",
+  "source": "BGG: OFFICIAL Obsession Rulebook and Glossary (errata thread)",
+  "url": "https://boardgamegeek.com/thread/2003488/official-obsession-rulebook-and-glossary-downloads"
+ },
+ {
+  "game": "Race for the Galaxy",
+  "aspect": "ตัวอักษรเนื้อหาเล็กมาก",
+  "detail": "ประมาณ 6-8pt อ่านออกแต่ถูกยกซ้ำๆ เป็นจุดอ้างอิงของคำว่า 'เล็กเกินไป'",
+  "source": "BGG: In-depth information about designing a good rulebook",
+  "url": "https://boardgamegeek.com/thread/897413/in-depth-information-about-designing-a-good-rulebo"
+ },
+ {
+  "game": "Killer Bunnies",
+  "aspect": "เลือกตัวอักษรสวยกว่าอ่านง่าย",
+  "detail": "ฟอนต์เส้นบาง ขนาดเล็ก ตัวอักษรชิดเกินไป ตัดขอบด้วยสี — ถูกขายทิ้งหลังเล่นไม่กี่ครั้งเพราะเหตุผลนี้",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "game": "Star Fleet Battles",
+  "aspect": "กฎถูกเจือจางด้วยข้อความที่ไม่ใช่กฎ",
+  "detail": "'เต็มไปด้วยคำที่ไม่เกี่ยวกับกฎ... ประโยคสั้นๆ ไอเดียกลยุทธ์ และความคิดแวบๆ'",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ },
+ {
+  "game": "Advanced Squad Leader",
+  "aspect": "ความหนาแน่นของภาษากฎหมาย",
+  "detail": "ประโยคเดียวยาวเป็นย่อหน้า พยายามครอบคลุมทุกความเป็นไปได้ในทีเดียว ครบถ้วนแต่เรียนไม่ได้",
+  "source": "BGG: Examples of well-written game rules?",
+  "url": "https://boardgamegeek.com/thread/286303/examples-of-well-written-game-rules"
+ }
+]

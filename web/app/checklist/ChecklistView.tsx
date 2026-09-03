@@ -1,12 +1,15 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import type { CheckItem, StyleRule, Metric, TemplateRow } from "@/lib/content";
+import { fmt } from "@/lib/fmt";
 
 const KEY = "rulebook-checklist-v1";
 
+export type LabelSet = { tabs: readonly [string, string, string, string]; complete: string; reset: string; do: string; dont: string; metricHead: readonly string[]; templateIntro: string };
+
 export default function ChecklistView({
-  items, rules, metrics, templates,
-}: { items: CheckItem[]; rules: StyleRule[]; metrics: Metric[]; templates: TemplateRow[] }) {
+  items, rules, metrics, templates, labels,
+}: { items: CheckItem[]; rules: StyleRule[]; metrics: Metric[]; templates: TemplateRow[]; labels: LabelSet }) {
   const [done, setDone] = useState<Record<string, boolean>>({});
   const [tab, setTab] = useState<"checklist" | "style" | "metrics" | "templates">("checklist");
 
@@ -46,10 +49,10 @@ export default function ChecklistView({
     <>
       <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap", marginBottom: "1.75rem" }}>
         {([
-          ["checklist", "Checklist"],
-          ["style", `Style rules (${rules.length})`],
-          ["metrics", `Numbers (${metrics.length})`],
-          ["templates", `Section templates (${templates.length})`],
+          ["checklist", labels.tabs[0]],
+          ["style", `${labels.tabs[1]} (${rules.length})`],
+          ["metrics", `${labels.tabs[2]} (${metrics.length})`],
+          ["templates", `${labels.tabs[3]} (${templates.length})`],
         ] as const).map(([k, label]) => (
           <button
             key={k}
@@ -71,7 +74,7 @@ export default function ChecklistView({
           <div className="card" style={{ marginBottom: "1.75rem", display: "flex", alignItems: "center", gap: "1rem", flexWrap: "wrap" }}>
             <div style={{ flex: "1 1 14rem" }}>
               <div style={{ fontSize: ".82rem", color: "var(--ink-3)", marginBottom: ".4rem" }}>
-                {count} of {total} complete
+                {fmt(labels.complete, count, total)}
               </div>
               <div style={{ height: 8, background: "var(--border)", borderRadius: 999, overflow: "hidden" }}>
                 <div style={{ height: "100%", width: `${(count / total) * 100}%`, background: "var(--accent-2)", transition: "width .2s" }} />
@@ -81,7 +84,7 @@ export default function ChecklistView({
               onClick={reset}
               style={{ border: "1px solid var(--border)", background: "transparent", color: "var(--ink-2)", padding: ".4rem .8rem", borderRadius: 8, fontSize: ".82rem", cursor: "pointer" }}
             >
-              Reset
+              {labels.reset}
             </button>
           </div>
 
@@ -130,11 +133,11 @@ export default function ChecklistView({
               <p style={{ fontSize: ".95rem", fontWeight: 600, color: "var(--ink)", margin: "0 0 .75rem" }}>{r.rule}</p>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: ".7rem", marginBottom: ".7rem" }}>
                 <div style={{ background: "var(--good-bg)", borderRadius: 6, padding: ".55rem .75rem" }}>
-                  <div style={{ fontSize: ".7rem", fontWeight: 700, color: "var(--good)", marginBottom: ".25rem" }}>DO</div>
+                  <div style={{ fontSize: ".7rem", fontWeight: 700, color: "var(--good)", marginBottom: ".25rem" }}>{labels.do}</div>
                   <div style={{ fontSize: ".84rem", color: "var(--ink-2)" }}>{r.do}</div>
                 </div>
                 <div style={{ background: "var(--bad-bg)", borderRadius: 6, padding: ".55rem .75rem" }}>
-                  <div style={{ fontSize: ".7rem", fontWeight: 700, color: "var(--bad)", marginBottom: ".25rem" }}>DON’T</div>
+                  <div style={{ fontSize: ".7rem", fontWeight: 700, color: "var(--bad)", marginBottom: ".25rem" }}>{labels.dont}</div>
                   <div style={{ fontSize: ".84rem", color: "var(--ink-2)" }}>{r.dont}</div>
                 </div>
               </div>
@@ -151,7 +154,7 @@ export default function ChecklistView({
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".87rem", minWidth: 640 }}>
             <thead>
               <tr>
-                {["Metric", "Value", "Context", "Source"].map((h) => (
+                {labels.metricHead.map((h) => (
                   <th key={h} style={{ background: "var(--accent)", color: "#fff", textAlign: "left", padding: ".6rem .75rem", fontWeight: 600 }}>
                     {h}
                   </th>
@@ -177,8 +180,7 @@ export default function ChecklistView({
       {tab === "templates" && (
         <>
           <p style={{ color: "var(--ink-3)", fontSize: ".86rem", margin: "0 0 1.5rem", maxWidth: "42rem" }}>
-            Ten section orders from ten independent authorities. They differ at the edges and agree almost perfectly
-            in the middle — note how many put the goal before the details, and how few open with setup.
+            {labels.templateIntro}
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1rem" }}>
             {templates.map((t) => (

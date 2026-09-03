@@ -2,8 +2,11 @@
 import { useCallback } from "react";
 import type { Knowledge } from "@/lib/content";
 import { SearchBox, Chips, useFilter } from "@/components/Filterable";
+import { fmt } from "@/lib/fmt";
 
-export default function KnowledgeList({ items }: { items: Knowledge[] }) {
+type L = { search: string; showing: string; source: string; none: string };
+
+export default function KnowledgeList({ items, labels }: { items: Knowledge[]; labels: L }) {
   const fields = useCallback((k: Knowledge) => [k.topic, k.principle, k.detail, k.evidence, k.category, k.source], []);
   const categoryOf = useCallback((k: Knowledge) => k.category, []);
   const { q, setQ, cat, setCat, categories, filtered } = useFilter(items, fields, categoryOf);
@@ -11,10 +14,10 @@ export default function KnowledgeList({ items }: { items: Knowledge[] }) {
   return (
     <>
       <div style={{ display: "grid", gap: ".9rem", marginBottom: "1.75rem" }}>
-        <SearchBox value={q} onChange={setQ} placeholder="Search findings, evidence, sources…" />
+        <SearchBox value={q} onChange={setQ} placeholder={labels.search} />
         <Chips options={categories} active={cat} onToggle={setCat} />
         <p style={{ fontSize: ".8rem", color: "var(--ink-3)", margin: 0 }}>
-          Showing {filtered.length} of {items.length}
+          {fmt(labels.showing, filtered.length, items.length)}
         </p>
       </div>
 
@@ -44,7 +47,7 @@ export default function KnowledgeList({ items }: { items: Knowledge[] }) {
               {k.evidence}
             </p>
             <p style={{ fontSize: ".78rem", color: "var(--ink-3)", margin: 0 }}>
-              Source:{" "}
+              {labels.source}:{" "}
               {k.url ? (
                 <a href={k.url} target="_blank" rel="noreferrer">
                   {k.source}
@@ -55,7 +58,7 @@ export default function KnowledgeList({ items }: { items: Knowledge[] }) {
             </p>
           </article>
         ))}
-        {filtered.length === 0 && <p style={{ color: "var(--ink-3)" }}>No findings match that search.</p>}
+        {filtered.length === 0 && <p style={{ color: "var(--ink-3)" }}>{labels.none}</p>}
       </div>
     </>
   );

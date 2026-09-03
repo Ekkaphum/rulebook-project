@@ -114,7 +114,7 @@ export default function Home() {
             { href: "/examples", t: `${praised.length + criticised.length} real rulebooks`, d: "What the community praises and what it condemns — named games, specific reasons, linked sources." },
             { href: "/checklist", t: "Pre-print checklist", d: "46 checks across 8 phases, from content completeness to handover. Your progress is saved in your browser." },
             { href: "/sources", t: "Every source", d: `All ${sources.length} documents harvested for this project, with clickable URLs.` },
-            { href: "/thai", t: "ฉบับภาษาไทย", d: "เวอร์ชันภาษาไทย เขียนแบบไม่เป็นทางการ สำหรับนักออกแบบมือใหม่และมือเก๋า" },
+            { href: "/th", t: "ฉบับภาษาไทย", d: "เว็บทั้งเว็บมีเวอร์ชันภาษาไทย — คู่มือฉบับเต็ม ฉบับเล่าสู่กันฟัง องค์ความรู้ ตัวอย่างจริง และเช็กลิสต์" },
           ].map((c) => (
             <Link key={c.href} href={c.href} className="card" style={{ display: "block", color: "inherit", textDecoration: "none" }}>
               <h3 style={{ fontSize: "1rem", fontWeight: 650, margin: "0 0 .4rem", color: "var(--accent-2)" }}>{c.t} →</h3>

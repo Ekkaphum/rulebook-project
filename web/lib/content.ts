@@ -39,8 +39,11 @@ export function renderMarkdown(file: string): { html: string; headings: Heading[
   return { html, headings };
 }
 
-export function loadJson<T>(name: string): T {
-  return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", `${name}.json`), "utf8"));
+export type Locale = "en" | "th";
+
+export function loadJson<T>(name: string, locale: Locale = "en"): T {
+  const dir = locale === "th" ? path.join("data", "th") : "data";
+  return JSON.parse(fs.readFileSync(path.join(process.cwd(), dir, `${name}.json`), "utf8"));
 }
 
 export type Knowledge = { id: string; category: string; topic: string; principle: string; detail: string; evidence: string; source: string; url: string };
