@@ -17,7 +17,7 @@ export function SearchBox({ value, onChange, placeholder }: { value: string; onC
   );
 }
 
-export function Chips({ options, active, onToggle }: { options: string[]; active: string | null; onToggle: (v: string | null) => void }) {
+export function Chips({ options, active, onToggle, allLabel = "All" }: { options: string[]; active: string | null; onToggle: (v: string | null) => void; allLabel?: string }) {
   return (
     <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap" }}>
       <button
@@ -29,7 +29,7 @@ export function Chips({ options, active, onToggle }: { options: string[]; active
           color: active === null ? "#fff" : "var(--ink-2)",
         }}
       >
-        All
+        {allLabel}
       </button>
       {options.map((o) => (
         <button

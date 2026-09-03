@@ -4,7 +4,7 @@ import type { Knowledge } from "@/lib/content";
 import { SearchBox, Chips, useFilter } from "@/components/Filterable";
 import { fmt } from "@/lib/fmt";
 
-type L = { search: string; showing: string; source: string; none: string };
+type L = { search: string; showing: string; source: string; none: string; all: string };
 
 export default function KnowledgeList({ items, labels }: { items: Knowledge[]; labels: L }) {
   const fields = useCallback((k: Knowledge) => [k.topic, k.principle, k.detail, k.evidence, k.category, k.source], []);
@@ -15,7 +15,7 @@ export default function KnowledgeList({ items, labels }: { items: Knowledge[]; l
     <>
       <div style={{ display: "grid", gap: ".9rem", marginBottom: "1.75rem" }}>
         <SearchBox value={q} onChange={setQ} placeholder={labels.search} />
-        <Chips options={categories} active={cat} onToggle={setCat} />
+        <Chips options={categories} active={cat} onToggle={setCat} allLabel={labels.all} />
         <p style={{ fontSize: ".8rem", color: "var(--ink-3)", margin: 0 }}>
           {fmt(labels.showing, filtered.length, items.length)}
         </p>

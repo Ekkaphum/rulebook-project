@@ -4,7 +4,7 @@ import type { SourceRow } from "@/lib/content";
 import { SearchBox, Chips, useFilter } from "@/components/Filterable";
 import { fmt } from "@/lib/fmt";
 
-type L = { search: string; showing: string; none: string; open: string; head: readonly string[] };
+type L = { search: string; showing: string; none: string; open: string; all: string; head: readonly string[] };
 
 export default function SourcesTable({ rows, labels }: { rows: SourceRow[]; labels: L }) {
   const fields = useCallback((r: SourceRow) => [r.title, r.url, r.type, r.years], []);
@@ -15,7 +15,7 @@ export default function SourcesTable({ rows, labels }: { rows: SourceRow[]; labe
     <>
       <div style={{ display: "grid", gap: ".9rem", marginBottom: "1.5rem" }}>
         <SearchBox value={q} onChange={setQ} placeholder={labels.search} />
-        <Chips options={categories} active={cat} onToggle={setCat} />
+        <Chips options={categories} active={cat} onToggle={setCat} allLabel={labels.all} />
         <p style={{ fontSize: ".8rem", color: "var(--ink-3)", margin: 0 }}>
           {fmt(labels.showing, filtered.length, rows.length)}
         </p>

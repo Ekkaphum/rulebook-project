@@ -6,7 +6,7 @@ export const COPY = {
       eyebrow: "The research database",
       title: (n: number) => `${n} findings`,
       lede: "Every entry carries a principle, the reasoning behind it, a piece of supporting evidence, and a link to the source it came from. Filter by category or search the full text.",
-      labels: { search: "Search findings, evidence, sources…", showing: "Showing {a} of {b}", source: "Source", none: "No findings match that search." },
+      labels: { search: "Search findings, evidence, sources…", showing: "Showing {a} of {b}", source: "Source", none: "No findings match that search.", all: "All" },
     },
     examples: {
       eyebrow: "Evidence",
@@ -37,7 +37,7 @@ export const COPY = {
       eyebrow: "Provenance", title: (n: number) => `${n} sources`,
       lede: "Everything harvested for this project. BoardGameGeek pages were retrieved through a text-extraction proxy, because BGG serves a Cloudflare challenge to automated clients and its XML API now returns 401 for anonymous forum and geeklist requests.",
       note: "Reddit is absent because it blocks automated access. The “years” column shows post dates found inside each thread, which is a rough guide to when the discussion happened.",
-      labels: { search: "Search titles and URLs…", showing: "Showing {a} of {b}", none: "Nothing matches that search.", open: "Open", head: ["ID", "Type", "Title", "Years", "Link"] },
+      labels: { search: "Search titles and URLs…", showing: "Showing {a} of {b}", none: "Nothing matches that search.", open: "Open", all: "All", head: ["ID", "Type", "Title", "Years", "Link"] },
     },
     handbook: {
       eyebrow: "The handbook", title: "How to Create a Good Rulebook",
@@ -63,7 +63,7 @@ export const COPY = {
       eyebrow: "ฐานข้อมูลงานวิจัย",
       title: (n: number) => `องค์ความรู้ ${n} ข้อ`,
       lede: "แต่ละรายการมีหลักการ เหตุผลเบื้องหลัง หลักฐานสนับสนุน และลิงก์ไปยังแหล่งที่มา กรองตามหมวดหรือค้นหาจากข้อความเต็มได้",
-      labels: { search: "ค้นหาองค์ความรู้ หลักฐาน แหล่งที่มา…", showing: "แสดง {a} จาก {b}", source: "แหล่งที่มา", none: "ไม่พบองค์ความรู้ที่ตรงกับคำค้น" },
+      labels: { search: "ค้นหาองค์ความรู้ หลักฐาน แหล่งที่มา…", showing: "แสดง {a} จาก {b}", source: "แหล่งที่มา", none: "ไม่พบองค์ความรู้ที่ตรงกับคำค้น", all: "ทั้งหมด" },
     },
     examples: {
       eyebrow: "หลักฐาน",
@@ -94,7 +94,7 @@ export const COPY = {
       eyebrow: "ที่มาของข้อมูล", title: (n: number) => `แหล่งข้อมูล ${n} แหล่ง`,
       lede: "ทุกอย่างที่เก็บมาสำหรับโปรเจกต์นี้ หน้าเว็บ BoardGameGeek ถูกดึงผ่าน text-extraction proxy เพราะ BGG ส่ง Cloudflare challenge ให้ client อัตโนมัติ และ XML API ของมันคืนค่า 401 สำหรับคำขอ forum และ geeklist แบบไม่ล็อกอินแล้ว",
       note: "Reddit ไม่อยู่ในรายการเพราะมันบล็อกการเข้าถึงแบบอัตโนมัติ ส่วนคอลัมน์ “ปี” แสดงวันที่ของโพสต์ที่พบภายในแต่ละเธรด ซึ่งเป็นเครื่องบอกคร่าวๆ ว่าการถกเถียงเกิดขึ้นเมื่อไหร่",
-      labels: { search: "ค้นหาชื่อเอกสารและ URL…", showing: "แสดง {a} จาก {b}", none: "ไม่พบรายการที่ตรงกับคำค้น", open: "เปิด", head: ["รหัส", "ประเภท", "ชื่อเอกสาร", "ปี", "ลิงก์"] },
+      labels: { search: "ค้นหาชื่อเอกสารและ URL…", showing: "แสดง {a} จาก {b}", none: "ไม่พบรายการที่ตรงกับคำค้น", open: "เปิด", all: "ทั้งหมด", head: ["รหัส", "ประเภท", "ชื่อเอกสาร", "ปี", "ลิงก์"] },
     },
     handbook: {
       eyebrow: "คู่มือฉบับเต็ม", title: "วิธีสร้าง Rulebook ที่ดี",
