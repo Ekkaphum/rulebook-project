@@ -20,6 +20,7 @@ Live site: **https://rulebook-project.vercel.app** · อ่านภาษา�
 | `deliverables/คู่มือเขียน Rulebook ฉบับแชร์ความรู้.docx` | Thai ebook — the same material written informally, as knowledge-sharing |
 | `deliverables/ฐานข้อมูลงานวิจัย Rulebook.xlsx` | The research database in Thai (same 10 sheets, same source URLs) |
 | `web/` | Bilingual Next.js site presenting all of the above, with search and an interactive checklist |
+| `.claude/skills/rulebook/` | The same research packaged as a Claude Code skill for writing and reviewing rulebooks |
 
 ### The database (10 sheets)
 
@@ -34,6 +35,17 @@ Live site: **https://rulebook-project.vercel.app** · อ่านภาษา�
 - **09_Failure_Modes** — the failure taxonomy, pulled out for quick scanning
 
 ---
+
+## Using the research as a Claude Code skill
+
+`.claude/skills/rulebook/` turns the corpus into a working skill. It loads automatically
+in this repo whenever a conversation is about writing, structuring or reviewing a
+rulebook; to make it available everywhere, copy the directory to `~/.claude/skills/`.
+
+`SKILL.md` carries the workflows and the line-level rules; the seven files in
+`references/` are generated from the same data modules as the Excel database, so a
+finding in the skill and a row in the spreadsheet cite the same URL. Regenerate them
+with `python3 build/build_skill_refs.py`.
 
 ## Running the site locally
 
