@@ -1,0 +1,35 @@
+{
+  "th": [
+    { "cards": ["คู่มือคือประตูเข้าเกม", "กฎอ่านแล้วเล่นได้", "เกมได้ไปต่อ"], "caption": "คู่มือไม่ได้อยู่ข้างเกมเฉย ๆ มันพาคนเข้าถึงเกมที่ออกแบบไว้" },
+    { "cards": ["คนเพิ่งแกะกล่อง", "คนที่จะสอนเพื่อน", "คนเปิดหากลางเกม"], "caption": "คนคนเดียวอาจใช้คู่มือคนละแบบในแต่ละช่วงของการเล่น" },
+    { "cards": ["รู้เป้าหมาย", "เห็นอุปกรณ์และโต๊ะ", "ค่อยเรียนกฎละเอียด"], "caption": "ให้ผู้อ่านมีภาพในหัวก่อน แล้วรายละเอียดจะเข้าที่ง่ายขึ้น" },
+    { "cards": ["เล่มเดียว", "สองเล่ม", "เล่มพาเล่น"], "caption": "เลือกรูปแบบเอกสารจากวิธีที่คนจะเรียนและกลับมาเปิดหา" },
+    { "cards": ["บอกเงื่อนไข", "ระบุการกระทำ", "ตามด้วยผลลัพธ์"], "caption": "จัดประโยคตามจังหวะที่ผู้เล่นต้องตัดสินใจจริง" },
+    { "cards": ["หนึ่งแนวคิด", "หนึ่งคำ", "เหมือนกันทุกหน้า"], "caption": "คำศัพท์ที่คงเส้นคงวาช่วยลดการตีความผิด" },
+    { "cards": ["เจอจุดกำกวม", "วาดเคสขอบ", "เฉลยให้ชัด"], "caption": "ภาพตัวอย่างที่ดีตอบคำถามที่กฎข้อความอย่างเดียวมักตอบไม่พอ" },
+    { "cards": ["อ่านออก", "สแกนเจอ", "พิมพ์แล้วใช้ได้"], "caption": "ความสวยของหน้าคู่มือต้องช่วยให้คนหากฎเจอและอ่านได้จริง" },
+    { "cards": ["ส่งคู่มือให้", "ปล่อยให้ลองเอง", "จดจุดที่สะดุด"], "caption": "Blind test วัดว่าคู่มือพาคนเล่นได้ไหมเมื่อไม่มีคนเขียนอยู่ด้วย" },
+    { "cards": ["กฎหาย", "คำไม่ชัด", "เปิดหาไม่เจอ"], "caption": "แยกชนิดของปัญหาให้ได้ก่อนลงมือแก้ข้อความ" },
+    { "cards": ["เห็นปัญหาจริง", "หาสาเหตุ", "เก็บเป็นบทเรียน"], "caption": "เรื่องพลาดของเกมอื่นช่วยให้เรามองต้นฉบับตัวเองละเอียดขึ้น" },
+    { "cards": ["เริ่มจากโครงร่าง", "ล็อก style guide", "ตรวจด้วยเช็กลิสต์"], "caption": "หยิบเครื่องมือในบทนี้ไปใช้กับคู่มือเกมของตัวเองได้ทันที" }
+  ],
+  "en": [
+    { "cards": ["Rules make the game", "Clarity opens the door", "Players can begin"], "caption": "The rulebook is part of the play experience, not paperwork added at the end." },
+    { "cards": ["First-time learner", "Table teacher", "Mid-game lookup"], "caption": "The same reader can need a different kind of help at each moment." },
+    { "cards": ["One reader learns", "That reader teaches", "The table plays"], "caption": "Write so one person can teach the game and everyone can find answers later." },
+    { "cards": ["Goal and components", "Setup and overview", "Detailed play and reference"], "caption": "Introduce each idea before the rules ask readers to use it." },
+    { "cards": ["One book", "Learn + reference", "Guided playbook"], "caption": "Choose the document structure around how people learn and look things up." },
+    { "cards": ["State the condition", "Name the action", "Give the result"], "caption": "Put each sentence in the order a player needs to make a decision." },
+    { "cards": ["One concept", "One term", "Everywhere"], "caption": "A stable vocabulary prevents readers from inventing distinctions you did not intend." },
+    { "cards": ["Find ambiguity", "Show the edge case", "Resolve it visibly"], "caption": "The most useful example answers the question that would otherwise start an argument." },
+    { "cards": ["Contents", "Clear headings", "Index and quick aid"], "caption": "Help readers reach a rule quickly when everyone else is waiting." },
+    { "cards": ["Readable type", "Visible hierarchy", "Print-ready pages"], "caption": "The page must remain usable under real table and printing conditions." },
+    { "cards": ["Show the turn", "Move detail to cards", "Keep rules findable"], "caption": "Player aids carry repeat information where players need it most." },
+    { "cards": ["Readable for more people", "Less reliance on colour", "Clear across languages"], "caption": "Accessibility and localisation affect the rulebook's structure from the start." },
+    { "cards": ["Draft", "Edit with players", "Proof after layout"], "caption": "A useful rulebook emerges through several different kinds of review." },
+    { "cards": ["Give them the rules", "Stay quiet", "Record every stumble"], "caption": "Blind playtesting reveals where the document fails without its author nearby." },
+    { "cards": ["Missing rule", "Ambiguous rule", "Unfindable rule"], "caption": "Diagnose the failure mode before rewriting the page." },
+    { "cards": ["Read the case", "Find the mechanism", "Apply the lesson"], "caption": "Real published examples reveal how small documentation choices shape play." },
+    { "cards": ["Start with a template", "Keep a term register", "Check before print"], "caption": "Turn the principles into repeatable tools for your next game." }
+  ]
+}

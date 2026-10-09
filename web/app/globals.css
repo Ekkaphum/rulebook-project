@@ -98,6 +98,15 @@ a:hover { text-decoration: underline; }
 .prose hr { border: 0; border-top: 1px solid var(--border); margin: 3rem 0; }
 .prose img { max-width: 100%; }
 
+.chapter-visual { margin: 1.25rem 0 2rem; }
+.chapter-visual img {
+  display: block; width: 100%; height: auto; border-radius: 14px;
+}
+.chapter-visual figcaption {
+  margin: .5rem .15rem 0; color: var(--ink-3);
+  font-size: .83rem; line-height: 1.6;
+}
+
 .card {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 10px; padding: 1.1rem 1.25rem;
@@ -110,4 +119,111 @@ a:hover { text-decoration: underline; }
   letter-spacing: .1em;
   text-transform: uppercase;
   margin: 0 0 .75rem;
+}
+
+/* Thai ebook: a warmer reading room than the reference sections. */
+.ebook-page {
+  --ebook-paper: #fffaf1;
+  --ebook-line: #e8d9c5;
+  --ebook-coral: #b6533d;
+  --ebook-teal: #246c69;
+  --ebook-ink: #352e2a;
+}
+
+.ebook-intro { max-width: 48rem; margin-bottom: 1.5rem; }
+.ebook-kicker {
+  display: inline-block; margin: 0 0 .8rem; padding: .3rem .7rem;
+  border-radius: 999px; color: var(--ebook-coral); background: #fbede4;
+  font-size: .8rem; font-weight: 700;
+}
+.ebook-intro h1 {
+  margin: 0 0 .8rem; color: var(--ink);
+  font-size: clamp(2rem, 5vw, 3.15rem); font-weight: 750;
+  letter-spacing: -.025em; line-height: 1.18;
+}
+.ebook-deck { margin: 0; color: var(--ink-2); font-size: 1.05rem; line-height: 1.85; }
+.ebook-hero { max-width: 65rem; margin: 0 0 3.25rem; }
+.ebook-hero img {
+  display: block; width: 100%; height: auto; max-height: 28rem;
+  object-fit: cover; object-position: center 52%; border-radius: 16px;
+  border: 1px solid var(--ebook-line);
+}
+.ebook-hero figcaption, .ebook-figure figcaption {
+  color: var(--ink-3); font-size: .83rem; line-height: 1.6;
+}
+.ebook-hero figcaption { margin-top: .55rem; padding-left: .1rem; }
+.ebook-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
+.ebook-prose { max-width: 46rem; }
+.ebook-prose h1 {
+  color: var(--ebook-ink); border-color: var(--ebook-line);
+  font-size: clamp(1.7rem, 3vw, 2rem);
+}
+.ebook-prose h2 { color: var(--ebook-ink); }
+.ebook-prose blockquote {
+  background: var(--ebook-paper); border-left-color: var(--ebook-coral);
+  border-radius: 0 10px 10px 0;
+}
+.ebook-figure {
+  margin: 1.8rem 0 2rem; padding: 1.15rem;
+  background: var(--ebook-paper); border: 1px solid var(--ebook-line);
+  border-radius: 14px;
+}
+.ebook-figure-label {
+  margin-bottom: 1rem; color: var(--ebook-coral);
+  font-size: .8rem; font-weight: 750;
+}
+.ebook-figure figcaption { margin-top: .9rem; }
+.ebook-flow-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: .55rem; }
+.ebook-flow-steps > div {
+  position: relative; min-width: 0; padding: .8rem .65rem;
+  background: #fff; border: 1px solid var(--ebook-line); border-radius: 9px;
+}
+.ebook-flow-steps > div:not(:last-child)::after {
+  content: "→"; position: absolute; z-index: 1; right: -.53rem; top: 34%;
+  color: var(--ebook-coral); font-weight: 800; background: #fffaf1; line-height: 1;
+}
+.ebook-flow-steps span { display: block; margin-bottom: .25rem; color: var(--ebook-coral); font-size: .73rem; font-weight: 750; }
+.ebook-flow-steps strong { display: block; color: var(--ebook-ink); font-size: .93rem; }
+.ebook-flow-steps small { display: block; color: #70645a; font-size: .77rem; line-height: 1.5; }
+.ebook-example-rule {
+  margin-bottom: .8rem; padding: .75rem .85rem; border-radius: 8px;
+  background: #fff; color: var(--ebook-ink); font-weight: 650;
+}
+.ebook-example-rule b { color: var(--ebook-coral); }
+.ebook-example-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
+.ebook-example-grid > div {
+  padding: .8rem .65rem; border: 1px solid var(--ebook-line);
+  border-radius: 8px; background: #fff; text-align: center;
+}
+.ebook-example-grid span { display: block; color: #62584f; font-size: .84rem; }
+.ebook-example-grid strong { display: block; color: var(--ebook-teal); font-size: 1.5rem; line-height: 1.3; }
+.ebook-example-grid .ebook-example-answer { border: 2px solid var(--ebook-teal); background: #edf7f2; }
+.ebook-example-grid small { display: block; color: #805343; font-size: .74rem; }
+.ebook-photo { padding: .55rem; }
+.ebook-photo img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.ebook-photo figcaption { padding: 0 .5rem .3rem; }
+
+@media (min-width: 1080px) {
+  .ebook-grid { grid-template-columns: minmax(0, 1fr) 15rem; }
+}
+@media (max-width: 1079px) {
+  .ebook-grid .handbook-toc { display: none; }
+}
+@media (max-width: 620px) {
+  .ebook-hero { margin-bottom: 2rem; }
+  .ebook-hero img { aspect-ratio: 4 / 3; object-fit: cover; }
+  .ebook-flow-steps { grid-template-columns: repeat(2, 1fr); }
+  .ebook-flow-steps > div::after { display: none; }
+  .ebook-example-grid { grid-template-columns: 1fr; }
+  .ebook-example-grid > div { display: flex; align-items: center; justify-content: space-between; gap: .5rem; text-align: left; }
+  .ebook-example-grid small { margin-left: auto; }
+}
+@media (prefers-color-scheme: dark) {
+  .ebook-page { --ebook-paper: #221d1a; --ebook-line: #493b32; --ebook-coral: #eda88e; --ebook-teal: #89c9b6; --ebook-ink: #f3e7d8; }
+  .ebook-kicker { background: #392821; }
+  .ebook-flow-steps > div, .ebook-example-rule, .ebook-example-grid > div { background: #2b2521; }
+  .ebook-flow-steps > div:not(:last-child)::after { background: var(--ebook-paper); }
+  .ebook-flow-steps small, .ebook-example-grid span { color: #c9b9ab; }
+  .ebook-example-grid .ebook-example-answer { background: #1c302b; }
+  .ebook-example-grid small { color: #ebac96; }
 }
