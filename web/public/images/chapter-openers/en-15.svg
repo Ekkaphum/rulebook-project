@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">CHAPTER 15: Name the failure before fixing it</title>
+<desc id="desc">Missing information • Ambiguous language • Scattered rules • Presentation and versioning</desc>
+<rect width="1000" height="560" rx="24" fill="#f8f3e9"/>
+<rect x="1" y="1" width="998" height="558" rx="23" fill="none" stroke="#e8d9c5" stroke-width="2"/>
+<rect x="26" y="26" width="385" height="508" rx="23" fill="#8a4d70"/>
+<circle cx="368" cy="441" r="135" fill="#fff" opacity=".07"/>
+<text x="57" y="78" fill="#fff" opacity=".85" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="21" font-weight="700">CHAPTER 15</text>
+<text x="57" y="144" fill="#fff" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="31" font-weight="700">Name the failure before</text><text x="57" y="187" fill="#fff" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="31" font-weight="700">fixing it</text>
+<g transform="translate(150 332) scale(1.2)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".93"><path d="M50 14 L93 84 H7 Z M50 38 V60 M50 72 V73"/></g>
+<text x="446" y="77" fill="#8a4d70" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">INSIDE THIS CHAPTER</text>
+<rect x="442" y="106" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="479" cy="145" r="20" fill="#8a4d70" opacity=".13"/>
+<text x="479" y="152" text-anchor="middle" fill="#8a4d70" font-family="Arial, sans-serif" font-size="19" font-weight="700">1</text>
+<text x="463" y="203" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">Missing information</text>
+<path d="M463 269 h67" stroke="#8a4d70" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+<rect x="705" y="106" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="742" cy="145" r="20" fill="#8a4d70" opacity=".13"/>
+<text x="742" y="152" text-anchor="middle" fill="#8a4d70" font-family="Arial, sans-serif" font-size="19" font-weight="700">2</text>
+<text x="726" y="203" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">Ambiguous language</text>
+<path d="M726 269 h67" stroke="#8a4d70" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+<rect x="442" y="325" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="479" cy="364" r="20" fill="#8a4d70" opacity=".13"/>
+<text x="479" y="371" text-anchor="middle" fill="#8a4d70" font-family="Arial, sans-serif" font-size="19" font-weight="700">3</text>
+<text x="463" y="422" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">Scattered rules</text>
+<path d="M463 488 h67" stroke="#8a4d70" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+<rect x="705" y="325" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="742" cy="364" r="20" fill="#8a4d70" opacity=".13"/>
+<text x="742" y="371" text-anchor="middle" fill="#8a4d70" font-family="Arial, sans-serif" font-size="19" font-weight="700">4</text>
+<text x="726" y="422" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">Presentation and</text><text x="726" y="451" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">versioning</text>
+<path d="M726 488 h67" stroke="#8a4d70" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+</svg>

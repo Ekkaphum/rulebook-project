@@ -99,6 +99,7 @@ a:hover { text-decoration: underline; }
 .prose img { max-width: 100%; }
 
 .chapter-visual { margin: 1.25rem 0 2rem; }
+.chapter-recap { margin: 2.5rem 0 2.75rem; }
 .chapter-visual img {
   display: block; width: 100%; height: auto; border-radius: 14px;
 }

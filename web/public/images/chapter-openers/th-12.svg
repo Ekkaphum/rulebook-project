@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">บทที่ 12: ชุดเครื่องมือเอาไปใช้ต่อ</title>
+<desc id="desc">โครงร่าง rulebook • Style guide และทะเบียนคำ • แบบบันทึก Blind test • เช็กลิสต์ก่อนส่งพิมพ์</desc>
+<rect width="1000" height="560" rx="24" fill="#f8f3e9"/>
+<rect x="1" y="1" width="998" height="558" rx="23" fill="none" stroke="#e8d9c5" stroke-width="2"/>
+<rect x="26" y="26" width="385" height="508" rx="23" fill="#246c69"/>
+<circle cx="368" cy="441" r="135" fill="#fff" opacity=".07"/>
+<text x="57" y="78" fill="#fff" opacity=".85" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="21" font-weight="700">บทที่ 12</text>
+<text x="57" y="144" fill="#fff" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="31" font-weight="700">ชุดเครื่องมือเอาไปใช้ต่</text><text x="57" y="187" fill="#fff" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="31" font-weight="700">อ</text>
+<g transform="translate(150 332) scale(1.2)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".93"><rect x="18" y="16" width="58" height="70" rx="5"/><path d="M29 35 L34 40 L42 30 M47 35 H65 M29 59 L34 64 L42 54 M47 59 H65 M65 16 V10 H80 V22"/></g>
+<text x="446" y="77" fill="#246c69" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">ในบทนี้จะเจอ</text>
+<rect x="442" y="106" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="479" cy="145" r="20" fill="#246c69" opacity=".13"/>
+<text x="479" y="152" text-anchor="middle" fill="#246c69" font-family="Arial, sans-serif" font-size="19" font-weight="700">1</text>
+<text x="463" y="203" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">โครงร่าง rulebook</text>
+<path d="M463 269 h67" stroke="#246c69" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+<rect x="705" y="106" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="742" cy="145" r="20" fill="#246c69" opacity=".13"/>
+<text x="742" y="152" text-anchor="middle" fill="#246c69" font-family="Arial, sans-serif" font-size="19" font-weight="700">2</text>
+<text x="726" y="203" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">Style guide</text><text x="726" y="232" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">และทะเบียนคำ</text>
+<path d="M726 269 h67" stroke="#246c69" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+<rect x="442" y="325" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="479" cy="364" r="20" fill="#246c69" opacity=".13"/>
+<text x="479" y="371" text-anchor="middle" fill="#246c69" font-family="Arial, sans-serif" font-size="19" font-weight="700">3</text>
+<text x="463" y="422" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">แบบบันทึก Blind test</text>
+<path d="M463 488 h67" stroke="#246c69" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+<rect x="705" y="325" width="247" height="193" rx="18" fill="#fff" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="742" cy="364" r="20" fill="#246c69" opacity=".13"/>
+<text x="742" y="371" text-anchor="middle" fill="#246c69" font-family="Arial, sans-serif" font-size="19" font-weight="700">4</text>
+<text x="726" y="422" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="20" font-weight="700">เช็กลิสต์ก่อนส่งพิมพ์</text>
+<path d="M726 488 h67" stroke="#246c69" stroke-width="4" opacity=".4" stroke-linecap="round"/>
+</svg>

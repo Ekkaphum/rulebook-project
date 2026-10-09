@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { marked } from "marked";
 import chapterVisuals from "@/data/chapterVisuals.json";
+import chapterOpeners from "@/data/chapterOpeners.json";
 
 export type Heading = { id: string; text: string; level: number };
 
@@ -13,6 +14,24 @@ function slugify(s: string) {
     .trim()
     .replace(/\s+/g, "-")
     .slice(0, 80);
+}
+
+function escapeHtml(s: string) {
+  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function chapterFigure(locale: "th" | "en", number: number, kind: "overview" | "recap") {
+  const chapter = kind === "overview" ? chapterOpeners[locale][number - 1] : chapterVisuals[locale][number - 1];
+  if (!chapter) return "";
+  const n = String(number).padStart(2, "0");
+  const opener = kind === "overview";
+  const folder = opener ? "chapter-openers" : "chapters";
+  const summary = opener ? chapterOpeners[locale][number - 1] : null;
+  const recap = opener ? null : chapterVisuals[locale][number - 1];
+  const alt = summary ? `${summary.focus}: ${summary.topics.join(" • ")}` : recap!.cards.join(" → ");
+  const height = opener ? 560 : 420;
+  const mobileHeight = opener ? 720 : 520;
+  return `<figure class="chapter-visual chapter-${kind}"><picture><source media="(max-width: 620px)" srcset="/images/${folder}/${locale}-${n}-mobile.svg" width="420" height="${mobileHeight}"><img src="/images/${folder}/${locale}-${n}.svg" alt="${escapeHtml(alt)}" width="1000" height="${height}" loading="lazy"></picture><figcaption>${escapeHtml(chapter.caption)}</figcaption></figure>`;
 }
 
 /** Render a markdown file, injecting stable ids on headings and collecting h1/h2 for a TOC. */
@@ -38,14 +57,16 @@ export function renderMarkdown(file: string, visualLocale?: "th" | "en"): { html
   );
 
   if (visualLocale) {
-    const visuals = chapterVisuals[visualLocale];
-    html = html.replace(/(<h1 id="[^"]+">(\d+)\.[\s\S]*?<\/h1>)/g, (heading, _full, number: string) => {
-      const chapter = visuals[Number(number) - 1];
-      if (!chapter) return heading;
-      const n = number.padStart(2, "0");
-      const alt = chapter.cards.join(" → ").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
-      return `${heading}<figure class="chapter-visual"><picture><source media="(max-width: 620px)" srcset="/images/chapters/${visualLocale}-${n}-mobile.svg" width="420" height="520"><img src="/images/chapters/${visualLocale}-${n}.svg" alt="${alt}" width="1000" height="420" loading="lazy"></picture><figcaption>${chapter.caption}</figcaption></figure>`;
-    });
+    html = html.split(/(?=<h1 id="[^"]+">)/).map((section) => {
+      const match = section.match(/^<h1 id="[^"]+">(\d+)\.[\s\S]*?<\/h1>/);
+      if (!match) return section;
+      const number = Number(match[1]);
+      const body = section.slice(match[0].length);
+      // Keep the chapter recap inside its chapter, before the Markdown separator.
+      const trailingRule = body.match(/((?:\s*<hr\s*\/?>\s*)+)$/i)?.[1] ?? "";
+      const content = trailingRule ? body.slice(0, -trailingRule.length) : body;
+      return `${match[0]}${chapterFigure(visualLocale, number, "overview")}${content}${chapterFigure(visualLocale, number, "recap")}${trailingRule}`;
+    }).join("");
   }
 
   return { html, headings };
