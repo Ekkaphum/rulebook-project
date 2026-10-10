@@ -3,6 +3,7 @@ import path from "node:path";
 import { marked } from "marked";
 import chapterVisuals from "@/data/chapterVisuals.json";
 import chapterOpeners from "@/data/chapterOpeners.json";
+import chapterSceneSizes from "@/data/chapterSceneSizes.json";
 
 export type Heading = { id: string; text: string; level: number };
 
@@ -25,13 +26,14 @@ function chapterFigure(locale: "th" | "en", number: number, kind: "overview" | "
   if (!chapter) return "";
   const n = String(number).padStart(2, "0");
   const opener = kind === "overview";
-  const folder = opener ? "chapter-openers" : "chapters";
   const summary = opener ? chapterOpeners[locale][number - 1] : null;
   const recap = opener ? null : chapterVisuals[locale][number - 1];
   const alt = summary ? `${summary.focus}: ${summary.topics.join(" • ")}` : recap!.cards.join(" → ");
-  const height = opener ? 560 : 420;
-  const mobileHeight = opener ? 720 : 520;
-  return `<figure class="chapter-visual chapter-${kind}"><picture><source media="(max-width: 620px)" srcset="/images/${folder}/${locale}-${n}-mobile.svg" width="420" height="${mobileHeight}"><img src="/images/${folder}/${locale}-${n}.svg" alt="${escapeHtml(alt)}" width="1000" height="${height}" loading="lazy"></picture><figcaption>${escapeHtml(chapter.caption)}</figcaption></figure>`;
+  const [width, height] = chapterSceneSizes[locale][number - 1] ?? [1536, 1024];
+  const image = opener
+    ? `<img src="/images/chapter-scenes/${locale}-${n}.jpg" alt="${escapeHtml(alt)}" width="${width}" height="${height}" loading="lazy">`
+    : `<picture><source media="(max-width: 620px)" srcset="/images/chapters/${locale}-${n}-mobile.svg" width="420" height="520"><img src="/images/chapters/${locale}-${n}.svg" alt="${escapeHtml(alt)}" width="1000" height="420" loading="lazy"></picture>`;
+  return `<figure class="chapter-visual chapter-${kind}">${image}<figcaption>${escapeHtml(chapter.caption)}</figcaption></figure>`;
 }
 
 /** Render a markdown file, injecting stable ids on headings and collecting h1/h2 for a TOC. */
