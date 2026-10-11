@@ -38,6 +38,9 @@ export default function UserMenu({ isTh }: { isTh: boolean }) {
       <div className="user-menu-panel">
         <div style={{ fontWeight: 600, color: "var(--ink)" }}>{u.name || u.email}</div>
         <div style={{ color: "var(--ink-3)", fontSize: ".78rem", marginBottom: ".5rem", wordBreak: "break-all" }}>{u.email}</div>
+        <Link href={isTh ? "/th/onboarding" : "/onboarding"} style={{ display: "block", padding: ".3rem 0" }}>
+          {isTh ? "เปลี่ยนบทบาทของฉัน" : "Change my role"}
+        </Link>
         {u.admin && (
           <Link href="/admin" style={{ display: "block", padding: ".3rem 0" }}>
             {isTh ? "แดชบอร์ดผู้ดูแล" : "Admin dashboard"}

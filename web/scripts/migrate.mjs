@@ -40,3 +40,9 @@ await sql`create index if not exists events_time on events (created_at desc)`;
 await sql`create index if not exists events_type_path on events (type, path)`;
 
 console.log("Schema ready.");
+
+// Reader role, asked once after the first sign-in.
+await sql`alter table users add column if not exists role text`;
+await sql`alter table users add column if not exists role_other text`;
+await sql`alter table users add column if not exists role_at timestamptz`;
+console.log("Role columns ready.");

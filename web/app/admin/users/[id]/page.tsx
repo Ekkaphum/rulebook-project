@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireAdmin } from "@/lib/auth";
 import { db, type UserRow } from "@/lib/db";
+import { roleLabel } from "@/lib/roles";
 import { Avatar, BlockForm, EVENT_LABEL, Tile, ago, duration, fmtDate, pageName } from "@/components/admin/ui";
 
 export const metadata: Metadata = { title: "Admin · User", robots: { index: false } };
@@ -52,6 +53,7 @@ export default async function UserPage({ params }: { params: Promise<{ id: strin
         <div style={{ flex: 1, minWidth: 0 }}>
           <h1>{user.name || "—"}</h1>
           <p><a href={`mailto:${user.email}`}>{user.email}</a></p>
+          <p><b>{roleLabel(user.role)}</b>{user.role_other && ` — ${user.role_other}`}</p>
           <p className="admin-muted">
             สมัคร {fmtDate(user.created_at)} · เข้าล่าสุด {ago(user.last_seen_at)} · {[user.city, user.country].filter(Boolean).join(", ") || "ไม่ทราบตำแหน่ง"}
             {user.locale && ` · ภาษา ${user.locale}`}

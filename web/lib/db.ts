@@ -25,4 +25,7 @@ export type UserRow = {
   blocked: boolean;
   blocked_at: string | null;
   blocked_reason: string | null;
+  role: string | null;
+  role_other: string | null;
+  role_at: string | null;
 };

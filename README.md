@@ -6,7 +6,7 @@ A researched, source-linked handbook on board game rulebook design — synthesis
 sources across BoardGameGeek forums and blogs, publisher style guides, professional rules editors,
 and the accessibility literature.
 
-Live site: **https://rulebook-project.vercel.app** · อ่านภาษาไทย: [README.th.md](README.th.md) · [เว็บฉบับภาษาไทย](https://rulebook-project.vercel.app/th)
+Live site: **https://rulebook-project.lifebugs.dev** · อ่านภาษาไทย: [README.th.md](README.th.md) · [เว็บฉบับภาษาไทย](https://rulebook-project.lifebugs.dev/th)
 
 ---
 
@@ -71,8 +71,10 @@ The site is fully static — all 19 routes (9 English, 10 Thai) are prerendered 
 The site is freemium: the landing page (`/welcome`, `/th/welcome`, also served at `/` and `/th` to
 signed-out visitors) shows a free sample, and everything else requires a free Google sign-in.
 `web/proxy.ts` enforces the gate; reading activity (page views, scroll depth, time on page, chapter
-headings reached, downloads and source clicks) is stored in Neon Postgres. Admins open `/admin` to see
-usage, browse readers, export a CSV and block accounts.
+headings reached, downloads and source clicks) is stored in Neon Postgres. After the first sign-in readers
+are asked their role once (`/onboarding`). Admins open `/admin` to see usage, browse and filter readers by
+role, export a CSV and block accounts. The old `rulebook-project.vercel.app` address redirects to
+`rulebook-project.lifebugs.dev` (see `next.config.ts`).
 
 Environment variables (Vercel project settings):
 
@@ -82,7 +84,7 @@ Environment variables (Vercel project settings):
 | `AUTH_SECRET` | Random string used to sign session cookies |
 | `ADMIN_EMAILS` | Comma-separated emails allowed into `/admin` |
 | `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` | Google OAuth client. **The gate switches on only when these are set**; until then the site stays open |
-| `AUTH_URL` | Optional fixed origin for the OAuth redirect (e.g. `https://rulebook-project.vercel.app`) |
+| `AUTH_URL` | Optional fixed origin for the OAuth redirect (e.g. `https://rulebook-project.lifebugs.dev`) |
 
 Create the tables once with `node --env-file=.env.local scripts/migrate.mjs` (from `web/`). In local
 development the gate is always on, and `/api/auth/dev-login?email=you@example.test` signs you in

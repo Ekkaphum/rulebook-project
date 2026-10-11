@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { requireAdmin } from "@/lib/auth";
 import { db, type UserRow } from "@/lib/db";
+import { ROLES, roleLabel } from "@/lib/roles";
 import { AdminNav, Avatar, BlockForm, DailyBars, EVENT_LABEL, Tile, ago, duration, pageName } from "@/components/admin/ui";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
 export const dynamic = "force-dynamic";
 
-type Search = Promise<{ tab?: string; q?: string; status?: string; sort?: string }>;
+type Search = Promise<{ tab?: string; q?: string; status?: string; sort?: string; role?: string }>;
 
 export default async function AdminPage({ searchParams }: { searchParams: Search }) {
   const admin = await requireAdmin();
@@ -19,7 +20,7 @@ export default async function AdminPage({ searchParams }: { searchParams: Search
         <h1 style={{ fontSize: "1.8rem", fontWeight: 700, margin: 0 }}>ผู้อ่านและการใช้งาน</h1>
       </header>
       <AdminNav current={sp.tab === "users" ? "users" : "overview"} />
-      {sp.tab === "users" ? <Users q={sp.q ?? ""} status={sp.status ?? "all"} sort={sp.sort ?? "recent"} self={admin.sub} /> : <Overview />}
+      {sp.tab === "users" ? <Users q={sp.q ?? ""} status={sp.status ?? "all"} sort={sp.sort ?? "recent"} role={sp.role ?? "all"} self={admin.sub} /> : <Overview />}
     </div>
   );
 }
@@ -77,6 +78,11 @@ async function Overview() {
   const countries = (await sql`
     select coalesce(country, '—') as country, count(*)::int as n from users group by 1 order by n desc limit 8
   `) as { country: string; n: number }[];
+
+  const roles = (await sql`
+    select role, count(*)::int as n from users group by role order by n desc
+  `) as { role: string | null; n: number }[];
+  const roleTotal = roles.reduce((a, r) => a + r.n, 0) || 1;
 
   const recent = (await sql`
     select e.type, e.path, e.target, e.value, e.duration, e.created_at, u.id as uid, u.name, u.email, u.picture
@@ -153,6 +159,15 @@ async function Overview() {
               <li key={o.target}><a href={o.target} target="_blank" rel="noreferrer">{o.target.replace(/^https?:\/\//, "").slice(0, 60)}</a><b>{o.n}</b></li>
             ))}
           </ol>
+          <h2 style={{ marginTop: "1.5rem" }}>ผู้ใช้ตามบทบาท</h2>
+          <ol className="admin-list">
+            {roles.map((r) => (
+              <li key={r.role ?? "none"}>
+                <Link href={`/admin?tab=users&role=${r.role ?? "none"}`}>{r.role ? roleLabel(r.role) : "ยังไม่ได้ตอบ"}</Link>
+                <span className="admin-meter"><span style={{ width: `${(r.n / roleTotal) * 100}%` }} /><b>{r.n}</b></span>
+              </li>
+            ))}
+          </ol>
           <h2 style={{ marginTop: "1.5rem" }}>ผู้ใช้ตามประเทศ</h2>
           <ol className="admin-list">
             {countries.map((c) => <li key={c.country}><span>{c.country}</span><b>{c.n}</b></li>)}
@@ -182,7 +197,7 @@ async function Overview() {
   );
 }
 
-async function Users({ q, status, sort, self }: { q: string; status: string; sort: string; self: string }) {
+async function Users({ q, status, sort, role, self }: { q: string; status: string; sort: string; role: string; self: string }) {
   const like = `%${q.trim()}%`;
   const rows = (await db()`
     select u.*,
@@ -192,6 +207,7 @@ async function Users({ q, status, sort, self }: { q: string; status: string; sor
     from users u
     where (${q} = '' or u.email ilike ${like} or u.name ilike ${like})
       and (${status} = 'all' or (${status} = 'blocked' and u.blocked) or (${status} = 'active' and not u.blocked))
+      and (${role} = 'all' or (${role} = 'none' and u.role is null) or u.role = ${role})
     order by
       case when ${sort} = 'new' then u.created_at end desc,
       case when ${sort} = 'recent' then u.last_seen_at end desc,
@@ -211,6 +227,11 @@ async function Users({ q, status, sort, self }: { q: string; status: string; sor
           <option value="active">ใช้งานได้</option>
           <option value="blocked">ถูกบล็อก</option>
         </select>
+        <select name="role" defaultValue={role}>
+          <option value="all">ทุกบทบาท</option>
+          {ROLES.map((r) => <option key={r.id} value={r.id}>{r.th}</option>)}
+          <option value="none">ยังไม่ได้ตอบ</option>
+        </select>
         <select name="sort" defaultValue={sort}>
           <option value="recent">เข้าใช้ล่าสุด</option>
           <option value="new">สมัครล่าสุด</option>
@@ -222,10 +243,10 @@ async function Users({ q, status, sort, self }: { q: string; status: string; sor
       <div className="admin-table-wrap">
         <table className="admin-table">
           <thead>
-            <tr><th>ผู้ใช้</th><th>ประเทศ</th><th>สมัคร</th><th>เข้าล่าสุด</th><th className="num">ล็อกอิน</th><th className="num">หน้าที่เปิด</th><th className="num">เวลาอ่าน</th><th>สถานะ</th><th></th></tr>
+            <tr><th>ผู้ใช้</th><th>บทบาท</th><th>ประเทศ</th><th>สมัคร</th><th>เข้าล่าสุด</th><th className="num">ล็อกอิน</th><th className="num">หน้าที่เปิด</th><th className="num">เวลาอ่าน</th><th>สถานะ</th><th></th></tr>
           </thead>
           <tbody>
-            {sorted.length === 0 && <tr><td colSpan={9} className="admin-empty">ไม่พบผู้ใช้</td></tr>}
+            {sorted.length === 0 && <tr><td colSpan={10} className="admin-empty">ไม่พบผู้ใช้</td></tr>}
             {sorted.map((u) => (
               <tr key={u.id}>
                 <td>
@@ -234,6 +255,7 @@ async function Users({ q, status, sort, self }: { q: string; status: string; sor
                     <span><b>{u.name || "—"}</b><small>{u.email}</small></span>
                   </Link>
                 </td>
+                <td>{roleLabel(u.role)}{u.role_other && <small className="admin-muted"> · {u.role_other}</small>}</td>
                 <td>{u.country ?? "—"}</td>
                 <td>{ago(u.created_at)}</td>
                 <td>{ago(u.last_seen_at)}</td>

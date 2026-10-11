@@ -11,7 +11,8 @@ export const OAUTH_COOKIE = "rb_oauth";
 export const SESSION_DAYS = 30;
 export const RECHECK_SECONDS = 5 * 60;
 
-export type Session = { sub: string; email: string; name: string; picture: string; chk: number };
+/** `role` is empty until the reader answers the one-time role question. */
+export type Session = { sub: string; email: string; name: string; picture: string; role: string; chk: number };
 
 function key() {
   const secret = process.env.AUTH_SECRET;
@@ -37,6 +38,7 @@ export async function readSession(token: string | undefined): Promise<Session | 
       email: String(payload.email ?? ""),
       name: String(payload.name ?? ""),
       picture: String(payload.picture ?? ""),
+      role: String(payload.role ?? ""),
       chk: Number(payload.chk ?? 0),
     };
   } catch {
@@ -80,3 +82,5 @@ export function redirectUri(req: Request) {
   const origin = process.env.AUTH_URL ?? new URL(req.url).origin;
   return `${origin}/api/auth/callback/google`;
 }
+
+export const ONBOARDING = new Set(["/onboarding", "/th/onboarding"]);

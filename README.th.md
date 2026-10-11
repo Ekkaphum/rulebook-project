@@ -6,7 +6,7 @@
 แหล่งข้อมูลปฐมภูมิ 106 แหล่ง ทั้งฟอรั่มและบล็อกบน BoardGameGeek, style guide ของสำนักพิมพ์,
 บรรณาธิการ rulebook อาชีพ และงานเขียนด้านการเข้าถึง
 
-เว็บไซต์: **https://rulebook-project.vercel.app/th** · [English](README.md)
+เว็บไซต์: **https://rulebook-project.lifebugs.dev/th** · [English](README.md)
 
 ---
 

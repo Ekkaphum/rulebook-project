@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { db } from "@/lib/db";
 import {
-  RECHECK_SECONDS, SESSION_COOKIE, gateEnabled, isAdminEmail, readSession, sessionCookieOptions, signSession,
+  ONBOARDING, RECHECK_SECONDS, SESSION_COOKIE, gateEnabled, isAdminEmail, readSession, sessionCookieOptions, signSession,
 } from "@/lib/session";
 
 // Pages anyone can open. Everything else needs a signed-in, unblocked reader.
@@ -42,24 +42,36 @@ export async function proxy(req: NextRequest) {
   if (!session) return signedOut(req, false);
 
   // Re-check the account every few minutes so a block takes effect quickly
-  // without a database round trip on every navigation and prefetch.
+  // without a database round trip on every navigation and prefetch. A session
+  // without a role is checked straight away: the role may have been set elsewhere.
   const now = Math.floor(Date.now() / 1000);
+  let role = session.role;
   let refreshed: string | null = null;
-  if (now - session.chk > RECHECK_SECONDS) {
-    const rows = (await db()`select blocked, name, picture from users where id = ${session.sub}`) as
-      { blocked: boolean; name: string | null; picture: string | null }[];
+  if (now - session.chk > RECHECK_SECONDS || !role) {
+    const rows = (await db()`select blocked, name, picture, role from users where id = ${session.sub}`) as
+      { blocked: boolean; name: string | null; picture: string | null; role: string | null }[];
     if (!rows[0]) return signedOut(req, true);
     if (rows[0].blocked) {
       const res = NextResponse.redirect(new URL("/blocked", req.url));
       res.cookies.delete(SESSION_COOKIE);
       return res;
     }
-    refreshed = await signSession({ sub: session.sub, email: session.email, name: rows[0].name ?? "", picture: rows[0].picture ?? "" }, now);
+    role = rows[0].role ?? "";
+    refreshed = await signSession(
+      { sub: session.sub, email: session.email, name: rows[0].name ?? "", picture: rows[0].picture ?? "", role }, now,
+    );
   }
 
-  if (isAdminPath && !isAdminEmail(session.email)) return NextResponse.redirect(new URL("/", req.url));
-
-  const res = NextResponse.next();
+  let res: NextResponse;
+  if (!role && !ONBOARDING.has(pathname)) {
+    const url = new URL(isThai(pathname) ? "/th/onboarding" : "/onboarding", req.url);
+    url.searchParams.set("next", pathname + req.nextUrl.search);
+    res = NextResponse.redirect(url);
+  } else if (isAdminPath && !isAdminEmail(session.email)) {
+    res = NextResponse.redirect(new URL("/", req.url));
+  } else {
+    res = NextResponse.next();
+  }
   if (refreshed) res.cookies.set(SESSION_COOKIE, refreshed, sessionCookieOptions);
   return res;
 }

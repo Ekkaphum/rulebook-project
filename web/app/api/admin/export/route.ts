@@ -17,14 +17,14 @@ export async function GET() {
   if (!me || me.blocked) return new NextResponse("Forbidden", { status: 403 });
 
   const rows = (await db()`
-    select u.name, u.email, u.country, u.city, u.locale, u.created_at, u.last_seen_at, u.login_count, u.blocked,
+    select u.name, u.email, u.role, u.role_other, u.country, u.city, u.locale, u.created_at, u.last_seen_at, u.login_count, u.blocked,
       (select count(*) from events e where e.user_id = u.id and e.type = 'page_view')::int as page_views,
       (select coalesce(sum(e.duration), 0) from events e where e.user_id = u.id and e.type = 'read')::int as reading_seconds,
       (select count(*) from events e where e.user_id = u.id and e.type = 'download')::int as downloads
     from users u order by u.created_at desc
   `) as Record<string, unknown>[];
 
-  const cols = ["name", "email", "country", "city", "locale", "created_at", "last_seen_at", "login_count", "blocked", "page_views", "reading_seconds", "downloads"];
+  const cols = ["name", "email", "role", "role_other", "country", "city", "locale", "created_at", "last_seen_at", "login_count", "blocked", "page_views", "reading_seconds", "downloads"];
   const csv = "﻿" + [cols.join(","), ...rows.map((r) => cols.map((c) => cell(r[c])).join(","))].join("\n");
   return new NextResponse(csv, {
     headers: {

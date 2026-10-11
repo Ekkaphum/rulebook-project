@@ -28,8 +28,8 @@ export async function completeLogin(req: NextRequest, p: Profile, next: string) 
       city = coalesce(excluded.city, users.city),
       login_count = users.login_count + 1,
       last_seen_at = now()
-    returning id, blocked, name, picture
-  `) as { id: string; blocked: boolean; name: string | null; picture: string | null }[];
+    returning id, blocked, name, picture, role
+  `) as { id: string; blocked: boolean; name: string | null; picture: string | null; role: string | null }[];
   const user = rows[0];
 
   await db()`insert into events (user_id, type, path, country, ua)
@@ -37,8 +37,10 @@ export async function completeLogin(req: NextRequest, p: Profile, next: string) 
 
   if (user.blocked) return NextResponse.redirect(new URL("/blocked", req.url));
 
-  const token = await signSession({ sub: user.id, email, name: user.name ?? "", picture: user.picture ?? "" });
-  const res = NextResponse.redirect(new URL(next, req.url));
+  const token = await signSession({ sub: user.id, email, name: user.name ?? "", picture: user.picture ?? "", role: user.role ?? "" });
+  // First sign-in: ask the reader's role before sending them on.
+  const dest = user.role ? next : `${next.startsWith("/th") ? "/th" : ""}/onboarding?next=${encodeURIComponent(next)}`;
+  const res = NextResponse.redirect(new URL(dest, req.url));
   res.cookies.set(SESSION_COOKIE, token, sessionCookieOptions);
   return res;
 }
