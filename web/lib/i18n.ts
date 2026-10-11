@@ -22,7 +22,7 @@ export const DICT: Record<Locale, Dict> = {
       "Synthesised from 106 primary sources — BoardGameGeek forums and blogs, publisher style guides, professional rules editors, and the accessibility literature. Every claim on this site links back to its source.",
     footerB:
       "Michael “Curby” Lee’s Board Game Editing Style Guide is CC BY-NC-SA; material derived from it is attributed throughout. All other sources are summarised and attributed, not reproduced.",
-    footerPrivacy: ["This site uses privacy-friendly, cookie-free audience analytics. See our ", "privacy notice", "."],
+    footerPrivacy: ["Reading here requires a free sign-in; we record what signed-in readers open. See our ", "privacy notice", "."],
     search: { findings: "Search findings, evidence, sources…", games: "Search games, failure modes, sources…", sources: "Search titles and URLs…" },
     showing: (a, b) => `Showing ${a} of ${b}`,
     all: "All",
@@ -37,7 +37,7 @@ export const DICT: Record<Locale, Dict> = {
       "สังเคราะห์จากแหล่งข้อมูลปฐมภูมิ 106 แหล่ง — ฟอรั่มและบล็อกบน BoardGameGeek, style guide ของสำนักพิมพ์, บรรณาธิการ rulebook อาชีพ และงานเขียนด้านการเข้าถึง ทุกข้อความบนเว็บนี้มีลิงก์กลับไปหาต้นทาง",
     footerB:
       "Board Game Editing Style Guide ของ Michael “Curby” Lee ใช้สัญญาอนุญาต CC BY-NC-SA เนื้อหาที่ต่อยอดจากมันถูกอ้างอิงไว้ตลอดทั้งเว็บ แหล่งอื่นทั้งหมดถูกสรุปและอ้างอิง ไม่ได้คัดลอกมาทั้งชิ้น",
-    footerPrivacy: ["เว็บนี้ใช้ระบบวิเคราะห์ผู้เข้าชมที่เป็นมิตรกับความเป็นส่วนตัวและไม่ใช้คุกกี้ ดูรายละเอียดได้ที่", "ประกาศความเป็นส่วนตัว", ""],
+    footerPrivacy: ["การอ่านเว็บนี้ต้องล็อกอิน (ฟรี) และเราบันทึกหน้าที่ผู้ใช้เปิดอ่าน ดูรายละเอียดได้ที่", "ประกาศความเป็นส่วนตัว", ""],
     search: { findings: "ค้นหาองค์ความรู้ หลักฐาน แหล่งที่มา…", games: "ค้นหาเกม รูปแบบความล้มเหลว แหล่งที่มา…", sources: "ค้นหาชื่อเอกสารและ URL…" },
     showing: (a, b) => `แสดง ${a} จาก ${b}`,
     all: "ทั้งหมด",

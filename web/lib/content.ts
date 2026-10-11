@@ -88,3 +88,13 @@ export type CheckItem = { phase: string; item: string; why: string };
 export type StyleRule = { area: string; rule: string; do: string; dont: string; source: string; url: string };
 export type Metric = { metric: string; value: string; context: string; source: string; url: string };
 export type TemplateRow = { source: string; sections: string[] };
+
+/** The opening sections of chapter 1, shown as a free sample on the landing page. */
+export function handbookSample(locale: Locale, sections = 2) {
+  const { html } = renderMarkdown(locale === "th" ? "handbook-th.md" : "handbook.md");
+  const chapter = html.search(/<h1 id="[^"]+">1\./);
+  if (chapter < 0) return "";
+  const body = html.slice(html.indexOf("</h1>", chapter) + 5);
+  const starts = [...body.matchAll(/<h2 id=/g)].map((m) => m.index!);
+  return body.slice(0, starts[sections] ?? body.length);
+}

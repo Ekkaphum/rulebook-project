@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { DICT } from "@/lib/i18n";
+import UserMenu from "@/components/UserMenu";
 
 export default function Nav() {
   const pathname = usePathname() || "/";
@@ -21,7 +22,7 @@ export default function Nav() {
   ];
 
   // Mirror the current page across locales where a counterpart exists.
-  const rest = isTh ? pathname.replace(/^\/th/, "") : pathname;
+  const rest = isTh ? pathname.replace(/^\/th/, "") : pathname.startsWith("/admin") || pathname === "/blocked" ? "/" : pathname;
   const other = isTh ? (rest === "/ebook" ? "/" : rest || "/") : `/th${rest === "/" ? "" : rest}`;
 
   return (
@@ -45,16 +46,19 @@ export default function Nav() {
           </Link>
         ))}
       </div>
-      <Link
-        href={other}
-        style={{
-          marginLeft: "auto", fontSize: ".8rem", fontWeight: 600,
-          border: "1px solid var(--border)", borderRadius: 999,
-          padding: ".22rem .7rem", color: "var(--ink-2)",
-        }}
-      >
-        {isTh ? "English" : "ภาษาไทย"}
-      </Link>
+      <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: ".6rem" }}>
+        <Link
+          href={other}
+          style={{
+            fontSize: ".8rem", fontWeight: 600,
+            border: "1px solid var(--border)", borderRadius: 999,
+            padding: ".22rem .7rem", color: "var(--ink-2)",
+          }}
+        >
+          {isTh ? "English" : "ภาษาไทย"}
+        </Link>
+        <UserMenu isTh={isTh} />
+      </div>
     </nav>
   );
 }

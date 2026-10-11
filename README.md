@@ -66,16 +66,27 @@ npm run build
 
 The site is fully static — all 19 routes (9 English, 10 Thai) are prerendered at build time.
 
-### Visitor analytics
+### Sign-in, reader analytics and admin
 
-The site includes Vercel Web Analytics via `@vercel/analytics`. Once the project is deployed on Vercel,
-enable **Web Analytics** in the Vercel project dashboard. The dashboard will then report page views,
-referrers, visit times, approximate geography, browsers, operating systems and devices without adding
-analytics cookies. A visitor-facing explanation is available at `/privacy`.
+The site is freemium: the landing page (`/welcome`, `/th/welcome`, also served at `/` and `/th` to
+signed-out visitors) shows a free sample, and everything else requires a free Google sign-in.
+`web/proxy.ts` enforces the gate; reading activity (page views, scroll depth, time on page, chapter
+headings reached, downloads and source clicks) is stored in Neon Postgres. Admins open `/admin` to see
+usage, browse readers, export a CSV and block accounts.
 
-Analytics intentionally does not fingerprint visitors or infer a person's identity. If named attribution is
-needed later, add an explicit account, feedback or mailing-list flow with appropriate consent and retention
-controls, and keep that identity data separate from anonymous audience analytics.
+Environment variables (Vercel project settings):
+
+| Variable | Purpose |
+| --- | --- |
+| `DATABASE_URL` | Neon Postgres, added by the Vercel Neon integration |
+| `AUTH_SECRET` | Random string used to sign session cookies |
+| `ADMIN_EMAILS` | Comma-separated emails allowed into `/admin` |
+| `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` | Google OAuth client. **The gate switches on only when these are set**; until then the site stays open |
+| `AUTH_URL` | Optional fixed origin for the OAuth redirect (e.g. `https://rulebook-project.vercel.app`) |
+
+Create the tables once with `node --env-file=.env.local scripts/migrate.mjs` (from `web/`). In local
+development the gate is always on, and `/api/auth/dev-login?email=you@example.test` signs you in
+without Google. Vercel Web Analytics still runs alongside for anonymous aggregate traffic.
 
 ## Regenerating the documents
 
