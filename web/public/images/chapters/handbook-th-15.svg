@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+<title id="title">บทที่ 15 — visual summary</title>
+<desc id="desc">กฎหาย → กฎกำกวม → หากฎไม่เจอ</desc>
+<rect width="1000" height="420" rx="26" fill="#fffaf1"/>
+<rect x="1" y="1" width="998" height="418" rx="25" fill="none" stroke="#e8d9c5" stroke-width="2"/>
+<circle cx="920" cy="66" r="76" fill="#f3e6ee" opacity=".8"/>
+<circle cx="946" cy="55" r="32" fill="none" stroke="#9a5d80" stroke-width="3" opacity=".24"/>
+<path d="M880 88 l24 -42 24 42z" fill="none" stroke="#9a5d80" stroke-width="3" opacity=".22"/>
+<text x="43" y="62" fill="#9a5d80" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="19" font-weight="700">บทที่ 15</text>
+<text x="43" y="94" fill="#544b42" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="18">สามจุดที่ควรจำ</text>
+<path d="M314 242 H354 M626 242 H666" fill="none" stroke="#9a5d80" stroke-width="3" stroke-linecap="round"/>
+<path d="m344 235 11 7 -11 7 m312 -14 11 7 -11 7" fill="none" stroke="#9a5d80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="42" y="133" width="290" height="216" rx="19" fill="#ffffff" stroke="#e8d9c5" stroke-width="2"/>
+<rect x="42" y="133" width="290" height="12" rx="6" fill="#9a5d80"/>
+<circle cx="84" cy="192" r="25" fill="#f3e6ee"/>
+<text x="84" y="201" text-anchor="middle" fill="#9a5d80" font-family="Arial, sans-serif" font-size="24" font-weight="700">1</text>
+<text x="67" y="256" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="23" font-weight="700">กฎหาย</text>
+<path d="M67 317 h75" stroke="#9a5d80" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+<rect x="354" y="133" width="290" height="216" rx="19" fill="#ffffff" stroke="#e8d9c5" stroke-width="2"/>
+<rect x="354" y="133" width="290" height="12" rx="6" fill="#9a5d80"/>
+<circle cx="396" cy="192" r="25" fill="#f3e6ee"/>
+<text x="396" y="201" text-anchor="middle" fill="#9a5d80" font-family="Arial, sans-serif" font-size="24" font-weight="700">2</text>
+<text x="379" y="256" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="23" font-weight="700">กฎกำกวม</text>
+<path d="M379 317 h75" stroke="#9a5d80" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+<rect x="666" y="133" width="290" height="216" rx="19" fill="#ffffff" stroke="#e8d9c5" stroke-width="2"/>
+<rect x="666" y="133" width="290" height="12" rx="6" fill="#9a5d80"/>
+<circle cx="708" cy="192" r="25" fill="#f3e6ee"/>
+<text x="708" y="201" text-anchor="middle" fill="#9a5d80" font-family="Arial, sans-serif" font-size="24" font-weight="700">3</text>
+<text x="691" y="256" fill="#352e2a" font-family="Noto Sans Thai, Tahoma, Arial, sans-serif" font-size="23" font-weight="700">หากฎไม่เจอ</text>
+<path d="M691 317 h75" stroke="#9a5d80" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+</svg>

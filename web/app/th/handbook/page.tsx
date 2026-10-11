@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function Page() {
-  const { html, headings } = renderMarkdown("handbook-th.md");
+  const { html, headings } = renderMarkdown("handbook-th.md", "handbook-th");
   return (
     <>
       <header style={{ maxWidth: "46rem", marginBottom: "2.5rem" }}>

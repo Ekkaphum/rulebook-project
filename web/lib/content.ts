@@ -21,7 +21,9 @@ function escapeHtml(s: string) {
   return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-function chapterFigure(locale: "th" | "en", number: number, kind: "overview" | "recap") {
+type VisualEdition = "th" | "en" | "handbook-th";
+
+function chapterFigure(locale: VisualEdition, number: number, kind: "overview" | "recap") {
   const chapter = kind === "overview" ? chapterOpeners[locale][number - 1] : chapterVisuals[locale][number - 1];
   if (!chapter) return "";
   const n = String(number).padStart(2, "0");
@@ -29,15 +31,17 @@ function chapterFigure(locale: "th" | "en", number: number, kind: "overview" | "
   const summary = opener ? chapterOpeners[locale][number - 1] : null;
   const recap = opener ? null : chapterVisuals[locale][number - 1];
   const alt = summary ? `${summary.focus}: ${summary.topics.join(" • ")}` : recap!.cards.join(" → ");
-  const [width, height] = chapterSceneSizes[locale][number - 1] ?? [1536, 1024];
+  // The Thai handbook follows the English handbook's 17 chapters; the Thai ebook has 12.
+  const sceneLocale = locale === "handbook-th" ? "en" : locale;
+  const [width, height] = chapterSceneSizes[sceneLocale][number - 1] ?? [1536, 1024];
   const image = opener
-    ? `<img src="/images/chapter-scenes/${locale}-${n}.jpg" alt="${escapeHtml(alt)}" width="${width}" height="${height}" loading="lazy">`
+    ? `<img src="/images/chapter-scenes/${sceneLocale}-${n}.jpg" alt="${escapeHtml(alt)}" width="${width}" height="${height}" loading="lazy">`
     : `<picture><source media="(max-width: 620px)" srcset="/images/chapters/${locale}-${n}-mobile.svg" width="420" height="520"><img src="/images/chapters/${locale}-${n}.svg" alt="${escapeHtml(alt)}" width="1000" height="420" loading="lazy"></picture>`;
   return `<figure class="chapter-visual chapter-${kind}">${image}<figcaption>${escapeHtml(chapter.caption)}</figcaption></figure>`;
 }
 
 /** Render a markdown file, injecting stable ids on headings and collecting h1/h2 for a TOC. */
-export function renderMarkdown(file: string, visualLocale?: "th" | "en"): { html: string; headings: Heading[] } {
+export function renderMarkdown(file: string, visualLocale?: VisualEdition): { html: string; headings: Heading[] } {
   const raw = fs.readFileSync(path.join(process.cwd(), "content", file), "utf8");
   const rendered = marked.parse(raw, { gfm: true, async: false }) as string;
 
