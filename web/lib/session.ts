@@ -72,9 +72,15 @@ export function gateEnabled() {
   return googleConfigured() || process.env.NODE_ENV === "development";
 }
 
-/** Only allow same-site relative paths as post-login destinations. */
+/**
+ * Only allow same-site relative paths as post-login destinations.
+ * Rejects protocol-relative (`//`) and backslash forms (`/\`, `\`) that
+ * `new URL(next, origin)` would otherwise resolve to an external host.
+ */
 export function safeNext(next: string | null | undefined) {
-  if (!next || !next.startsWith("/") || next.startsWith("//") || next.startsWith("/api/")) return "/";
+  if (!next || !next.startsWith("/")) return "/";
+  if (next.startsWith("//") || next.includes("\\")) return "/";
+  if (next.startsWith("/api/")) return "/";
   return next;
 }
 
