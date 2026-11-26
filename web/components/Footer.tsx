@@ -36,6 +36,10 @@ export default function Footer() {
             <p className="creator-name">Poom Phumiphan</p>
           </div>
         </section>
+        <p style={{ margin: 0 }}>
+          {locale === "th" ? "ติดต่อเรา: " : "Contact us: "}
+          <a href="mailto:ourlifebugs@gmail.com">ourlifebugs@gmail.com</a>
+        </p>
         <p style={{ margin: 0 }}>{t.footerA}</p>
         <p style={{ margin: 0 }}>
           {t.footerB.split("Board Game Editing Style Guide")[0]}
