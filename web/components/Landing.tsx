@@ -42,7 +42,6 @@ const COPY = {
     faq: [
       ["Does it cost anything?", "No. Signing in is free and there is no paid tier. We ask you to sign in so we know who the material is reaching and which parts are useful."],
       ["What do you keep?", "Your Google name, email and profile picture, your approximate country, and which pages and chapters you open. Nothing is sold or shared with advertisers."],
-      ["Can I delete my account?", "Yes — from the account menu, at any time. Your account and reading history are erased immediately."],
     ],
     finalTitle: "Ready to read the whole thing?",
     privacy: "/privacy",
@@ -86,7 +85,6 @@ const COPY = {
     faq: [
       ["เสียเงินไหม?", "ไม่เสีย การล็อกอินฟรีและไม่มีแพ็กเกจเสียเงิน เราขอให้ล็อกอินเพื่อรู้ว่าเนื้อหาไปถึงใคร และส่วนไหนมีประโยชน์จริง"],
       ["เก็บข้อมูลอะไรบ้าง?", "ชื่อ อีเมล และรูปโปรไฟล์จาก Google ประเทศโดยประมาณ และหน้ากับบทที่คุณเปิดอ่าน ไม่มีการขายหรือแชร์ให้ผู้โฆษณา"],
-      ["ลบบัญชีได้ไหม?", "ได้ — จากเมนูบัญชีได้ทุกเมื่อ บัญชีและประวัติการอ่านของคุณจะถูกลบทันที"],
     ],
     finalTitle: "พร้อมอ่านฉบับเต็มแล้วหรือยัง?",
     privacy: "/th/privacy",

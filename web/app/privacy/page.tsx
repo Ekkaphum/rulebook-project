@@ -37,8 +37,7 @@ export default function PrivacyPage() {
         is not linked to you.
       </p>
       <p>
-        You can delete your account at any time from the account menu; your account and reading history are erased
-        immediately. One session cookie keeps you signed in; it is strictly necessary and is not used for advertising.
+        One session cookie keeps you signed in; it is strictly necessary and is not used for advertising.
       </p>
 
       <p style={{ color: "var(--ink-3)", fontSize: ".9rem" }}>Last updated: 11 October 2026</p>

@@ -49,20 +49,6 @@ export default function UserMenu({ isTh }: { isTh: boolean }) {
         <form action="/api/auth/logout" method="post">
           <button type="submit">{isTh ? "ออกจากระบบ" : "Sign out"}</button>
         </form>
-        <form
-          action="/api/account/delete"
-          method="post"
-          onSubmit={(e) => {
-            const msg = isTh
-              ? "ลบบัญชีและประวัติการอ่านทั้งหมดถาวร?"
-              : "Permanently delete your account and reading history?";
-            if (!confirm(msg)) e.preventDefault();
-          }}
-        >
-          <button type="submit" style={{ color: "var(--ink-3)", fontSize: ".78rem" }}>
-            {isTh ? "ลบบัญชีของฉัน" : "Delete my account"}
-          </button>
-        </form>
       </div>
     </details>
   );

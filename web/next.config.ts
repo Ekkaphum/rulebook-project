@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 // Baseline security headers (OWASP Secure Headers). img-src allows https so
 // Google avatars and chapter images load; frame-ancestors 'none' blocks
-// clickjacking of the POST forms (logout, account deletion, role).
+// clickjacking of the POST forms (logout, role).
 const SECURITY_HEADERS = [
   { key: "X-Frame-Options", value: "DENY" },
   { key: "X-Content-Type-Options", value: "nosniff" },
